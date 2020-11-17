@@ -15,6 +15,7 @@ sudo apt install artha && \
 sudo apt install xchm && \
 sudo snap install chromium && \
 sudo snap install pinta-james-carroll && \
+sudo apt install peek && \
 sudo apt install default-jre && \
 sudo apt install gimp-plugin-registry && \
 sudo snap install inkscape && \
