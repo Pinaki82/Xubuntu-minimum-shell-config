@@ -5,6 +5,8 @@ sudo apt install firejail  && \
 sudo apt install ntp && \
 sudo apt install gparted && \
 sudo snap install snap-store && \
+sudo apt install flatpak && \
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
 sudo apt install gkrellm && \
 sudo apt install torbrowser-launcher && \
 sudo snap install goldendictionary && \
