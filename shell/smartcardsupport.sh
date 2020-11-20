@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sudo apt install libccid && \
+sudo apt install opensc-pkcs11 && \
+sudo apt install pcsc-tools && \
+sudo apt install pcscd && \
+sudo apt install opensc \
+
+# systemctl start pcscd && \
+# systemctl enable pcscd && \
+# systemctl status pcscd && \
+# lsusb && \
+# pcsc_scan && \
+# opensc-tool -l \
+
