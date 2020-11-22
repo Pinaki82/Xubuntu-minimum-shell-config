@@ -10,5 +10,7 @@ sudo apt install libccid && \
 sudo apt install opensc-pkcs11 && \
 sudo apt install pcsc-tools && \
 sudo apt install pcscd && \
-sudo apt install opensc \
+sudo apt install opensc && \
+sudo apt install gnupg && \
+sudo apt install scdaemon \
 
