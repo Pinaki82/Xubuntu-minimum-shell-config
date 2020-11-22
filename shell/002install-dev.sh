@@ -17,6 +17,8 @@ sudo apt install ctags && \
 sudo apt install autoconf && \
 sudo apt install libx11-dev && \
 sudo apt install libtool && \
-sudo apt install meld \
-
+sudo apt install meld && \
+sudo apt install regexxer && \
+sudo apt install vizigrep && \
+sudo apt install searchmonkey \
 
