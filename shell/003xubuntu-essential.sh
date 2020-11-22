@@ -13,6 +13,13 @@ sudo apt install torbrowser-launcher && \
 sudo snap install goldendictionary && \
 sudo apt install artha && \
 sudo apt install xchm && \
+sudo apt install unrar && \
+sudo apt install rar && \
+sudo apt install ffmpeg && \
+sudo apt install gtkhash && \
+
+# Download QuickHash-GUI-Linux-v3.2.0 from: https://www.quickhash-gui.org
+
 sudo snap install chromium && \
 sudo snap install pinta-james-carroll && \
 sudo apt install peek && \
