@@ -4,6 +4,7 @@ sudo apt install clamtk-gnome && \
 sudo apt install firejail  && \
 sudo apt install ntp && \
 sudo apt install gparted && \
+sudo apt install timeshift && \
 sudo snap install snap-store && \
 sudo apt install flatpak && \
 sudo apt install gnome-software-plugin-flatpak && \
@@ -31,7 +32,7 @@ sudo apt install gtkhash && \
 sudo snap install chromium && \
 
 # Download Manager programs
-# XDM – Xtreme Download Manager
+# XDM - Xtreme Download Manager
 # https://github.com/subhra74/xdm
 
 sudo apt install uget && \
