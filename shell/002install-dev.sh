@@ -6,6 +6,7 @@ sudo apt install clang-tidy && \
 sudo apt install clang-tools && \
 sudo apt install vim-gtk && \
 sudo apt install cppcheck && \
+sudo apt install cppcheck-gui && \
 sudo apt install splint && \
 sudo apt install cmake-gui && \
 sudo apt install git && \
