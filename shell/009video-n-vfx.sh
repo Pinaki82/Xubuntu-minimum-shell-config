@@ -18,7 +18,7 @@ sudo snap install handbrake-jz && \
 # https://www.cinelerra-gg.org/downloads
 # Source Code: https://github.com/cinelerra-gg
 
-# Create a desktop entry: Cinelerra-GG Infinity
+# Create a desktop entry: Cinelerra-GG-Infinity
 # As:
 
 # =================================
@@ -31,18 +31,20 @@ sudo snap install handbrake-jz && \
 
 # Name=Cinelerra-GG Infinity
 # GenericName=Video Editor
-# Comment=Video Edititing Program
-# TryExec='/home/YourUserName/cinelerra-5.1-ub20.04-20201031.x86_64-static/cin'
-# Exec='/home/YourUserName/cinelerra-5.1-ub20.04-20201031.x86_64-static/cin'
+# Comment=Professional Video Edititing Program
+# TryExec=/bin/bash -c 'cd "$(dirname "$0")"; ./cin -windowed' %k
+# Exec=/bin/bash -c 'cd "$(dirname "$0")"; ./cin -windowed' %k
 # Terminal=false
 # Type=Application
-# Icon=/home/YourUserName/cinelerra-5.1-ub20.04-20201031.x86_64-static/CinGG.png
+# Icon=/bin/bash -c 'cd "$(dirname "$0")"; CinGG.png %k
 # Categories=Multimedia;VideoEditor;
-# StartupNotify=true
+# StartupNotify=false
 # MimeType=;
 
 # X-Ubuntu-Gettext-Domain=app-install-data
-# Path='/home/YourUserName/cinelerra-5.1-ub20.04-20201031.x86_64-static/'
+# Path=bash -c 'cd $(dirname %0)';
+# GenericName=Cinelerra-GG-Infinity
+# Name[en_IN]=Cinelerra-GG-Infinity
 # =================================
 
 # Online Graphic Design (Software As A Service)
