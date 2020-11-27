@@ -4,7 +4,9 @@ sudo apt install clamtk-gnome && \
 sudo apt install firejail  && \
 sudo apt install ntp && \
 sudo apt install gparted && \
+sudo apt install rsync && \
 sudo apt install timeshift && \
+sudo apt install grsync && \
 sudo snap install snap-store && \
 sudo apt install flatpak && \
 sudo apt install gnome-software-plugin-flatpak && \
