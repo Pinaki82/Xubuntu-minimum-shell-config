@@ -1,5 +1,10 @@
 #!/bin/bash
 
 sudo apt install xmaxima && \
-sudo snap install cantor \
+
+# Also look at:
+# sudo snap install cantor && \
+# sudo apt install geogebra && \
+
+sudo apt install avogadro \
 
