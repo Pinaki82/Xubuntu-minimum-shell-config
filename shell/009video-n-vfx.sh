@@ -51,6 +51,10 @@ sudo snap install handbrake-jz && \
 # https://videobolt.net/welcome
 # https://biteable.com
 
+# 2D Animation
+# sudo snap install --candidate synfigstudio
+# =================================
+
 sudo apt install blender && \
 sudo snap install natron \
 
