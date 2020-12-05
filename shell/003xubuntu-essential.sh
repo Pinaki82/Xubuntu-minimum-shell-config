@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo apt install gufw && \
 sudo apt install clamtk-gnome && \
 sudo apt install firejail  && \
@@ -7,6 +8,11 @@ sudo apt install gparted && \
 sudo apt install rsync && \
 sudo apt install timeshift && \
 sudo apt install grsync && \
+sudo apt install synaptic && \
+sudo apt install ubuntu-restricted-extras && \
+sudo apt install preload && \
+sudo apt install tlp && \
+sudo apt install tlp-rdw && \
 sudo snap install snap-store && \
 sudo apt install flatpak && \
 sudo apt install gnome-software-plugin-flatpak && \
