@@ -13,6 +13,9 @@ sudo apt install ubuntu-restricted-extras && \
 sudo apt install preload && \
 sudo apt install tlp && \
 sudo apt install tlp-rdw && \
+sudo apt install redshift-gtk && \
+sudo apt install hardinfo && \
+sudo apt install simplescreenrecorder && \
 sudo snap install snap-store && \
 sudo apt install flatpak && \
 sudo apt install gnome-software-plugin-flatpak && \
