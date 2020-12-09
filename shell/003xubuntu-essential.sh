@@ -10,6 +10,7 @@ sudo apt install timeshift && \
 sudo apt install grsync && \
 sudo apt install synaptic && \
 sudo apt install ubuntu-restricted-extras && \
+sudo apt install ppa-purge && \
 sudo apt install preload && \
 sudo apt install tlp && \
 sudo apt install tlp-rdw && \
