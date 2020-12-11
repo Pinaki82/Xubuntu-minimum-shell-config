@@ -21,6 +21,9 @@ sudo snap install snap-store && \
 sudo apt install flatpak && \
 sudo apt install gnome-software-plugin-flatpak && \
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+sudo add-apt-repository ppa:appimagelauncher-team/stable && \
+sudo apt update && \
+sudo apt install appimagelauncher && \
 sudo apt install gkrellm && \
 sudo apt install torbrowser-launcher && \
 sudo snap install goldendictionary && \
