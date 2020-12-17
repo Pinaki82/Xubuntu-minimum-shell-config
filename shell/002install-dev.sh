@@ -4,6 +4,7 @@ sudo apt install llvm && \
 sudo apt install clang && \
 sudo apt install clang-tidy && \
 sudo apt install clang-tools && \
+sudo apt install libomp-dev && \
 sudo apt install vim-gtk && \
 sudo apt install cppcheck && \
 sudo apt install cppcheck-gui && \
