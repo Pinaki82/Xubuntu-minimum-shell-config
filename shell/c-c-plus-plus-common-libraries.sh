@@ -15,23 +15,23 @@ sudo apt install libglm-dev && \
 sudo apt install libgl-dev && \
 sudo apt install libglew-dev && \
 
-# Development Library and Toolkit for FLTK 1.3 GUI Library
-
-sudo apt install libfltk1.3-dev && \
-sudo apt install libfltk1.3-compat-headers && \
-sudo apt install pinentry-fltk && \
-
 # Some useful libraries
 
 sudo apt install libtinyxml2-dev && \
 sudo apt install zlib1g-dev && \
+sudo apt install libxml2-dev && \
 sudo apt install libtinyxml2-dev && \
+
+# Development Library and Toolkit for FLTK 1.3 GUI Library
+
+sudo apt install libfltk1.3-dev && \
+sudo apt install libfltk1.3-compat-headers && \
+sudo apt install pinentry-fltk \
 
 # Other libraries to consider:
 
 # opencv2
-# tinyxml2
-# zlib
+# dlib
 # sdl
 # sfml
 # posix
