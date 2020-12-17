@@ -20,6 +20,7 @@ sudo apt install pkg-config && \
 sudo apt install libx11-dev && \
 sudo apt install libtool && \
 sudo apt install meld && \
+sudo apt install fldiff && \
 sudo apt install regexxer && \
 sudo apt install vizigrep && \
 sudo apt install searchmonkey \
