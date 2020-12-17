@@ -3,6 +3,8 @@
 sudo apt install darktable && \
 sudo apt install ffmpeg && \
 sudo apt install mediainfo && \
+sudo apt install winff && \
+sudo apt install winff-doc && \
 sudo apt install vlc && \
 sudo snap install handbrake-jz && \
 
