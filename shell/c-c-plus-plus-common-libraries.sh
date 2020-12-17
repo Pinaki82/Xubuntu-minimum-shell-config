@@ -13,7 +13,13 @@ sudo apt install libglew-dev && \
 sudo apt-get install binutils && \
 sudo apt install libglm-dev && \
 sudo apt install libgl-dev && \
-sudo apt install libglew-dev \
+sudo apt install libglew-dev && \
+
+# Development Library and Toolkit for FLTK 1.3 GUI Library
+
+sudo apt install libfltk1.3-dev && \
+sudo apt install libfltk1.3-compat-headers && \
+sudo apt install pinentry-fltk \
 
 # Other libraries to consider:
 
