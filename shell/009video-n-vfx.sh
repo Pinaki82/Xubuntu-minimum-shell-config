@@ -1,14 +1,19 @@
 #!/bin/bash
 
-sudo apt install darktable && \
+# Install darktable if you work with Nikon/Canon DSLR RAW Images
+# sudo apt install darktable && \
+
 sudo apt install ffmpeg && \
 sudo apt install mediainfo && \
 sudo apt install winff && \
-sudo apt install winff-doc && \
-sudo apt install vlc && \
-sudo snap install handbrake-jz && \
+sudo apt install winff-doc \
+# sudo apt install vlc && \
+# sudo snap install handbrake-jz && \
 
 # Only download what you need
+
+# Kdenlive and Shotcut Video Editors can be installed as snap apps,
+# or these packages can be downloaded as portable AppImage binaries
 
 # sudo snap install kdenlive && \
 # sudo snap install shotcut && \
@@ -57,7 +62,12 @@ sudo snap install handbrake-jz && \
 # sudo snap install --candidate synfigstudio
 # =================================
 
-sudo apt install blender && \
-sudo snap install natron \
+# Blender 3D Animation package can be installed as a snap app
 
+# sudo apt install blender && \
+
+# Natron: Node-based compositing application, influenced by
+# digital compositing software such as Avid Media Illusion, Apple Shake, Blackmagic Fusion, Autodesk Flame and Nuke
+
+# sudo snap install natron \
 

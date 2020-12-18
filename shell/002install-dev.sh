@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo apt install build-essential && \
 sudo apt install llvm && \
 sudo apt install clang && \
@@ -10,6 +11,9 @@ sudo apt install cppcheck && \
 sudo apt install cppcheck-gui && \
 sudo apt install splint && \
 sudo apt install cmake-gui && \
+sudo apt install cmake && \
+sudo apt install wget && \
+sudo apt install unzip && \
 sudo apt install git && \
 sudo apt install gitg && \
 sudo apt install ddd && \
@@ -19,7 +23,13 @@ sudo apt install ctags && \
 sudo apt install autoconf && \
 sudo apt install pkg-config && \
 sudo apt install libx11-dev && \
+sudo apt install libglib2.0-doc && \
 sudo apt install libtool && \
+sudo apt install autoproject && \
+sudo apt install autogen && \
+sudo apt install autotools-dev && \
+sudo apt install automake && \
+sudo apt install ninja-build && \
 sudo apt install meld && \
 sudo apt install fldiff && \
 sudo apt install regexxer && \
