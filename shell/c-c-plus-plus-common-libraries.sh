@@ -14,6 +14,8 @@ sudo apt-get install binutils && \
 sudo apt install libglm-dev && \
 sudo apt install libgl-dev && \
 sudo apt install libglew-dev && \
+sudo apt install libglm-dev && \
+sudo apt install libglm-doc && \
 
 # Some useful libraries
 
@@ -41,12 +43,24 @@ sudo apt install pinentry-fltk && \
 # AI and Machine Learning
 
 # Dlib
-sudo apt install libdlib-dev \
+sudo apt install libdlib-dev && \
 # OpenCV
 # https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
 # https://opencv.org
 # TensorFlow
 # https://www.tensorflow.org/install/lang_c
+
+# Scientific computing
+# https://www.findbestopensource.com/product/kthohr-stats
+# https://github.com/kthohr/stats
+# https://www.thefreecountry.com/sourcecode/mathematics.shtml
+
+sudo apt install libgsl-dev && \
+sudo apt install gsl-ref-psdoc && \
+sudo apt install gsl-doc-pdf && \
+sudo apt install gsl-doc-info && \
+sudo apt install gsl-ref-html && \
+sudo apt install libarmadillo-dev \
 
 # Other libraries to consider:
 
