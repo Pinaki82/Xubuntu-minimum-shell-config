@@ -54,6 +54,8 @@ sudo snap install chromium && \
 sudo apt install uget && \
 
 sudo snap install pinta-james-carroll && \
+sudo add-apt-repository ppa:peek-developers/stable && \
+sudo apt update && \
 sudo apt install peek && \
 sudo apt install default-jre && \
 sudo apt install gimp-plugin-registry && \
