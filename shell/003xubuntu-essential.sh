@@ -57,6 +57,8 @@ sudo snap install pinta-james-carroll && \
 sudo add-apt-repository ppa:peek-developers/stable && \
 sudo apt update && \
 sudo apt install peek && \
+sudo apt install screenkey && \
+# install gifski from https://gif.ski/
 sudo apt install default-jre && \
 sudo apt install gimp-plugin-registry && \
 sudo snap install inkscape && \
