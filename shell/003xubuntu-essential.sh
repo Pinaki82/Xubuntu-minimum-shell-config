@@ -60,7 +60,7 @@ sudo apt install peek && \
 sudo apt install screenkey && \
 # install gifski from https://gif.ski/
 # open terminal, then select region to display keystrokes by issuing the command:
-# screenkey -p fixed -g $(slop -n -f '%g')
+# screenkey -p fixed -g $(slop -n -f '%g') --persist -s small --font-size small
 sudo apt install default-jre && \
 sudo apt install gimp-plugin-registry && \
 sudo snap install inkscape && \
