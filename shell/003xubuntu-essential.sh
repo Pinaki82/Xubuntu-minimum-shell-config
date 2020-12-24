@@ -58,6 +58,7 @@ sudo add-apt-repository ppa:peek-developers/stable && \
 sudo apt update && \
 sudo apt install peek && \
 sudo apt install screenkey && \
+sudo apt install slop && \
 # install gifski from https://gif.ski/
 # open terminal, then select region to display keystrokes by issuing the command:
 # screenkey -p fixed -g $(slop -n -f '%g') --persist -s small --font-size small
