@@ -6,6 +6,7 @@
 sudo apt install ffmpeg && \
 sudo apt install mediainfo && \
 sudo apt install mediainfo-gui && \
+# sudo apt install devede && \
 sudo apt install winff && \
 sudo apt install winff-doc \
 # sudo apt install vlc && \
