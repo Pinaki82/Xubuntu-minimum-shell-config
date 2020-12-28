@@ -45,7 +45,7 @@ sudo apt install gtkhash && \
 
 # Download QuickHash-GUI-Linux-v3.2.0 from: https://www.quickhash-gui.org
 
-sudo snap install chromium && \
+# sudo snap install chromium && \
 
 # Download Manager programs
 # XDM - Xtreme Download Manager
