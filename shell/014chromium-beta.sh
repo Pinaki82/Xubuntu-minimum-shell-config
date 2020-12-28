@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # https://itsfoss.com/install-chromium-ubuntu/
+# https://askubuntu.com/questions/225930/how-do-i-get-the-latest-beta-and-development-version-of-chromium
 
 sudo add-apt-repository ppa:saiarcot895/chromium-beta && \
 
