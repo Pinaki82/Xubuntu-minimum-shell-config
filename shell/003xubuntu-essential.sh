@@ -32,6 +32,7 @@ sudo apt install artha && \
 sudo apt install xchm && \
 sudo apt install unrar && \
 sudo apt install rar && \
+sudo apt install wmctrl && \
 
 # Data Recovery
 # https://www.ubuntupit.com/top-15-linux-data-recovery-tools-the-professionals-choice
