@@ -9,6 +9,7 @@ sudo apt install libomp-dev && \
 sudo apt install cdecl && \
 sudo apt install cutils && \
 sudo apt install kitty && \
+sudo apt install mc && \
 sudo apt install vim-gtk && \
 sudo apt install cppcheck && \
 sudo apt install cppcheck-gui && \
