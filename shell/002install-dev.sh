@@ -10,6 +10,9 @@ sudo apt install cdecl && \
 sudo apt install cutils && \
 sudo apt install kitty && \
 sudo apt install mc && \
+# https://itsfoss.com/vim-8-release-install/
+sudo add-apt-repository ppa:jonathonf/vim && \
+sudo apt update && \
 sudo apt install vim-gtk && \
 sudo apt install cppcheck && \
 sudo apt install cppcheck-gui && \
