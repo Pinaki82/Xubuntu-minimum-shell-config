@@ -11,7 +11,7 @@ balenaEtcher-1.5.110-x64.AppImage -> Burn images to SD cards & USB drives, safel
 cinelerra-5.1-ub20.04-20201031.x86_64-static.txz (Portable but not available in AppImage format) -> Cinelerra-GG Infinity. Professional Video Editing Software.
 CPU-X-v4.0.1-x86_64.AppImage -> CPU-X is a Free software that gathers information on CPU, motherboard and more. CPU-X is similar to CPU-Z (Windows).
 Flameshot-0.8.5.x86_64.AppImage -> Powerful yet simple to use screenshot software. https://github.com/flameshot-org/flameshot
-GVim-v8.2.1145.glibc2.15-x86_64.AppImage -> Portable version of GVim text editor. https://github.com/vim/vim-appimage
+GVim-v8.2.1145.glibc2.15-x86_64.AppImage -> Portable version of GVim text editor. https://github.com/vim/vim-appimage/releases/
 KeePassXC-2.6.2-x86_64.AppImage -> Password Manager. https://github.com/keepassxreboot/keepassxc
 LikeTaskManager-x86_64.AppImage -> Tool that mimics the permformance monitoring of windows task manager under linux
 Midori Next Generation-1.1.4.AppImage -> Midori Browser. A lightweight, fast and free web browser. https://astian.org/en/midori-browser 
