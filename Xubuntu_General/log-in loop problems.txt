@@ -1,0 +1,30 @@
+# Google: can't log in to ubuntu
+# https://unix.stackexchange.com/questions/170650/ubuntu-does-no-let-me-log-in-to-my-user-how-can-i-fix-it
+
+# Press Ctrl+Alt+F3 and login into the shell
+# Now run
+
+ls -lah
+
+# If in the output the line(and look for the line that ends with .Xauthority)
+# -rw-------  1 root root   53 Nov 29 10:19 .Xauthority
+
+chown username:username .Xauthority
+
+# Else, do
+
+ls -ld /tmp
+
+# Check for the first 10 letters in the left: they should read exactly so: drwxrwxrwt.
+# drwxrwxrwt 15 root root 4096 Nov 30 04:17 /tmp
+# Else, you need to do
+sudo chmod a+wt /tmp
+# If not both, I'd recommend you either
+# Make sure you are connected to internet with DHCP on.
+
+sudo apt autoclean
+sudo apt purge lightdm
+sudo apt update
+sudo apt install lightdm
+sudo dpkg-reconfigure lightdm
+sudo shutdown -r now

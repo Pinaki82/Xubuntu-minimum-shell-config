@@ -1,0 +1,63 @@
+acpi=off:
+Disables ACPI, which is used for power management and actually
+turning off power after the shutdown. This may help with compatibility
+with motherboards which misuse ACPI.
+
+Disables the "Advanced Configuration and Power Interface" or ACPI which is used
+for power management in general (Fan speeds, sleep states...).
+In some cases like running the installer from a Live USB or booting a laptop
+it is needed for compatibility with the motherboard and how it
+handles/mishandles ACPI.
+Just in case you are wondering,
+the difference between acpi=off and noacpi
+is that acpi=... can accept more values.
+For example acpit=force,irq.
+------------------------------------------------------------------------------
+noapic:
+Disables the "Advanced Programmable Interrupt Controllers" which is used to
+resolve hardware conflicts for interrupts.
+The effects of using a combination between noacpi and noapic depends
+on the hardware. In some cases, disabling both will solve booting problems,
+in others it will create problems.
+Suggestions are that you try one at a time.
+------------------------------------------------------------------------------
+nolapic:
+Very similar, but disables a different (newer) kind of APIC called a
+LAPIC(Local Advanced Programmable Interrupt Controller)
+
+Disables the "Local Advanced Programmable Interrupt Controller" which
+applies to newer CPUs and they are handled.
+nolapic is commonly used when you are using old hardware.
+Many times even withnoapic`.
+------------------------------------------------------------------------------
+edd=on:
+Enables the EDD probe(Enhanced Disk Drive), used by motherboards to provide
+more functionality to disk drives
+
+Enables the "Enhanced Disk Drive" service which is used by VERY old motherboards
+to provide support for hard drives,
+specially ones that go beyond the 32GB barrier, which by todays standards
+is like the size of a normal flash drive.
+Anyway, if you have an old motherboard and a HDD bigger than 32GB,
+then use edd=on.
+------------------------------------------------------------------------------
+nodmraid:
+Disables dmraid which is used for RAID purposes but may cause empty disks to
+appear even if they are fully partitioned, possibly with the wrong size.
+
+Disables the "Device Mapper RAID" which is used for everything related to RAIDs.
+Not recommended if you want to use RAIDs.
+------------------------------------------------------------------------------
+nomodeset:
+Keeps the video driver from performing modesets which are used to bring the
+graphics card to an enhanced state, but due to incompatibility,
+may cause display issues.
+
+Disables the video from using modesets which are used
+for example for better resolutions and graphics.
+If you are using an old video card, old monitor or both,
+then activate this mode.
+------------------------------------------------------------------------------
+https://askubuntu.com/questions/186296/what-are-the-f6-options-during-installation
+DuckDuckGoSearch: ubuntu installer F6 options details
+------------------------------------------------------------------------------
