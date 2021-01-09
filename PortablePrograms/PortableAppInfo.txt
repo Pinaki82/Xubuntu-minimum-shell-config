@@ -32,3 +32,9 @@ jitsi-meet -> Videoconferencing. https://appimage.github.io/jitsi-meet/
 DeaDBeeF Audio Player -> (Portable but not availble in an AppImage package) https://deadbeef.sourceforge.io/download.html
 Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
 Brave Browser -> https://www.appimagehub.com/p/1411550/
+TerminusDB -> Open source, model driven, revision controlled RDF graph database for distributed collaboration -> https://www.appimagehub.com/p/1460811
+Owatron -> Electron based Linux desktop app for Microsoft Outlook and Office 365 -> https://www.appimagehub.com/p/1460805
+QAddApp -> QAddApp is a little GUI Application that helps you integrate AppImages and binaries into your Linux desktop environment -> https://www.appimagehub.com/p/1460804
+Shutter Encoder is an video, audio and image converter based on FFmpeg -> https://www.appimagehub.com/p/1386376
+WALC - unofficial WhatsApp Linux Client -> https://www.appimagehub.com/p/1383431
+Qtractor is an audio/MIDI multi-track sequencer application written in C++ with the Qt framework -> https://www.appimagehub.com/p/1126633
