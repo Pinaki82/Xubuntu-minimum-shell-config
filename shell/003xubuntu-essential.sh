@@ -29,6 +29,7 @@ sudo apt update && \
 sudo apt install appimagelauncher && \
 sudo apt install gkrellm && \
 sudo apt install torbrowser-launcher && \
+sudo apt install epiphany-browser && \
 sudo snap install goldendictionary && \
 sudo apt install artha && \
 sudo apt install xchm && \
