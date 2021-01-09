@@ -1,0 +1,31 @@
+https://appimage.github.io/apps
+
+https://www.appimagehub.com
+===================================
+
+FreeFileSync (Portable but not available in AppImage format) -> Synchronize Files and Folders. https://freefilesync.org
+Altus-3.20.1-x86_64.AppImage -> Electron-based desktop wrapper for WhatsApp Web
+App Outlet-1.3.2.AppImage -> An Universal linux app store. https://app-outlet.github.io/
+Archipelago-3.11.0.AppImage -> Archipelago is a terminal emulator built on open web technologies.
+balenaEtcher-1.5.110-x64.AppImage -> Burn images to SD cards & USB drives, safely and easily. https://github.com/balena-io/etcher/releases
+cinelerra-5.1-ub20.04-20201031.x86_64-static.txz (Portable but not available in AppImage format) -> Cinelerra-GG Infinity. Professional Video Editing Software.
+CPU-X-v4.0.1-x86_64.AppImage -> CPU-X is a Free software that gathers information on CPU, motherboard and more. CPU-X is similar to CPU-Z (Windows).
+Flameshot-0.8.5.x86_64.AppImage -> Powerful yet simple to use screenshot software. https://github.com/flameshot-org/flameshot
+GVim-v8.2.1145.glibc2.15-x86_64.AppImage -> Portable version of GVim text editor. https://github.com/vim/vim-appimage/releases/
+KeePassXC-2.6.2-x86_64.AppImage -> Password Manager. https://github.com/keepassxreboot/keepassxc
+LikeTaskManager-x86_64.AppImage -> Tool that mimics the permformance monitoring of windows task manager under linux
+Midori Next Generation-1.1.4.AppImage -> Midori Browser. A lightweight, fast and free web browser. https://astian.org/en/midori-browser 
+MYKI-latest.AppImage -> Password Manager. https://myki.com
+Nextcloud-3.0.3-x86_64.AppImage -> Nextcloud desktop synchronization client for NextCloud-based Cloud Service providers. https://appimage.github.io/Nextcloud
+QuickHash-GUI-Linux-v3.2.0.zip (Portable but not available in AppImage format) -> QuickHash GUI is an open-source data hashing tool for Linux, Windows, and Apple Mac OSX with graphical user interface (GUI). https://www.quickhash-gui.org
+ScreenCloud-v1.5.3-x86_64.AppImage -> Screenshot. https://appimage.github.io/ScreenCloud
+standard-notes-3.5.6-linux-x86_64.AppImage -> A free, open-source, and completely encrypted notes app. https://standardnotes.org
+tusk-0.23.0-x86_64.AppImage -> Refined Evernote desktop app (Unofficial/Open-Source). https://appimage.github.io/Tusk
+Unofficial-desktop-client-for-ProtonMail-1.2.1.AppImage -> Unofficial Electron wrapper for ProtonMail. https://appimage.github.io/protonmail-desktop
+Xtreme Download Manager (Portable but available as JAVA Jar application): https://github.com/subhra74/xdm
+LanguageTool -> Proofreading tool. Grammar checker. Alternative to Grammarly. https://languagetool.org
+https://languagetool.org/download/
+https://languagetool.org/download/word2vec/
+jitsi-meet -> Videoconferencing. https://appimage.github.io/jitsi-meet/
+DeaDBeeF Audio Player -> (Portable but not availble in an AppImage package) https://deadbeef.sourceforge.io/download.html
+Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
