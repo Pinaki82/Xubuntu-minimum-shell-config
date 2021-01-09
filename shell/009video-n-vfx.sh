@@ -2,6 +2,8 @@
 
 # Install darktable if you work with Nikon/Canon DSLR RAW Images
 # sudo apt install darktable && \
+# Read metadata from Camera RAW
+# sudo apt install libimage-exiftool-perl && \
 
 sudo apt install ffmpeg && \
 sudo apt install mediainfo && \
