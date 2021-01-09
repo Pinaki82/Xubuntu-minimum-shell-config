@@ -23,6 +23,8 @@ standard-notes-3.5.6-linux-x86_64.AppImage -> A free, open-source, and completel
 tusk-0.23.0-x86_64.AppImage -> Refined Evernote desktop app (Unofficial/Open-Source). https://appimage.github.io/Tusk
 Unofficial-desktop-client-for-ProtonMail-1.2.1.AppImage -> Unofficial Electron wrapper for ProtonMail. https://appimage.github.io/protonmail-desktop
 Xtreme Download Manager (Portable but available as JAVA Jar application): https://github.com/subhra74/xdm
-LanguageTool -> Proofreading tool. Grammar checker. Alternative to Grammarly. https://languagetool.org 
+LanguageTool -> Proofreading tool. Grammar checker. Alternative to Grammarly. https://languagetool.org
+https://languagetool.org/download/
+https://languagetool.org/download/word2vec/
 jitsi-meet -> Videoconferencing. https://appimage.github.io/jitsi-meet/
 DeaDBeeF Audio Player -> (Portable but not availble in an AppImage package) https://deadbeef.sourceforge.io/download.html
