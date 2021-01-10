@@ -77,3 +77,6 @@ sh autorun.sh
 DuckDuckGo: shared folder not mounted. permission denied. virtual box
 https://innovativebeast.com/shared-folder-permission-denied-issue-in-virtualbox
 sudo adduser $USER vboxsf
+
+Detect GPU information on older devices:
+lspci | grep VGA
