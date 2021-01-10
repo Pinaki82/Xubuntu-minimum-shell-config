@@ -1,5 +1,5 @@
 # Xubuntu-minimum-shell-config
-Linux shell scripts to install applications and configure a freshly installed Xubuntu Linux system to get a workable OS with essential packages.
+Linux shell scripts to configure a freshly installed [Xubuntu Linux](https://xubuntu.org/) system and install minimum required programs to get a workable OS with essential packages.
 
 Command:
 
