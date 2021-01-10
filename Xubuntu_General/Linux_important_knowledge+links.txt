@@ -80,3 +80,7 @@ sudo adduser $USER vboxsf
 
 Detect GPU information on older devices:
 lspci | grep VGA
+
+Detect the type of shell is in use
+https://askubuntu.com/questions/590899/how-do-i-check-which-shell-i-am-using
+echo $0
