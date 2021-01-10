@@ -37,6 +37,9 @@ sudo apt install unrar && \
 sudo apt install rar && \
 sudo apt install wmctrl && \
 
+# Sound device tweak utility
+# sudo apt install alsa-tools-gui && \
+
 # Data Recovery
 # https://www.ubuntupit.com/top-15-linux-data-recovery-tools-the-professionals-choice
 
