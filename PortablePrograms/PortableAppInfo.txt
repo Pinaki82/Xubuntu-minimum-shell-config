@@ -3,6 +3,8 @@ https://appimage.github.io/apps
 https://www.appimagehub.com
 
 https://www.appimagehub.com/browse/
+
+https://bintray.com/probono/AppImages
 ===================================
 
 FreeFileSync (Portable but not available in AppImage format) -> Synchronize Files and Folders. https://freefilesync.org
