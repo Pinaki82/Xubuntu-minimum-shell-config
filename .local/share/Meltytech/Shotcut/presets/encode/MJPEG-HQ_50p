@@ -10,5 +10,5 @@ progressive=1
 top_field_first=0
 deinterlace_method=linearblend
 rescale=hyper
-r=25
+r=50
 threads=0
