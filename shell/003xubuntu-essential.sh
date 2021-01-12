@@ -12,8 +12,22 @@ sudo apt install synaptic && \
 sudo apt install ubuntu-restricted-extras && \
 sudo apt install ppa-purge && \
 sudo apt install preload && \
-sudo apt install tlp && \
-sudo apt install tlp-rdw && \
+
+# #################################################
+
+# Power management utilities.
+# Have some issues with older laptop hardware peripherals.
+# Froze a Lenovo 3000 Y Series Y410 Laptop (2006 model) quite
+# a few times whenever I left it idle for more than 10 minutes.
+# Power management is an extravagant step on desktop computers.
+# Only install these two utilities on
+# new laptops (manufactured in 2018 or later) with
+# good battery condition.
+
+# sudo apt install tlp && \
+# sudo apt install tlp-rdw && \
+
+# #################################################
 sudo apt install redshift-gtk && \
 sudo apt install hardinfo && \
 sudo apt install htop && \
