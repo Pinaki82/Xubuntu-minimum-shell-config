@@ -15,14 +15,7 @@ sudo apt install preload && \
 
 # #################################################
 
-# Power management utilities.
-# Have some issues with older laptop hardware peripherals.
-# Froze a Lenovo 3000 Y Series Y410 Laptop (2006 model) quite
-# a few times whenever I left it idle for more than 10 minutes.
-# Power management is an extravagant step on desktop computers.
-# Only install these two utilities on
-# new laptops (manufactured in 2018 or later) with
-# good battery condition.
+# Power management utility for laptops.
 
 # sudo apt install tlp && \
 # sudo apt install tlp-rdw && \
