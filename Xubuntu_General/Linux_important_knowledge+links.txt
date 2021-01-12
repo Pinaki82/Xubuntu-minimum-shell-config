@@ -89,3 +89,6 @@ DocFetcher -> An open source desktop search application.
 Search text files, code snippets, texts in PDF documents, texts in filenames, text corpus etc. stored on local drives. DocFetcher can search from UTF-8 formatted Unicode texts written in the Bengali language.
 Java Runtime Environment required.
 http://docfetcher.sourceforge.net/en/index.html
+
+5 Open Source 3D Modelling & Rendering Apps For Linux
+https://www.techdrivein.com/2011/08/5-open-source-3d-modelling-rendering.html
