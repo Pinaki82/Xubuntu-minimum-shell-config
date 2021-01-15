@@ -33,6 +33,7 @@ https://languagetool.org/download/word2vec/
 jitsi-meet -> Videoconferencing. https://appimage.github.io/jitsi-meet/
 DeaDBeeF Audio Player -> (Portable but not availble in an AppImage package) https://deadbeef.sourceforge.io/download.html
 Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
+ungoogled-chromium AppImages -> https://github.com/Eloston/ungoogled-chromium
 Brave Browser -> https://www.appimagehub.com/p/1411550/
 TerminusDB -> Open source, model driven, revision controlled RDF graph database for distributed collaboration -> https://www.appimagehub.com/p/1460811
 Owatron -> Electron based Linux desktop app for Microsoft Outlook and Office 365 -> https://www.appimagehub.com/p/1460805
