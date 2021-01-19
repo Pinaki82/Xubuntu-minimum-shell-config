@@ -33,6 +33,8 @@ https://languagetool.org/download/word2vec/
 jitsi-meet -> Videoconferencing. https://appimage.github.io/jitsi-meet/
 DeaDBeeF Audio Player -> (Portable but not availble in an AppImage package) https://deadbeef.sourceforge.io/download.html
 Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
+LibreWolf, the community-maintained fork of Librefox: a privacy and security-focused browser -> https://gitlab.com/librewolf-community/browser
+LibreWolf AppImage -> https://gitlab.com/librewolf-community/browser/linux/-/releases
 ungoogled-chromium AppImages -> https://github.com/Eloston/ungoogled-chromium
 Brave Browser -> https://www.appimagehub.com/p/1411550/
 TerminusDB -> Open source, model driven, revision controlled RDF graph database for distributed collaboration -> https://www.appimagehub.com/p/1460811
