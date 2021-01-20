@@ -1,0 +1,6 @@
+Browsers with physical U2F hardware support for Xubuntu Linux:
+* LibreWolf AppImage.
+* Firefox AppImage Nightly builds.
+* Brave Browser AppImage.
+* Google Chrome.
+* Chromium from Snap Store.
