@@ -36,7 +36,7 @@ Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
 LibreWolf, the community-maintained fork of Librefox: a privacy and security-focused browser -> https://gitlab.com/librewolf-community/browser
 LibreWolf AppImage -> https://gitlab.com/librewolf-community/browser/linux/-/releases
 ungoogled-chromium AppImages -> https://github.com/Eloston/ungoogled-chromium
-[Chrome Web Store cannot be put directly in use on Ungoogled Chromium. Install Chrome extensions manually. Download the latest 'chromium-web-store' from https://github.com/NeverDecaf/chromium-web-store and follow the instructions.]
+[Chrome Web Store cannot be put directly in use on Ungoogled Chromium. Install Chrome extensions manually. Download the latest 'chromium-web-store' from https://github.com/NeverDecaf/chromium-web-store and follow the instructions provided here: https://avoidthehack.com/manually-install-extensions-ungoogled-chromium]
 Brave Browser -> https://www.appimagehub.com/p/1411550/
 TerminusDB -> Open source, model driven, revision controlled RDF graph database for distributed collaboration -> https://www.appimagehub.com/p/1460811
 Owatron -> Electron based Linux desktop app for Microsoft Outlook and Office 365 -> https://www.appimagehub.com/p/1460805
