@@ -1,4 +1,5 @@
 Avast
+Adblock Plus
 Cookie Cleaner (Cookie Eraser)
 DuckDuckGo
 Grammarly
@@ -6,4 +7,4 @@ History Cleaner (History Eraser)
 HTTPS Everywhere
 Krypton
 MYKI
-
+Bookmark Dupes https://addons.mozilla.org/en-US/firefox/addon/bookmark-dupes/
