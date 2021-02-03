@@ -1,20 +1,33 @@
-Google
-https://www.google.com/
+Chrome Web Store
+https://chrome.google.com/webstore/category/extensions
 
-DuckDuckGo
-https://duckduckgo.com/
+Check
+Check.html
 
-Linguix
-https://linguix.com/
+VPN_IP
+VPN_IP.html
 
-Grammarly
-https://app.grammarly.com
 
 VirusTotal
 https://www.virustotal.com
 
 Papaly
 https://papaly.com
+
+Atavi
+https://m.atavi.com
+
+DuckDuckGo
+https://duckduckgo.com/
+
+Google
+https://www.google.com/
+
+Linguix
+https://linguix.com/
+
+Grammarly
+https://app.grammarly.com
 
 WhatsApp (xx Midori, Falcon xx)
 https://web.whatsapp.com
