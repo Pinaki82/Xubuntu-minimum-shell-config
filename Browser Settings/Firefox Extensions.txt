@@ -1,6 +1,6 @@
 Avast
 Adblock Plus
-Cookie Cleaner (Cookie Eraser)
+Cookie Quick Manager
 DuckDuckGo
 Grammarly
 History Cleaner (History Eraser)
