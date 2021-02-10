@@ -4,3 +4,8 @@ Browsers with physical U2F hardware support for Xubuntu Linux:
 * Brave Browser AppImage.
 * Google Chrome.
 * Chromium from Snap Store.
+
+Browsers with cheap U2F Token (e.g., HyperFIDO Mini) support:
+Last checked versions:
+firefox-nightly-87.0.r20210210094937-x86_64.AppImage
+LibreWolf-85.0.1-1.x86_64.AppImage
