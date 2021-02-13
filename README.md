@@ -17,6 +17,15 @@ git clone https://github.com/Pinaki82/Xubuntu-minimum-shell-config/tree/main/she
 
 ```
 
+### [Configure SSH with Git](https://github.com/Pinaki82/Tulu-C-IDE/blob/main/GIT%2BSSH%2BGPG-and-Code-Signing.md)
+
+
+Right-Click on the image below and open the link in a new tab.
+
+
+[![N|git_ssh_github](https://user-images.githubusercontent.com/16861933/107740857-0d11e100-6d32-11eb-9de0-c0cd08104e00.png)](https://github.com/Pinaki82/Tulu-C-IDE/blob/main/GIT%2BSSH%2BGPG-and-Code-Signing.md)
+
+
 ## F6 options for older computers
 
 1.
