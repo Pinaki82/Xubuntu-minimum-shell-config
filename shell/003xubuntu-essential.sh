@@ -43,6 +43,7 @@ sudo apt install xchm && \
 sudo apt install unrar && \
 sudo apt install rar && \
 sudo apt install wmctrl && \
+sudo apt install xclip && \
 
 # Sound device tweak utility
 # sudo apt install alsa-tools-gui && \

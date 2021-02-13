@@ -11,6 +11,7 @@ sudo apt install cutils && \
 sudo apt install kitty && \
 sudo apt install tree && \
 sudo apt install mc && \
+sudo apt install xclip && \
 # https://itsfoss.com/vim-8-release-install/
 sudo add-apt-repository ppa:jonathonf/vim && \
 sudo apt update && \
