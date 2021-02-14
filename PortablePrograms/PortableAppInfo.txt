@@ -21,6 +21,7 @@ LikeTaskManager-x86_64.AppImage -> Tool that mimics the permformance monitoring 
 Midori Next Generation-1.1.4.AppImage -> Midori Browser. A lightweight, fast and free web browser. https://astian.org/en/midori-browser 
 MYKI-latest.AppImage -> Password Manager. https://myki.com
 Nextcloud-3.0.3-x86_64.AppImage -> Nextcloud desktop synchronization client for NextCloud-based Cloud Service providers. https://appimage.github.io/Nextcloud
+pCloud AppImage (official package) -> https://www.pcloud.com/download-free-online-cloud-file-storage.html
 QuickHash-GUI-Linux-v3.2.0.zip (Portable but not available in AppImage format) -> QuickHash GUI is an open-source data hashing tool for Linux, Windows, and Apple Mac OSX with graphical user interface (GUI). https://www.quickhash-gui.org
 ScreenCloud-v1.5.3-x86_64.AppImage -> Screenshot. https://appimage.github.io/ScreenCloud
 standard-notes-3.5.6-linux-x86_64.AppImage -> A free, open-source, and completely encrypted notes app. https://standardnotes.org
