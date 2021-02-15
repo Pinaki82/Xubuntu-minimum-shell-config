@@ -25,6 +25,17 @@ sudo apt install wget && \
 sudo apt install unzip && \
 sudo apt install git && \
 sudo apt install gitg && \
+
+# https://softwarerecs.stackexchange.com/questions/30351/visualizing-git-diff-linux#30352
+# gitk & git-gui added to installation script.
+# Both can show results graphically when launched from the directory
+# containing .git folder. These are the simplest alternative
+# to dealing with the command-line diff/merge/commit/stage/push tools.
+# Can be supplementary utilities even when a CUI is preferred over the GUI.
+
+sudo apt install gitk && \
+sudo apt install git-gui && \
+
 sudo apt install ddd && \
 sudo apt install valgrind && \
 sudo apt install astyle && \
