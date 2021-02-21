@@ -24,7 +24,6 @@ sudo apt install cmake && \
 sudo apt install wget && \
 sudo apt install unzip && \
 sudo apt install git && \
-sudo apt install gitg && \
 
 # https://softwarerecs.stackexchange.com/questions/30351/visualizing-git-diff-linux#30352
 # gitk & git-gui added to installation script.
@@ -35,6 +34,21 @@ sudo apt install gitg && \
 
 sudo apt install gitk && \
 sudo apt install git-gui && \
+
+# GUI frontends for Git Version Control System:
+# Gitg is pretty barebone at the moment. Git Cola comes packed with all the
+# bells and whistles needed to control Git from a Graphical User Interface,
+# however, it's a little slower. There are many Git GUI frontends out there,
+# of them, Git Cola holds nothing back from anyone,
+# from a more freedom friendly perspective.
+# For example, there's a free version of a Git GUI client that doesn't allow
+# free users to deal with private repositories. Git Cola is neatly comparable to
+# advanced GUI clients of the Git VCS like Sourcetree, GitKraken, SmartGit,
+# GitHub Desktop, Gitbox, Tower and others.
+# I recommend Git Cola.
+
+# sudo apt install gitg && \
+# sudo apt install git-cola && \
 
 sudo apt install ddd && \
 sudo apt install valgrind && \
