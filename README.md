@@ -33,6 +33,13 @@ Xubuntu Focal Fossa 20.04.2 LTS, [Linux version 5.4.0-66-generic (buildd@lgw01-a
 Date: 25 February 2021, 01:16 PM.
 
 
+### Alternative Software Search:
+
+https://switching.software/
+
+(Git repository link to switching.software: https://codeberg.org/swiso/website)
+
+
 ## F6 options for older computers
 
 # 1.
