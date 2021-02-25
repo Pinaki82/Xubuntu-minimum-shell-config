@@ -26,6 +26,13 @@ Right-Click on the image below and open the link in a new tab.
 [![N|git_ssh_github](https://user-images.githubusercontent.com/16861933/107740857-0d11e100-6d32-11eb-9de0-c0cd08104e00.png)](https://github.com/Pinaki82/Tulu-C-IDE/blob/main/GIT%2BSSH%2BGPG-and-Code-Signing.md)
 
 
+![Screenshot_2021-02-25_13-16-27](https://user-images.githubusercontent.com/16861933/109127368-41c86400-7746-11eb-95a8-08fd71dee5cd.png)
+
+Xubuntu Focal Fossa 20.04.2 LTS, [Linux version 5.4.0-66-generic (buildd@lgw01-amd64-039) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #74-Ubuntu SMP Wed Jan 27 22:54:38 UTC 2021] on a Lenovo 3000Y (Y410) (2006 model) (Intel Centrino Core 2 Duo T5450, Single Core 1.6GHz/2GB DDR2/Intel HD GMA X3100 GM965/GL960) Laptop.
+
+Date: 25 February 2021, 01:16 PM.
+
+
 ## F6 options for older computers
 
 # 1.
