@@ -68,6 +68,21 @@ Logout.
 Format Pen Drives:
 https://recoverit.wondershare.com/flashdrive-recovery/linux-format-usb.html
 
+Change the Drive Label and Read/Write Permission:
+ 1. Drive Label:
+https://www.tecmint.com/change-modify-linux-disk-partition-label-names/
+sudo fdisk -l
+df
+(for NTFS File Systems (Pen Drives etc.) only)
+sudo ntfslabel /dev/partition new_label
+sudo ntfslabel /dev/mspblk0 SONY_1GB
+
+ 2. R/W Permission:
+sudo chmod ugo+wx /media/YOUR_USERNAME/DRIVE
+
+Dump .bash_history to text files:
+history > bash_hist.txt
+
 Virtual Box Shared Folder Issue:
 Mount the VBox Guest Addon CD.
 Open terminal there.
