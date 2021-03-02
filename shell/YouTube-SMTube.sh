@@ -11,12 +11,14 @@
 # instead of a flash player, this allows better performance, 
 # particularly with HD content."
 
-echo 'deb http://download.opensuse.org/repositories/home:/smplayerdev/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:smplayerdev.list \
-curl -fsSL https://download.opensuse.org/repositories/home:smplayerdev/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_smplayerdev.gpg > /dev/null \
+echo 'deb http://download.opensuse.org/repositories/home:/smplayerdev/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:smplayerdev.list && \
+curl -fsSL https://download.opensuse.org/repositories/home:smplayerdev/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_smplayerdev.gpg > /dev/null && \
+sudo apt update && \
 sudo apt install smtube \
 
 # ------------------------------------------------------------------------------
-# SMTube comes with a serious bug. It changes the cursor/'mouse pointer' to a
+# I tested SMTube on a VM. SMTube behaved unexpectedly when installed inside the guest VM.
+# It changed the cursor/'mouse pointer' to a
 # black cross-mark. As a quick fix around the system without needing to install
 # any extraneous package, I restarted the lightdm service and everything went
 # back to normal again.
