@@ -64,6 +64,9 @@ sudo apt install winff-doc \
 
 # 2D Animation
 # sudo snap install --candidate synfigstudio
+
+# Slideshow maker
+# sudo apt install ffdiaporama
 # =================================
 
 # Blender 3D Animation package can be installed as a snap app

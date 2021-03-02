@@ -45,10 +45,23 @@ sudo apt install git-gui && \
 # free users to deal with private repositories. Git Cola is neatly comparable to
 # advanced GUI clients of the Git VCS like Sourcetree, GitKraken, SmartGit,
 # GitHub Desktop, Gitbox, Tower and others.
-# I recommend Git Cola.
+# --------
+# 'qgit' is another excellent Git GUI frontend. In some aspects, it's
+# more flexible than Git Cola.
+# --------
+# I wouldn't recommend any of the GUI frontends of Git since they all come with
+# some inadequacies, thus, all those Git frontends are not yet ready to fully
+# replace Git's terminal interface.
+# GUI Git programs can be used for viewing code history etc.
+# They can quickly draw an overview of a repository and track the history of
+# changed files at a glance.
+# Install any of the following if you are in absolute need of a GUI Git frontend.
 
 # sudo apt install gitg && \
+# sudo apt install qgit && \
 # sudo apt install git-cola && \
+
+
 
 sudo apt install ddd && \
 sudo apt install valgrind && \
