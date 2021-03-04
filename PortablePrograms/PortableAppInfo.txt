@@ -44,3 +44,6 @@ QAddApp -> QAddApp is a little GUI Application that helps you integrate AppImage
 Shutter Encoder -> Video, audio and image converter based on FFmpeg -> https://www.appimagehub.com/p/1386376
 Qtractor is an audio/MIDI multi-track sequencer application written in C++ with the Qt framework -> https://www.appimagehub.com/p/1126633
 XnConvert -> A fast, powerful and free cross-platform batch image converter -> https://www.xnview.com/en/xnconvert/#downloads
+Mark Text (Offline Markdown Editor) -> "Simple and Elegant Markdown Editor" -> https://github.com/marktext/marktext
+Mark Text Site: https://marktext.app/
+Mark Text Auxiliary ref: https://stackedit.io/
