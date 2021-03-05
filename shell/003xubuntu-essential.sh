@@ -44,6 +44,8 @@ sudo apt install unrar && \
 sudo apt install rar && \
 sudo apt install wmctrl && \
 sudo apt install xclip && \
+sudo apt install uget && \
+sudo apt install aria2 && \
 
 # Sound device tweak utility
 # sudo apt install alsa-tools-gui && \
