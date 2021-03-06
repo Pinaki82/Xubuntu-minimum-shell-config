@@ -1,0 +1,8 @@
+\overset{ x }
+\underset{ x }
+\textstyle \prod_{x}^{y}{x}{y}
+\overset
+\matrix
+\qmatrix
+up down, sub/super-script styles
+

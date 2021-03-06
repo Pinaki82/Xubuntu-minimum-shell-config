@@ -1,0 +1,242 @@
+/*
+The ses_main.css and ses_secondary.css style sheets are read first and
+set default values for all of pangea.  This sheet is read by all pages
+in the Computing Resources section (via the header.html) and adjusts or
+adds to values for this section.
+*/
+/*
+@import "http://pangea.stanford.edu/ses_main.css";
+@import "http://pangea.stanford.edu/ses_secondary.css";
+*/
+
+/*
+All "content" of Computing Resources web pages, including the
+navigation bar, is in div tier3.  Settings for that div by itself
+control everything, overridden by specific settings for different
+elements
+*/
+
+div#main-content {
+}
+
+/*
+The "right side" of each page with a navigation bar, which is the main
+section for text, is in div right2.  Value in ses_secondary.css has
+        padding:20px 18px 18px 18px;
+	width:520px;
+*/
+div#right2{
+        width:580px;
+}
+
+
+/* ----- subsection side navigation ----- */
+div#main-content .navbarci    { font-size: 12px; }
+div#main-content .navbarci a  { text-decoration: none; }
+div#main-content .navbarci a:link    { color: #440000; } 
+div#main-content .navbarci a:visited { color: #440000; }
+div#main-content .navbarci a:active  { color: #440000; }
+div#main-content .navbarci a:hover   { color: #FFFFFF;  background: #440000; }
+
+
+
+
+/* ----- revision date style ----- */
+.revision { font-style: italic; text-align: left; color: #666666; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin-bottom: 2px;}
+
+/* ----- footnote style ----- */
+.footnote { font-style: italic; text-align: left; color: #666666; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
+
+/* --- samp use to represent keys typed on keyboard or responses in a terminal window inline  - dark green -- */
+/* --- try color 006600 instead of 0b4606 for a "greener" look -
+but change for all related styles if you do -- 335533 was orig. color */
+samp { font-family: "Courier New", Courier, mono; color: #0b4606; font-style: bold; font-size: 13px; }
+/* --- replace all ".big" with .samph1, .samph2, etc and then remove .big def -- */
+.big { font-family: "Courier New", Courier, mono; color: #0b4606; font-style: bold; font-size: 16px; }
+.samph1 { font-family: "Courier New", Courier, mono; color: #0b4606; font-style: bold; font-size: 18px; }
+.samph3 { font-family: "Courier New", Courier, mono; color: #0b4606; font-style: bold; font-size: 15px; }
+
+/* --- class ilabel used for references to menu items, buttons,
+dialogue box fields, etc DDE9DD is a light gray green background-- */
+.ilabel { background: #DDE9DD;}
+
+/* --- cite used for names of other pangea pages -- */
+cite { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: italic; color: #990000; }
+
+/* --- class url used to replace URLs in text -- */
+.url { text-decoration: none; font-family: "Courier New", Courier, mono; }
+
+/* --- class pname used for program names such as pine or Outlook -- */
+.pname { font-family: Verdana, Arial, Helvetica, sans-serif; font-style: italic; color: #333333; }
+
+/* --- class file used to specify file names, current class uses same syles as samp -- */
+.file { font-family: "Courier New", Courier, mono; color: #0b4606; font-style: bold; font-size: 13px; }
+
+/* --- used to represent keys typed on keyboard or responses in a terminal window when used in a separate paragraph -- */
+.ex { 
+   font-family: "Courier New", Courier, mono; 
+	color: #0b4606; 
+	font-style: bold; 
+	font-size: 13px; 
+	margin-left: 15px 
+}
+
+
+div#main-content .subhead{
+	padding:4px 0 0 0; 
+}
+div#main-content .navbarci a{
+	padding:0 0 0 10px;
+}
+div#main-content a{
+}
+
+
+/*
+Spacing around tables and between cell border and interior contents,
+plus font size, so don't need to use <p> inside every cell.  Overrides for
+tables in the "main content" area only, not the navbar!
+*/
+
+
+div#main-content table {
+	margin: 7px 0 0 0;
+}
+
+div#main-content table td  {
+	border: none;
+    font-size:12px;
+	line-height: 14px;
+	padding: 10px;
+	background-color: #FFFFFF; 
+}
+
+div#main-content table table {
+	margin: 0 10px 0 0;
+	padding: 0 0 0 0;
+}
+
+div#main-content table.border td {
+	border: 1px solid; 
+}
+
+div#main-content table td.color  {
+	padding: 5px;
+    font-size:12px;
+	line-height: 14px;
+	background-color: #ECECCE; 
+}
+
+div#main-content table th.size  {
+	width: 65%; 
+}
+
+div#main-content table.sidenav {
+	margin: 7px 15px 7px 0; 
+}
+
+div#main-content table.sidenav td  {
+	border: none;
+	width: 210px;
+	padding: 10px 5px 5px 10px;
+	line-height: 18px;
+	background-color: #ECECCE; 
+}
+
+div#main-content table.botnav td  {
+	border: none;
+	padding: 10px 20px 15px;
+	line-height: 14px;
+	background-color: #ECECCE; 
+}
+
+div#main-content table.home {
+	width: 600px;
+}
+
+div#main-content table.home td{
+	border: none;
+	padding-top: 5px;
+    font-size:12px;
+	line-height: 14px;
+	background-color: #FFFFFF;
+}
+
+/* ----- used for main site index navigation ----- */
+div#main-content table td.navbox {   
+	background: #ffffff;
+	border: 1px solid #CCCC99;
+	padding: 5px 5px 10px 5px;
+	
+}
+div#main-content table td.navbox1 {   
+	background: #ECECCE;
+	border: 1px solid #CCCC99;
+	padding: 15px 5px 20px 5px;
+	
+}
+
+
+
+div#main-content h1{
+	font-size: 150%;
+}
+div#main-content h2, div#main-content div.singlecolumn h2 {
+	font:15px bold Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:10px 0 10px 0;
+}
+
+div#main-content h3, div#main-content div.singlecolumn h3 {
+	font:14px bold Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:10px 0 5px 0;
+}
+
+div#main-content h4, div#main-content div.singlecolumn h4 {
+	font:13px bold Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:10px 0 5px 0;
+}
+
+div#main-content h5, div#main-content div.singlecolumn h5 {
+	font:12px bold Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:5px 0 0 0;
+}
+
+div#main-content h6, div#main-content div.singlecolumn h6 {
+	font:12px bold Geneva, Arial, Helvetica, sans-serif;
+	padding:5px 0 0 0;
+}
+
+/*  Text inside <li> tags doesn't get the <p> values by default.
+    Reproduce <p> values for font-size and line-height here */
+div#main-content ul li {
+	font-size:12px;
+	line-height: 16px;
+	list-style: disc outside none;
+	margin: 5px 0px 10px 20px;
+}
+
+
+div#main-content ol {
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+
+div#main-content ol.push {
+	margin-left: 25px;
+	list-style: outside;
+}
+/*  Using "list-style: decimal outside;" in the "ol li" definition
+also forces decimal numbering for all nested <ul> lists!  Apparently,
+applies to any <li> found between an <ol> and </ol>, even if that
+<li> logically belongs to a nested <ul> list.  So don't use.
+decimal numbering is default for <ol> lists anyway.  */
+div#main-content ol li {
+	padding: 0;
+	margin-top: 2px;
+}

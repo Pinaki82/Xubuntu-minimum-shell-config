@@ -1,0 +1,14 @@
+Copyright notice:
+
+The directory 'Latex docs' might contain cached copies of webpages and PDF files
+collected from various sources that are protected by
+International Copyright Protection Laws, the link to which can be found either
+in the files (PDF) including the copyright notices or inside the texts distributed
+alongside the files (HTML) as HTTPS links.
+
+If someone still feels that only they reserve the right to
+distribute their work and it should not be in a public Git repository
+for redistribution, the concerned party should immediately contact me
+over the email and I will delete that particular content from the 'Latex docs'
+folder.
+
