@@ -71,6 +71,9 @@ sudo apt install winff-doc \
 
 # Blender 3D Animation package can be installed as a snap app
 
+# sudo add-apt-repository ppa:thomas-schiex/blender && \
+# https://ubuntuhandbook.org/index.php/2021/03/install-blender-2-92-ubuntu-20-04-20-10-via-ppa/
+# sudo apt update && \
 # sudo apt install blender && \
 
 # Natron: Node-based compositing application, influenced by
