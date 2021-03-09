@@ -64,7 +64,10 @@ sudo apt install git-gui && \
 # Flowchart diagram designing program
 # https://wiki.gnome.org/Apps/Dia
 # (Windows) http://dia-installer.de/index.html.en
-# sudo apt install dia
+# sudo apt install dia && \
+# Dia2Code is a small utility used to generate code from a Dia diagram
+# http://dia2code.sourceforge.net/index.html
+# sudo apt install dia2code && \
 
 sudo apt install ddd && \
 sudo apt install valgrind && \
