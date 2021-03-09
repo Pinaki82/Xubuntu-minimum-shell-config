@@ -5,6 +5,11 @@
 # Read metadata from Camera RAW
 # sudo apt install libimage-exiftool-perl && \
 
+# Luminance HDR is a high-dynamic-range image creation and manipulation program
+# sudo apt install luminance-hdr
+# Hugin is a panorama photo stitching and HDR merging program
+# sudo apt install hugin
+
 sudo apt install ffmpeg && \
 sudo apt install mediainfo && \
 sudo apt install mediainfo-gui && \

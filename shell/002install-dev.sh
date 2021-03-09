@@ -61,7 +61,10 @@ sudo apt install git-gui && \
 # sudo apt install qgit && \
 # sudo apt install git-cola && \
 
-
+# Flowchart diagram designing program
+# https://wiki.gnome.org/Apps/Dia
+# (Windows) http://dia-installer.de/index.html.en
+# sudo apt install dia
 
 sudo apt install ddd && \
 sudo apt install valgrind && \
