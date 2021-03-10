@@ -49,3 +49,5 @@ https://switching.software/
 # 2.
 
 ![2020-11-23 21_02_53-Window](https://user-images.githubusercontent.com/16861933/104064100-4df27380-5223-11eb-9b34-3b6e8784cf24.png)
+
+![Xubuntu-Logo](https://user-images.githubusercontent.com/16861933/110677290-02485000-81fb-11eb-921a-cd2e76be5149.jpg)
