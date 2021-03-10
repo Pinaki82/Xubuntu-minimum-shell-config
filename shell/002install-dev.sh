@@ -84,7 +84,8 @@ sudo apt install autotools-dev && \
 sudo apt install automake && \
 sudo apt install ninja-build && \
 sudo apt install meld && \
-sudo apt install fldiff && \
+# 'fldiff' cannot perform merge operations
+# sudo apt install fldiff && \
 
 # "kdiff3" and "kompare" both are efficient Diff Tools with advanced features.
 # While "meld" is way too slow and lags most of the time on larger files,
@@ -97,6 +98,7 @@ sudo apt install fldiff && \
 # Among "kdiff3" and "kompare", "kdiff3" is still a preferred choice of many.
 # "kdiff3" and "kompare" occupy mostly the same amount of storage space.
 # "kompare" is around 110 MB, and "kdiff3" is 96 MB (approx).
+# 'kompare' is slightly clumsy.
 # Only install what you need.
 
 # sudo apt install kdiff3 && \
