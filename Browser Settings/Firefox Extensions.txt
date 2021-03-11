@@ -1,4 +1,3 @@
-Avast
 Adblock Plus
 Cookie Quick Manager
 DuckDuckGo

@@ -1,6 +1,9 @@
 #!/bin/bash
 
 sudo apt install build-essential && \
+sudo apt install patch && \
+sudo apt install make && \
+sudo apt install diffutils && \
 sudo apt install llvm && \
 sudo apt install clang && \
 sudo apt install clang-tidy && \

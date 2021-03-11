@@ -1,8 +1,6 @@
 Adblock Plus
-Avast
 Grammarly
 HTTPS Everywhere
 Krypton Authenticator
 MYKI
 Jitsi Meetings
-Microsoft Defender Browser Protection
