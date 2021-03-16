@@ -42,6 +42,11 @@ sudo apt install artha && \
 sudo apt install xchm && \
 sudo apt install unrar && \
 sudo apt install rar && \
+sudo apt install p7zip-full && \
+sudo apt install p7zip-rar && \
+sudo apt install xz-utils && \
+sudo apt install lrzip && \
+sudo apt install pixz && \
 sudo apt install wmctrl && \
 sudo apt install xclip && \
 sudo apt install uget && \
