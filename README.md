@@ -33,6 +33,9 @@ Xubuntu Focal Fossa 20.04.2 LTS, [Linux version 5.4.0-66-generic (buildd@lgw01-a
 Date: 25 February 2021, 01:16 PM.
 
 
+![Xubuntu-w-Themes](https://user-images.githubusercontent.com/16861933/111397221-c4f62d80-86e6-11eb-96b5-452a1ca7f6b0.gif)
+
+
 ### Alternative Software Search:
 
 https://switching.software/
