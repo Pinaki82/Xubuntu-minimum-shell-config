@@ -86,7 +86,30 @@ sudo apt install slop && \
 # screenkey -p fixed -g $(slop -n -f '%g') --persist -s small --font-size small
 sudo apt install default-jre && \
 sudo apt install gimp-plugin-registry && \
-sudo snap install inkscape && \
+sudo apt install gmic && \
+sudo apt install gimp-gmic && \
+
+# Inkscape
+
+# Inkscape latest STABLE version
+
+sudo add-apt-repository ppa:inkscape.dev/stable && \
+sudo apt update && \
+sudo apt upgrade && \
+sudo apt install inkscape && \
+
+# Inkscape latest DEVELOPMENT version
+
+# Remove the old latest stable apt-repository of Inkscape and the installed software
+# sudo add-apt-repository --remove ppa:inkscape.dev/stable && \
+# sudo apt purge --auto-remove inkscape && \
+# sudo add-apt-repository universe && \
+# Add new development apt-repository && \
+# sudo add-apt-repository ppa:inkscape.dev/trunk && \
+# sudo apt update && \
+# sudo apt upgrade && \
+# sudo apt install inkscape-trunk && \
+
 sudo apt-get install ttf-mscorefonts-installer && \
 sudo fc-cache \
 
