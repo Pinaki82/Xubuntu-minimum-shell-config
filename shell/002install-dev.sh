@@ -8,6 +8,7 @@ sudo apt install llvm && \
 sudo apt install clang && \
 sudo apt install clang-tidy && \
 sudo apt install clang-tools && \
+sudo apt install lld && \
 sudo apt install libomp-dev && \
 sudo apt install cdecl && \
 sudo apt install cutils && \
@@ -72,6 +73,17 @@ sudo apt install git-gui && \
 # http://dia2code.sourceforge.net/index.html
 # sudo apt install dia2code && \
 
+# Below are some (terminal-based) utilities for adding more
+# functionalities to the existing Git installation
+
+sudo apt install git-extras && \
+sudo apt install git-flow && \
+sudo apt install diffutils && \
+sudo apt install diffstat && \
+
+# Debuggers, code profilers, memory leak testers, build tools,
+# code formatting applications and more
+
 sudo apt install ddd && \
 sudo apt install valgrind && \
 sudo apt install astyle && \
@@ -85,6 +97,8 @@ sudo apt install autoproject && \
 sudo apt install autogen && \
 sudo apt install autotools-dev && \
 sudo apt install automake && \
+sudo apt install m4 && \
+sudo apt install make && \
 sudo apt install ninja-build && \
 sudo apt install meld && \
 # 'fldiff' cannot perform merge operations
@@ -106,6 +120,12 @@ sudo apt install meld && \
 
 # sudo apt install kdiff3 && \
 # sudo apt install kompare && \
+
+# Markdown to HTML etc.
+
+sudo apt install markdown && \
+
+# Text search utilities
 
 sudo apt install regexxer && \
 sudo apt install vizigrep && \

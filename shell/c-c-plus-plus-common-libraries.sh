@@ -14,6 +14,7 @@ sudo apt-get install binutils && \
 sudo apt install libglm-dev && \
 sudo apt install libgl-dev && \
 sudo apt install libglew-dev && \
+sudo apt install libglfw3-dev && \
 sudo apt install libglm-dev && \
 sudo apt install libglm-doc && \
 
