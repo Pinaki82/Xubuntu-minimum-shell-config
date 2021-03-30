@@ -51,6 +51,7 @@ sudo apt install xz-utils && \
 sudo apt install lrzip && \
 sudo apt install pixz && \
 sudo apt install wmctrl && \
+sudo apt install nscd && \
 sudo apt install xclip && \
 sudo apt install uget && \
 sudo apt install aria2 && \
