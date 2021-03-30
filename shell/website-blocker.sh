@@ -17,7 +17,7 @@
 # In the last instance of the same site, any character after the slash '/' character
 # should also be truncated, here it should look like: query.anastysocialmediaplatform.com
 # Any 'slash' ('/') will not remain at the end of the line, https://web.chatapp.com/ -> web.chatapp.com
-# The four domain names associated with the same site would look somewhat the following lines:
+# The four domain names associated with the same site would look somewhat like the following lines:
 # https://www.anastysocialmediaplatform.com -> www.anastysocialmediaplatform.com
 # https://anastysocialmediaplatform.com -> anastysocialmediaplatform.com
 # https://m.anastysocialmediaplatform.com -> m.anastysocialmediaplatform.com
@@ -92,8 +92,8 @@ sudo mousepad /etc/hosts && \
 # 	127.0.0.1 www.saleyoursoul.in
 # 	0.0.0.0 www.saleyoursoul.com
 # 	127.0.0.1 www.saleyoursoul.com
-# 	0.0.0.0 www.xxxinmatureporn.com
-# 	127.0.0.1 www.xxxinmatureporn.com
+# 	0.0.0.0 www.xxximmatureporn.com
+# 	127.0.0.1 www.xxximmatureporn.com
 # 	0.0.0.0 www.antagonistnationtoday.in
 # 	127.0.0.1 www.antagonistnationtoday.in
 # 	0.0.0.0 www.hatetimes.com
