@@ -45,6 +45,7 @@ Shutter Encoder -> Video, audio and image converter based on FFmpeg -> https://w
 Qtractor is an audio/MIDI multi-track sequencer application written in C++ with the Qt framework -> https://www.appimagehub.com/p/1126633
 XnConvert -> A fast, powerful and free cross-platform batch image converter -> https://www.xnview.com/en/xnconvert/#downloads
 XnView MP -> Image Viewer, Image resizer, batch image converter and more -> https://www.xnview.com/en/xnviewmp/#downloads
+SoftMaker FreeOffice (Not open source. Available in Deb package only.) -> https://www.freeoffice.com/en/
 Glimpse Image Editor -> A fork of GNU Image Manipulation Program (GIMP) -> https://glimpse-editor.org/downloads/
 Mark Text (Offline Markdown Editor) -> "Simple and Elegant Markdown Editor" -> https://github.com/marktext/marktext
 Mark Text Site: https://marktext.app/
