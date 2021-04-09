@@ -3,7 +3,7 @@
 
 ### Perform a Rootkit scan:
 
-### USERNAME must be replaced by the actual username.
+### YOUR_USERNAME must be replaced by the actual username.
 ### Remember that the Search & Replace function in your text editor is your friend.
 
 ### 1. Scan with chkrootkit:
@@ -16,7 +16,8 @@
 # sudo nano /etc/chkrootkit.conf
 # RUN_DAILY="true"
 
-sudo chkrootkit >> "/home/USERNAME/chkrootkit-report.txt" && \
+USERNAME=$(whoami) && \
+sudo chkrootkit >> "/home/$USERNAME/chkrootkit-report.txt" && \
 
 ### 2. Scan with rkhunter:
 
@@ -28,7 +29,7 @@ sudo chkrootkit >> "/home/USERNAME/chkrootkit-report.txt" && \
 # sudo rkhunter --update
 
 sudo rkhunter --propupd && \
-sudo rkhunter --check --sk --report-warnings-only >> "/home/USERNAME/rkhunter-report.txt" && \
+sudo rkhunter --check --sk --report-warnings-only >> "/home/$USERNAME/rkhunter-report.txt" && \
 
 # https://askubuntu.com/questions/250290/how-do-i-scan-for-viruses-with-clamav
 # https://www.2daygeek.com/install-configure-clamav-antivirus-on-linux/
@@ -36,12 +37,12 @@ sudo rkhunter --check --sk --report-warnings-only >> "/home/USERNAME/rkhunter-re
 
 # Prepare a list of directories you want to skip while performing a threat scan with ClamAV.
 # ----------------------------------
-# touch /home/USERNAME/ClamScanExclusionList.txt
+# touch /home/YOUR_USERNAME/ClamScanExclusionList.txt
 # ----------------------------------
 # 1. List directories.
 # 2. Write one path per line.
 # 3. Do not forget to surround the full path with a double-quote if the path contains anything other than a string of usual characters without spaces.
-# 4. Directories like "/home/USERNAME/Browser Settings/", "/home/USERNAME/cinelerra-5.1-ub20.04-20201031.x86_64-static/", or "/home/USERNAME/.arduinoIDE/" must be guarded with a double-quote, while a path like /home/USERNAME/PortablePrograms/ doesn't need to be covered by a double-quote.
+# 4. Directories like "/home/YOUR_USERNAME/Browser Settings/", "/home/YOUR_USERNAME/cinelerra-5.1-ub20.04-20201031.x86_64-static/", or "/home/YOUR_USERNAME/.arduinoIDE/" must be guarded with a double-quote, while a path like /home/YOUR_USERNAME/PortablePrograms/ doesn't need to be covered by a double-quote.
 # 5. Never leave any empty line in 'ClamScanExclusionList.txt'.
 # ----------------------------------
 # Examples are:
@@ -50,54 +51,54 @@ sudo rkhunter --check --sk --report-warnings-only >> "/home/USERNAME/rkhunter-re
 # ----------------------------------
 # Contents:
 # ----------------------------------
-# /home/USERNAME/Arduino/
-# "/home/USERNAME/Browser Settings/"
-# "/home/USERNAME/cinelerra-5.1-ub20.04-20201031.x86_64-static/"
-# /home/USERNAME/Desktop/
-# /home/USERNAME/Documents/
-# "/home/USERNAME/.themes/"
-# /home/USERNAME/Music/
-# /home/USERNAME/Pictures/
-# /home/USERNAME/Pictures/
-# /home/USERNAME/PortablePrograms/
-# /home/USERNAME/Public/
-# /home/USERNAME/Templates/
-# /home/USERNAME/Videos/
-# /home/USERNAME/Xubuntu_General/
-# "/home/USERNAME/.arduino15/"
-# "/home/USERNAME/.arduinoIDE/"
-# "/home/USERNAME/.config/"
-# "/home/USERNAME/.dia/"
-# "/home/USERNAME/.equalx/"
-# "/home/USERNAME/.ffDiaporama/"
-# "/home/USERNAME/.gnupg/"
-# "/home/USERNAME/.grsync/"
-# "/home/USERNAME/.hardinfo/"
-# "/home/USERNAME/.hugindata/"
-# "/home/USERNAME/.java/"
-# "/home/USERNAME/.lyx/"
-# "/home/USERNAME/.mplayer/"
-# "/home/USERNAME/.pki/"
-# "/home/USERNAME/.ssr/"
-# "/home/USERNAME/.texlive2019/"
-# "/home/USERNAME/.vim/"
-# "/home/USERNAME/.vimbackup/"
-# "/home/USERNAME/.vimdotcommon/"
-# "/home/USERNAME/.vimdotlinux/"
-# "/home/USERNAME/.vimdotwin/"
-# "/home/USERNAME/.vimswap/"
-# "/home/USERNAME/.vimundo/"
-# "/home/USERNAME/.vimviews/"
-# "/home/USERNAME/.local/share/icons/"
-# "/home/USERNAME/.local/share/applications/"
+# /home/YOUR_USERNAME/Arduino/
+# "/home/YOUR_USERNAME/Browser Settings/"
+# "/home/YOUR_USERNAME/cinelerra-5.1-ub20.04-20201031.x86_64-static/"
+# /home/YOUR_USERNAME/Desktop/
+# /home/YOUR_USERNAME/Documents/
+# "/home/YOUR_USERNAME/.themes/"
+# /home/YOUR_USERNAME/Music/
+# /home/YOUR_USERNAME/Pictures/
+# /home/YOUR_USERNAME/Pictures/
+# /home/YOUR_USERNAME/PortablePrograms/
+# /home/YOUR_USERNAME/Public/
+# /home/YOUR_USERNAME/Templates/
+# /home/YOUR_USERNAME/Videos/
+# /home/YOUR_USERNAME/Xubuntu_General/
+# "/home/YOUR_USERNAME/.arduino15/"
+# "/home/YOUR_USERNAME/.arduinoIDE/"
+# "/home/YOUR_USERNAME/.config/"
+# "/home/YOUR_USERNAME/.dia/"
+# "/home/YOUR_USERNAME/.equalx/"
+# "/home/YOUR_USERNAME/.ffDiaporama/"
+# "/home/YOUR_USERNAME/.gnupg/"
+# "/home/YOUR_USERNAME/.grsync/"
+# "/home/YOUR_USERNAME/.hardinfo/"
+# "/home/YOUR_USERNAME/.hugindata/"
+# "/home/YOUR_USERNAME/.java/"
+# "/home/YOUR_USERNAME/.lyx/"
+# "/home/YOUR_USERNAME/.mplayer/"
+# "/home/YOUR_USERNAME/.pki/"
+# "/home/YOUR_USERNAME/.ssr/"
+# "/home/YOUR_USERNAME/.texlive2019/"
+# "/home/YOUR_USERNAME/.vim/"
+# "/home/YOUR_USERNAME/.vimbackup/"
+# "/home/YOUR_USERNAME/.vimdotcommon/"
+# "/home/YOUR_USERNAME/.vimdotlinux/"
+# "/home/YOUR_USERNAME/.vimdotwin/"
+# "/home/YOUR_USERNAME/.vimswap/"
+# "/home/YOUR_USERNAME/.vimundo/"
+# "/home/YOUR_USERNAME/.vimviews/"
+# "/home/YOUR_USERNAME/.local/share/icons/"
+# "/home/YOUR_USERNAME/.local/share/applications/"
 # ----------------------------------
 
 
 ### For the complete report about a scan instance:
 
-# sed -e 's/^/--exclude=/' "/home/USERNAME/ClamScanExclusionList.txt" | xargs clamscan --verbose -r -i --bell "/home/USERNAME/" >> "/home/USERNAME/report-file.txt"
+# sed -e 's/^/--exclude=/' "/home/$USERNAME/ClamScanExclusionList.txt" | xargs clamscan --verbose -r -i --bell "/home/$USERNAME/" >> "/home/$USERNAME/report-file.txt"
 
 ### Create an entry to the report file only if the scanner finds a threat:
 
-sed -e 's/^/--exclude=/' "/home/USERNAME/ClamScanExclusionList.txt" | xargs clamscan --verbose -r -i --bell "/home/USERNAME/" | grep FOUND >> "/home/USERNAME/report-file.txt" \
+sed -e 's/^/--exclude=/' "/home/$USERNAME/ClamScanExclusionList.txt" | xargs clamscan --verbose -r -i --bell "/home/$USERNAME/" | grep FOUND >> "/home/$USERNAME/report-file.txt" \
 
