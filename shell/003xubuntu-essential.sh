@@ -7,6 +7,7 @@ sudo apt install rkhunter && \
 sudo apt install firejail && \
 sudo apt install ntp && \
 sudo apt install gparted && \
+sudo apt install gnome-disk-utility && \
 sudo apt install rsync && \
 sudo apt install timeshift && \
 sudo apt install grsync && \
@@ -26,6 +27,14 @@ sudo apt install preload && \
 sudo apt install redshift-gtk && \
 sudo apt install hardinfo && \
 sudo apt install htop && \
+# ranger: Console File Manager with VI Key Bindings
+sudo apt install ranger && \
+# trash-cli: Send files to trash from the terminal instead of permanently deleting them
+sudo apt install trash-cli && \
+# ncdu: ncurses disk usage viewer
+sudo apt install ncdu && \
+# Pfetch/Neofetch: Shows Linux System Information with Distribution Logo
+sudo apt install neofetch && \
 sudo apt install fish && \
 sudo apt install kitty && \
 sudo apt install mc && \
@@ -70,6 +79,7 @@ sudo apt install safecopy && \
 sudo apt install foremost && \
 
 sudo apt install ffmpeg && \
+sudo apt install youtube-dl && \
 sudo apt install gtkhash && \
 
 # Download QuickHash-GUI-Linux-v3.2.0 from: https://www.quickhash-gui.org
