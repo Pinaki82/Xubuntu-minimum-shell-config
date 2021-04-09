@@ -23,6 +23,8 @@ Nextcloud-3.0.3-x86_64.AppImage -> Nextcloud desktop synchronization client for 
 pCloud AppImage (official package) -> https://www.pcloud.com/download-free-online-cloud-file-storage.html
 QuickHash-GUI-Linux-v3.2.0.zip (Portable but not available in AppImage format) -> QuickHash GUI is an open-source data hashing tool for Linux, Windows, and Apple Mac OSX with graphical user interface (GUI). https://www.quickhash-gui.org
 ScreenCloud-v1.5.3-x86_64.AppImage -> Screenshot. https://appimage.github.io/ScreenCloud
+Joplin (AppImage) -> Note-taking/(TODO Management) app -> https://joplinapp.org/
+"Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks." "The notes can be synchronised with various cloud services..."
 Standard Notes AppImage -> A free, open-source, and completely encrypted notes app. https://standardnotes.org/extensions?downloaded=linux
 tusk-0.23.0-x86_64.AppImage -> Refined Evernote desktop app (Unofficial/Open-Source). https://appimage.github.io/Tusk
 Unofficial-desktop-client-for-ProtonMail-1.2.1.AppImage -> Unofficial Electron wrapper for ProtonMail. https://appimage.github.io/protonmail-desktop
