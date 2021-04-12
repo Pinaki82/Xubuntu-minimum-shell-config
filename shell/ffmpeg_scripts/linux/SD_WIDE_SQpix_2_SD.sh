@@ -7,7 +7,7 @@ outputfolder="/media/sf_ffmpeg_linux_tst"
 codecoption=mjpeg
 audiocodec=copy
 videoquality=0
-constantratefactor=10 #The range of the CRF scale is 0–51, where 0 is lossless, 23 is the default, and 51 is worst quality possible. A lower value generally leads to higher quality, and a subjectively sane range is 17–28.
+constantratefactor=0 #The range of the CRF scale is 0–51, where 0 is lossless, 23 is the default, and 51 is worst quality possible. A lower value generally leads to higher quality, and a subjectively sane range is 17–28.
 aspectratio=16:9
 dimension=854x480
 
