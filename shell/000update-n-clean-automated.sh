@@ -37,7 +37,7 @@ clean_residual(){ # clean residual packages
 }
 
 # Body of code
-echo "Please add an alias to .bashrc to simply the update task. Read the instructions written under comments inside the shell script."
+echo "Please add an alias to .bashrc to simplify the update task. Read the instructions written under comments inside the shell script."
 echo "Type 0 [zero in number] to cancel"
 echo "Update?(no=0)"
 read choice
@@ -81,7 +81,7 @@ fi
 # source ~/.bashrc
 # in the terminal
 
-# from now on, you will be able to update the system by typing
+# From now on, you will be able to update the system by typing
 # 'upd' (of course, without the quotes) in the terminal
 # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
