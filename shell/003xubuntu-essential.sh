@@ -35,6 +35,9 @@ sudo apt install trash-cli && \
 sudo apt install ncdu && \
 # Pfetch/Neofetch: Shows Linux System Information with Distribution Logo
 sudo apt install neofetch && \
+# Open a terminal emulator and type
+# fish_config
+# to configure fish shell (e.g. aliases)
 sudo apt install fish && \
 sudo apt install kitty && \
 sudo apt install mc && \
