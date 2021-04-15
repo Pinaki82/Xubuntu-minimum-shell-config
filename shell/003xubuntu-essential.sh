@@ -52,6 +52,25 @@ sudo apt install epiphany-browser && \
 sudo add-apt-repository ppa:otter-browser/release && \
 sudo apt update && \
 sudo apt install otter-browser && \
+# # # # # # # # # # # # # # # # # # # # #
+# Surf browser
+# apt search surf
+# Simple web browser by suckless community
+# https://surf.suckless.org/
+# Usage:
+# Open a terminal emulator (e.g. GNOME Terminal,
+# XFCE Terminal, Kitty Terminal Emulator etc.) and type
+# 'surf URL'.
+# The 'URL' is the site you want to visit.
+# Examples:
+# surf duckduckgo.com
+# surf startpage.com
+# surf searx.me
+# surf google.com
+# Ctrl+H is Back <-
+# Ctrl+L is Forward ->
+sudo apt install surf && \
+# # # # # # # # # # # # # # # # # # # # #
 sudo snap install goldendictionary && \
 sudo apt install artha && \
 sudo apt install xchm && \
