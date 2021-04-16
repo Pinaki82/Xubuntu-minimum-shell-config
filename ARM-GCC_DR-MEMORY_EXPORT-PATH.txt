@@ -1,0 +1,255 @@
+ARM-GCC, Dr. Memory, and others.
+
+
+Add applications stored in non-standard locations to
+the system search path.
+
+
+ARM:
+
+Installation of GNU Toolchain for ARM compiler to cross-compile
+codes written for
+STM32 MCU targets, e.g., STM32 powered development boards and boards
+with similar microcontrollers (e.g. STM32 Nucleo boards,
+STM32 Blue Pill, etc.)
+
+Download the Compiler first.
+
+Although we will avoid any GUI IDEs before the onset of any
+little bafflement that can be posed by those decorative tools,
+an IDE which we will refer to is Embedded IDE because it is
+fairly straightforward and provides some assistance plus
+some useful download links.
+Unlike other super-bloated extremely infuriating ARM IDEs
+that are super-efficient in adding more to the confusion
+of an already confused user, Embedded IDE comes with a relatively
+simplistic approach.
+
+Nevertheless, command-line tools are much easier to use and provides
+way more flexibility than their graphical counterparts.
+
+Visit Embedded IDE's GitHub repository.
+
+https://github.com/martinribelotta/embedded-ide
+https://github.com/ciaa/EmbeddedIDE-templates
+
+Find the download link to ARM-GCC.
+Navigate to the link that follows the latest releases found on
+developer.arm.com.
+
+https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm
+
+Download the tar archive 'gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2'
+(or later versions of ARM-GCC) (assuming you are on a 64-bit Xubuntu
+on an x86 CPU equipped machine).
+Copy the downloaded tar file to your $HOME directory (~/).
+Right-click inside the graphical file manager and select
+'Open Terminal Here'.
+Type:
+------------------------------------------------------------------
+tar xzf gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2
+------------------------------------------------------------------
+Wait till the archive gets extracted. Enter the directory,
+------------------------------------------------------------------
+cd gcc-arm-none-eabi-10-2020-q4-major/
+------------------------------------------------------------------
+then,
+------------------------------------------------------------------
+cd bin/
+------------------------------------------------------------------
+Authorise the compiler binaries to read/write by changing
+the permission parameters,
+(Ref: https://phoenixnap.com/kb/chmod-recursive)
+------------------------------------------------------------------
+chmod -R 755 *
+------------------------------------------------------------------
+The star (*) indicates all files, -R implies recursively.
+Edit ~/.bashrc to export the bin directory of the ARM compiler
+to the system search path and make it permanent.
+------------------------------------------------------------------
+mousepad ~/.bashrc
+------------------------------------------------------------------
+Not just 'mousepad', any other plaintext editor can also be used.
+Paste the following lines to the end of the file.
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# GNU Toolchains for ARM compiler
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+PATH=$PATH:"~/gcc-arm-none-eabi-10-2020-q4-major/bin/"
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+Don't forget to create a new blank line and leave it intact.
+Save changes and quit the editor. Reload .bashrc,
+------------------------------------------------------------------
+source ~/.bashrc
+------------------------------------------------------------------
+See whether the new setup finds the ARM-GCC compiler in the path,
+------------------------------------------------------------------
+echo $PATH
+------------------------------------------------------------------
+Would you like to use the fish shell to deal with the ARM compiler?
+Fish shell still doesn't have a clue of the ARM compiler path,
+so add it to ".fishrc". Oh!!! ".fishrc" doesn't exist.
+Fish doesn't create such a file by default in the $HOME folder
+after the installation of the fish shell,
+neither the fish shell recognises anything such as ".fishrc".
+It's exactly known as "config.fish".
+Fish will look for this file in ~/.config/fish/
+i.e., ~/.config/fish/config.fish
+
+Ref: https://jeffmcneill.com/path-bash-shell-fish-shell/
+
+Create the file and add ARM compiler to the search path of fish.
+------------------------------------------------------------------
+touch ~/.config/fish/config.fish
+mousepad ~/.config/fish/config.fish
+------------------------------------------------------------------
+Drop the following lines to "config.fish"
+------------------------------------------------------------------
+set PATH $PATH /usr/local/bin ~/gcc-arm-none-eabi-10-2020-q4-major/bin/
+export PATH
+function ll
+    ls -lh $argv
+end
+------------------------------------------------------------------
+You can add as many applications to the system path you like.
+Follow the example below:
+------------------------------------------------------------------
+set PATH $PATH /usr/local/bin ~/gcc-arm-none-eabi-10-2020-q4-major/bin/ /path/to/application/binary
+export PATH
+function ll
+    ls -lh $argv
+end
+------------------------------------------------------------------
+Reload "config.fish" as usual,
+------------------------------------------------------------------
+source ~/.config/fish/config.fish
+------------------------------------------------------------------
+Make sure whether your ARM compiler is now available at the terminal,
+------------------------------------------------------------------
+echo #PATH
+------------------------------------------------------------------
+Open any terminal emulator and pick any of the shells (bash or fish) and
+type:
+------------------------------------------------------------------
+arm-none-eabi-gcc --help
+------------------------------------------------------------------
+See the output.
+
+Install additional utilities to upload compiled codes to
+the target boards:
+
+
+------------------------------------------------------------------
+apt search libusb-1.0
+------------------------------------------------------------------
+sudo apt install libusb-1.0-0
+sudo apt install libusb-1.0-doc
+------------------------------------------------------------------
+apt search stlink
+------------------------------------------------------------------
+sudo apt install libstlink1
+sudo apt install stlink-tools
+sudo apt install stlink-gui
+------------------------------------------------------------------
+
+The following link came as a boon when I first attempted installing
+ARM-GCC. However, I didn't have a chance to
+test any ARM board until now.
+
+https://blog.gypsyengineer.com/en/diy-electronics/a-template-project-for-stm32f103-on-linux.html
+
+I'll buy a ST-LINK/V2 clone with a Blue Pill clone
+development board within a few months if I can garner
+a little fund for ARM MCU development,
+then I'll update the outcome along with the necessary changes
+that might be needed to reflect here as well.
+I own two Arduino UNO Rev-3 boards though,
+one of which I built five years ago without the USB functionality.
+The original one is used as the ISP.
+
+Associated links:
+https://github.com/artem-smotrakov/stm32f103-template
+
+Other useful links:
+https://github.com/stlink-org/stlink
+DuckDuckGo search: how to install arm gcc for stm32 blue pill on ubuntu
+https://unix.stackexchange.com/questions/3809/how-can-i-make-a-program-executable-from-everywhere
+https://www.howtogeek.com/658904/how-to-add-a-directory-to-your-path-in-linux/
+DuckDuckGo search: add programs to path in linux
+
+
+
+------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------
+
+
+
+Dr. Memory:
+
+By now, we know the methods of adding programs to the system search path.
+Let's download and set up Dr. Memory.
+It's an application that checks for memory leaks in
+running applications compiled with debugging symbols.
+Dr. Memory is kinda like Valgrind.
+
+https://drmemory.org/
+https://github.com/DynamoRIO/drmemory/releases
+Place the downloaded tar archive into the $HOME directory, type:
+------------------------------------------------------------------
+tar xzf DrMemory-Linux-2.3.18722.tar.gz
+cd DrMemory-Linux-2.3.18722/
+chmod -R 755 *
+mousepad ~/.bashrc
+------------------------------------------------------------------
+Add the following lines to .bashrc as usual,
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Dr. Memory memory debugger
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+PATH=$PATH:"~/DrMemory-Linux-2.3.18722/bin64/"
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+Leave a new line.
+Reload .bashrc,
+------------------------------------------------------------------
+source ~/.bashrc
+echo $PATH
+------------------------------------------------------------------
+
+Now invoke the fish shell and type,
+------------------------------------------------------------------
+touch ~/.config/fish/config.fish
+mousepad ~/.config/fish/config.fish
+------------------------------------------------------------------
+Add Dr. Memory to the search path of the fish shell.
+Now your "config.fish" should look something like:
+------------------------------------------------------------------
+set PATH $PATH /usr/local/bin ~/gcc-arm-none-eabi-10-2020-q4-major/bin/ ~/DrMemory-Linux-2.3.18722/bin64/
+export PATH
+function ll
+    ls -lh $argv
+end
+------------------------------------------------------------------
+Reload "config.fish",
+------------------------------------------------------------------
+source ~/.config/fish/config.fish
+echo #PATH
+------------------------------------------------------------------
+Open any terminal emulator in combination with any shell and type,
+------------------------------------------------------------------
+drmemory --help
+------------------------------------------------------------------
+
+
+We are all set up.
+Try adding AVR-GCC and SDCC cross-compilers
+if you need Atmel (now acquired by Microchip) AVR and
+Intel (now manufactured by Microchip, Philips and so many) 8051
+microcontrollers.
+

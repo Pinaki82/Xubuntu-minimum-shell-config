@@ -20,8 +20,8 @@ sudo apt install preload && \
 
 # Power management utility for laptops.
 
-# sudo apt install tlp && \
-# sudo apt install tlp-rdw && \
+sudo apt install tlp && \
+sudo apt install tlp-rdw && \
 
 # #################################################
 sudo apt install redshift-gtk && \
