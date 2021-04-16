@@ -25,7 +25,7 @@ that are super-efficient in adding more to the confusion
 of an already confused user, Embedded IDE comes with a relatively
 simplistic approach.
 
-Nevertheless, command-line tools are much easier to use and provides
+Nevertheless, command-line tools are much easier to use and provide
 way more flexibility than their graphical counterparts.
 
 Visit Embedded IDE's GitHub repository.
