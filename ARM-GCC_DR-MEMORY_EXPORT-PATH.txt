@@ -164,6 +164,10 @@ The star (*) indicates all files, -R implies recursively.
 Install dependencies:
 ------------------------------------------------------------------
 sudo apt install libncurses-dev
+whereis libtinfo.so
+whereis libcurses.so
+sudo ln -s /usr/lib/x86_64-linux-gnu/libcurses.so /usr/lib/x86_64-linux-gnu/libncurses.so.5
+sudo ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so /usr/lib/x86_64-linux-gnu/libtinfo.so.5
 ------------------------------------------------------------------
 Also, create an uninstallation script:
 ------------------------------------------------------------------
@@ -354,6 +358,15 @@ O - P - E - N     O - C - D
 Do you debug your programs?
 You can debug your ARM programs with OpenOCD.
 http://openocd.org/
+https://elinux.org/OpenOCD_Ubuntu_Package
+
+
+------------------------------------------------------------------
+apt search openocd
+sudo apt install openocd
+cd /usr/local/share
+sudo ln -s /usr/share/openocd .
+------------------------------------------------------------------
 
 
 
