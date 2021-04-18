@@ -384,6 +384,8 @@ sudo ln -s /usr/share/openocd .
 
 Dr. Memory:
 
+Method 1:
+
 
 Let's download and set up Dr. Memory.
 
@@ -497,6 +499,115 @@ drmemory --help
 
 Usage:
 drmemory -- ./example007
+
+
+Method 2:
+
+Although Dr. Memory has three binary executable files so it was
+not slowing down my test laptop, I wanted to reduce loads further
+from the shell applications.
+As before, we will create symlinks to Dr. Memory's executables in
+/usr/bin
+then delete Dr. Memory's bin64 folder from the
+shell applications' search list.
+The shell application will find Dr. Memory
+from the system search path when it will be invoked.
+
+Open ~/.bashrc with a text editor and delete the lines below:
+
+------------------------------------------------------------------
+mousepad ~/.bashrc
+------------------------------------------------------------------
+
+Delete the following lines:
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Dr. Memory memory debugger
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+PATH=$PATH:"~/DrMemory-Linux-2.3.18722/bin64/"
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+------------------------------------------------------------------
+source ~/.bashrc
+------------------------------------------------------------------
+
+
+Delete Dr. Memory's bin64 folder from fish shell's search list also.
+Edit config.fish
+
+------------------------------------------------------------------
+mousepad ~/.config/fish/config.fish
+------------------------------------------------------------------
+
+Now it should look something like:
+
+
+------------------------------------------------------------------
+set PATH $PATH /usr/local/bin /path/to/application/binary /path/to/another/application/binary
+export PATH
+function ll
+    ls -lh $argv
+end
+
+------------------------------------------------------------------
+
+
+Reload "config.fish" as usual,
+
+------------------------------------------------------------------
+source ~/.config/fish/config.fish
+------------------------------------------------------------------
+
+
+Now create two files in ~/DrMemory-Linux-2.3.18722/bin64/
+install-script.sh and uninstall-script.sh
+Fill the files with the contents written as follows:
+
+install-script.sh
+
+------------------------------------------------------------------
+#!/bin/bash
+
+sudo ln -s ~/DrMemory-Linux-2.3.18722/bin64/drmemory /usr/bin/drmemory
+sudo ln -s ~/DrMemory-Linux-2.3.18722/bin64/drltrace /usr/bin/drltrace
+sudo ln -s ~/DrMemory-Linux-2.3.18722/bin64/symquery /usr/bin/symquery
+
+------------------------------------------------------------------
+
+uninstall-script.sh
+
+------------------------------------------------------------------
+#!/bin/bash
+
+sudo rm /usr/bin/drmemory
+sudo rm /usr/bin/drltrace
+sudo rm /usr/bin/symquery
+
+------------------------------------------------------------------
+
+Change the permission parameters of those files:
+------------------------------------------------------------------
+sudo chmod -R 755 install-script.sh
+sudo chmod -R 755 uninstall-script.sh
+------------------------------------------------------------------
+
+Run:
+./install-script.sh
+
+Dr. Memory has been installed by now.
+
+The uninstallation script will be needed
+when we will update Dr. Memory with a newer version.
+The older version must be deleted
+from the system directory /usr/bin
+
+You can choose either of the methods.
+I'd go for the 2nd method since it is
+less stressful to a resource-constrained system.
+
+
+
 
 We are all set up.
 Try adding AVR-GCC and SDCC cross-compilers
