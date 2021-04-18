@@ -544,7 +544,7 @@ Now it should look something like:
 
 
 ------------------------------------------------------------------
-set PATH $PATH /usr/local/bin /path/to/application/binary /path/to/another/application/binary
+set PATH $PATH /usr/local/bin
 export PATH
 function ll
     ls -lh $argv
