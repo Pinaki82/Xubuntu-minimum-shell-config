@@ -1,12 +1,12 @@
 ------------------------------------------------------------
 XFCE ships a few pleasant and visually appealing themes out of the box with
-great aesthetics. Regardless of the choice of the distribution and the
-desktop environment (DE), Linux always offers the choice of customisation.
-*-Ubuntu and XFCE are not exceptions. While the default Greybird theme
-is gorgeous, it's very close to Mac OS UI, and it's hard to beat in terms
-of pleasant aesthetics, the options to choose our own must be something that
-we should know to avoid the monotony that might come across our way
-after days of working in front of the computer.
+neat aesthetics. Regardless of the choice of the distribution and the desktop
+environment (DE), Linux always offers the freedom of customisation.
+X-L-K-*-Ubuntu and XFCE are not exceptions. We can customise the XFCE DE
+at any time. The default Greybird theme in the XFCE Desktop
+Environment is gorgeous. It's very close to Mac OS UI, and it's hard to
+beat in terms of pleasant aesthetics. However, the options are there to avoid
+any possible monotony after days of work in front of the computer.
 Here is how to do that:
 
 
