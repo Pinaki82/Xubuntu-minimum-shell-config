@@ -90,6 +90,10 @@ sudo apt install xclip && \
 sudo apt install uget && \
 sudo apt install aria2 && \
 
+# Python3 PiP
+
+sudo apt install python3-pip && \
+
 # Sound device tweak utility
 # sudo apt install alsa-tools-gui && \
 

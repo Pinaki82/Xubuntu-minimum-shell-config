@@ -1,0 +1,7 @@
+https://www.osradar.com/install-bpytop-on-ubuntu-debian-a-terminal-monitoring-tool/
+
+'bpytop' System Monitoring Tool:
+
+python -V
+sudo apt install python3-pip
+pip3 install bpytop
