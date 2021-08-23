@@ -6,10 +6,14 @@ sudo apt install make && \
 sudo apt install diffutils && \
 sudo apt install llvm && \
 sudo apt install clang && \
+sudo apt install clangd && \
 sudo apt install clang-tidy && \
 sudo apt install clang-tools && \
 sudo apt install lld && \
 sudo apt install libomp-dev && \
+sudo apt install curl && \
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -  && \
+sudo apt-get install -y nodejs && \
 sudo apt install cdecl && \
 sudo apt install cutils && \
 sudo apt install kitty && \
