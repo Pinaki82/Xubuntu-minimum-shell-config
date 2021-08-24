@@ -90,6 +90,7 @@ sudo apt install diffstat && \
 
 sudo apt install ddd && \
 sudo apt install valgrind && \
+sudo apt install cgdb && \
 sudo apt install astyle && \
 sudo apt install ctags && \
 sudo apt install autoconf && \
