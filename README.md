@@ -37,6 +37,36 @@ https://switching.software/
 
 (Git repository link to switching.software: https://codeberg.org/swiso/website)
 
+## UEFI/EFI Systems:
+
+[Reference 1](https://askubuntu.com/questions/1128810/no-efi-system-partition-option-for-ubuntu-18-10)
+
+**The EFI System Partition (ESP):**
+
+**The requirements for the ESP partition are:**
+
+> 1. It must be a primary partition (relevant only for MBR based partition table)
+> 2. It must be a FAT32 partition
+> 3. The boot flag must be set
+
+[Reference 2](https://www.itzgeek.com/post/how-to-install-ubuntu-20-04-lts/)
+
+[Reference 3](https://askubuntu.com/questions/1313154/how-to-know-the-proper-amount-of-needed-disk-space-for-efi-partition)
+
+**UEFI System:**
+
+> EFI : 1GB
+> swap – 4GB (not a must-have)
+> /home – Remaining
+
+**Legacy BIOS:**
+
+> /boot – 1GB
+> swap – 4GB (not a must-have)
+> /home – Remaining
+
+**NOTE:** _A dedicated swap partition is unnecessary on a newer machine (at least a machine that was manufactured after 2015) with an installed SSD as the boot drive._
+
 ## F6 options for older computers
 
 # 1.
