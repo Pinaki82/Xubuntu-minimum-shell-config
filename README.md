@@ -56,13 +56,17 @@ https://switching.software/
 **UEFI System:**
 
 > EFI : 1GB
+
 > swap – 4GB (not a must-have)
+
 > /home – Remaining
 
 **Legacy BIOS:**
 
 > /boot – 1GB
+
 > swap – 4GB (not a must-have)
+
 > /home – Remaining
 
 **NOTE:** _A dedicated swap partition is unnecessary on a newer machine (at least a machine that was manufactured after 2015) with an installed SSD as the boot drive._
