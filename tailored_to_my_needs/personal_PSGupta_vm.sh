@@ -1,5 +1,50 @@
 #!/bin/bash
 
+# *********************
+# Allow the file to execute (change permission parameters) (common step):
+# chmod +x script_to_run.sh
+# Run:
+# Method One:
+# sh script_to_run.sh
+# Method Two:
+# ./script_to_run.sh
+# Do not prepend 'sudo' to run this script.
+# *********************
+
+
+# ==================================== ROOT CHECK
+# References (root check):
+# https://superuser.com/questions/688882/how-to-test-if-a-variable-is-equal-to-a-number-in-shell
+# YouTube/DistroTube/How To Use Shell Environment Variables  -  https://youtu.be/9ZpL8iDU7LY
+
+echo "Checking whether you're running this script as root or not..."
+
+if [ "$(id -u)" = 0 ]; then
+  echo "You cannot run this script as root!"
+  sleep 1
+  exit 1
+else
+  echo "You can proceed..."
+fi
+
+# ************************************************************************
+# NOTE:
+# For string literal comparison:
+#	  Spacing around == is a must
+#   Spacing around = is a must
+#   [[ ... ]] i.e., the double parenthesis reduces errors as no pathname expansion or word splitting takes place between [[ and ]]
+#   Prefer quoting strings that are "words"
+
+# For Integer comparison:
+#   if [ "$(id -u)" = 0 ];
+
+# Correct code (chmod -x \
+#               ./script_to_run.sh): if [ "$(id -u)" = 0 ]; then
+# echo $UID on root will always produce 0
+# ************************************************************************
+# ========================== (END) ROOT CHECK
+
+
 # =================================================================
 # virtualbox-shared-folder-permission
 # =================================================================
