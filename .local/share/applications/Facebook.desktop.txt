@@ -15,22 +15,22 @@ Type=Application
 Version=1.0
 
 # The name of the application
-Name=Searx.me
+Name=Facebook
 
 # A comment which can/will be used as a tooltip
-Comment=Search Engine
+Comment=Facebook 'Surf' Desktop App
 
 # The path to the folder in which the executable is run
 # Path=/opt/jmemorise
 
 # The executable of the application, possibly with arguments.
-Exec=surf searx.me
+Exec=surf facebook.com
 
 # The name of the icon that will be used to display this entry
-Icon=/home/YOUR_USERNAME/.local/share/icons/logo_searx_a.png
+Icon=/home/YOUR_USERNAME/.local/share/icons/Facebook.svg
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
 
 # Describes the categories in which this entry should be shown
-Categories=Internet;
+Categories=Education;Languages;

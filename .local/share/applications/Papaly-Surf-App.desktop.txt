@@ -27,7 +27,7 @@ Comment=Online Bookmark Manager
 Exec=surf papaly.com
 
 # The name of the icon that will be used to display this entry
-Icon=emblem-web
+Icon=/home/YOUR_USERNAME/.local/share/icons/papaly.svg
 
 # Describes whether this application needs to be run in a terminal or not
 Terminal=false
