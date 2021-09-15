@@ -33,4 +33,4 @@ Icon=/home/YOUR_USERNAME/.local/share/icons/Facebook.svg
 Terminal=false
 
 # Describes the categories in which this entry should be shown
-Categories=Education;Languages;
+Categories=Internet;
