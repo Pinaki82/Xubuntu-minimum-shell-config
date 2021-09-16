@@ -132,6 +132,16 @@ Mc-OS CTLina XFCE
 https://www.xfce-look.org/p/1326265/
 
 
+Pop Xfwm
+https://www.xfce-look.org/p/1299758/
+
+Forest GTK Themes
+https://github.com/i-mint/forest.git
+
+Snowblind
+https://www.opencode.net/ju1464/Snowblind
+
+
 ------------------------------------------------------------
 Icons:
 
