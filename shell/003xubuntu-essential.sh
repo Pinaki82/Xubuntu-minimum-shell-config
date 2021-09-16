@@ -90,6 +90,28 @@ sudo apt install xclip && \
 sudo apt install uget && \
 sudo apt install aria2 && \
 
+# Find duplicate files
+# https://www.makeuseof.com/best-tools-find-and-remove-duplicate-files-linux/
+
+sudo apt install fdupes && \
+
+# fdupes -r ~/Pictures/MaterialDesign/
+# Or,
+# fdupes -r -d ~/Pictures/MaterialDesign/
+# To delete
+
+sudo apt install rdfind && \
+
+# rdfind ~/Pictures/MaterialDesign/
+
+sudo add-apt-repository ppa:dupeguru/ppa && \
+sudo apt update && \
+sudo apt list --upgradable && \
+sudo apt upgrade && \
+sudo apt update && \
+sudo apt install -f && \
+sudo apt install dupeguru && \
+
 # Python3 PiP
 
 sudo apt install python3-pip && \
