@@ -4,6 +4,9 @@
 # sudo apt install darktable && \
 # Read metadata from Camera RAW
 # sudo apt install libimage-exiftool-perl && \
+# Another RAW processing program. Intuitive GUI controls, easy to use.
+# Download the latest AppImage package:
+# firefox https://www.rawtherapee.com/ && \
 
 # Luminance HDR is a high-dynamic-range image creation and manipulation program
 # sudo apt install luminance-hdr
