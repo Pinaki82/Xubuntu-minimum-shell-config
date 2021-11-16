@@ -43,7 +43,7 @@ TEXT
 
 # https://lightlinux.blogspot.com/2014/03/minimalist-config-file-for-conky-with.html
 ${font Open Sans Light:pixelsize=34}${time %A}${font}
-${font Open Sans Light:pixelsize=16}${time %d/%m(%B)/%Y}${font}
+${font Open Sans Light:pixelsize=15}${time %d/%m(%B)/%Y}${font}
                           ${hr 3}
 ${font Open Sans Light:pixelsize=40}${time %l:%M %p}${font}
 ${hr 5}
@@ -69,10 +69,10 @@ ${top name 2}$alignr${top cpu 2}
 # https://forum.mxlinux.org/viewtopic.php?t=43937
 #CPU Total: ${exec sensors | grep 'Core 0' | cut -b 16-19} deg C 
 
-#CPU Total: ${execi 30 sensors | grep "Package id 0" | cut -d "+" -f2 | cut -c1-7}
+CPU Total: ${execi 30 sensors | grep "Package id 0" | cut -d "+" -f2 | cut -c1-7}
 #Core 0 Temp: ${execi 31 sensors | grep "Core 0" | cut -d "+" -f2 | cut -c1-7}
 #Core 1 Temp: ${execi 32 sensors | grep "Core 1" | cut -d "+" -f2 | cut -c1-7}
-#ACPI Temp: ${acpitemp} deg C
+ACPI Temp: ${acpitemp} deg C
 
 
 RAM: ${alignr}$memmax
