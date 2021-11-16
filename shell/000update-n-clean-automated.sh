@@ -85,3 +85,24 @@ fi
 # 'upd' (of course, without the quotes) in the terminal
 # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+# Fish Shell Aliases
+# Config File: ~/.config/fish/config.fish
+# alias alias_name="command_to_run"
+
+# Update #NOTE: uncomment the line below in  ~/.config/fish/config.fish
+
+# alias upd="sh ~/shell/000update-n-clean-automated.sh"
+# Other examples:
+# alias trim="sh ~/shell/ssd_trim.sh"
+# Print my public IP #NOTE: uncomment the line below in .bashrc
+# alias myip='curl ipinfo.io/ip'
+
+# save and close the file. Make the aliases available
+# in your current session by typing:
+# source ~/.config/fish/config.fish
+# in the terminal
+
+# Done!!
+# # # # # # # # # # # # # # # # # # # # # # # # # # #
+

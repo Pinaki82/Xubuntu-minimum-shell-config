@@ -49,6 +49,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo add-apt-repository ppa:appimagelauncher-team/stable && \
 sudo apt update && \
 sudo apt install appimagelauncher && \
+sudo apt install psensor && \
 sudo apt install gkrellm && \
 sudo apt install torbrowser-launcher && \
 sudo apt install epiphany-browser && \

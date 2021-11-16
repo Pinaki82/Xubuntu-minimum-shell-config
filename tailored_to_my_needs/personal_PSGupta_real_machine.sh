@@ -296,6 +296,7 @@ yes | sudo apt install -f && \
 sudo apt install appimagelauncher -y && \
 
 sudo apt install gkrellm -y && \
+sudo apt install psensor -y && \
 sudo apt install torbrowser-launcher -y && \
 # sudo apt install epiphany-browser -y && \
 
