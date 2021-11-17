@@ -325,6 +325,7 @@ sudo apt install surf -y && \
 sudo snap install goldendictionary && \
 
 sudo apt install artha -y && \
+sudo apt install okular -y && \
 sudo apt install xchm -y && \
 
 sudo apt install unrar -y && \

@@ -78,6 +78,7 @@ sudo apt install surf && \
 sudo snap install goldendictionary && \
 sudo apt install artha && \
 sudo apt install xchm && \
+sudo apt install okular && \
 sudo apt install unrar && \
 sudo apt install rar && \
 sudo apt install p7zip-full && \
