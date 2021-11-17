@@ -19,7 +19,7 @@ KeePassXC-2.6.2-x86_64.AppImage -> Password Manager. https://github.com/keepassx
 LikeTaskManager-x86_64.AppImage -> Tool that mimics the permformance monitoring of windows task manager under linux
 Midori Next Generation-1.1.4.AppImage -> Midori Browser. A lightweight, fast and free web browser. https://astian.org/en/midori-browser 
 MYKI-latest.AppImage -> Password Manager. https://myki.com
-Nextcloud-3.0.3-x86_64.AppImage -> Nextcloud desktop synchronization client for NextCloud-based Cloud Service providers. https://appimage.github.io/Nextcloud
+Nextcloud AppImage -> Nextcloud desktop synchronization client for NextCloud-based Cloud Service providers. https://appimage.github.io/Nextcloud or, https://nextcloud.com/install/#install-clients
 pCloud AppImage (official package) -> https://www.pcloud.com/download-free-online-cloud-file-storage.html
 QuickHash-GUI-Linux-v3.2.0.zip (Portable but not available in AppImage format) -> QuickHash GUI is an open-source data hashing tool for Linux, Windows, and Apple Mac OSX with graphical user interface (GUI). https://www.quickhash-gui.org
 ScreenCloud-v1.5.3-x86_64.AppImage -> Screenshot. https://appimage.github.io/ScreenCloud
@@ -55,3 +55,6 @@ Mark Text (Offline Markdown Editor) -> "Simple and Elegant Markdown Editor" -> h
 Mark Text Site: https://marktext.app/
 Mark Text Auxiliary ref: https://stackedit.io/
 MeshLab -> (3D Model Viewer) Open source system for processing and editing 3D triangular meshes. -> https://www.meshlab.net/#description
+LibrePCB EDA Software (Circuit/Schematic Designing) -> https://librepcb.org/
+FreeCAD (Parametric 3D CAD Modeler) -> https://www.freecadweb.org/
+OpenSCAD (Script file based graphical CAD environment) -> http://openscad.org/downloads.html#linux
