@@ -59,7 +59,9 @@ https://switching.software/
 
 > swap – 4GB (not a must-have)
 
-> /home – Remaining
+> /  – Remaining (ROOT)
+
+**NOTE:** The `/home` directory will also be created along with the **ROOT** directory if we choose to allocate the remaining drive space to **ROOT** (`/`).
 
 **Legacy BIOS:**
 
@@ -67,9 +69,23 @@ https://switching.software/
 
 > swap – 4GB (not a must-have)
 
-> /home – Remaining
+> /  – Remaining (ROOT)
 
-**NOTE:** _A dedicated swap partition is unnecessary on a newer machine (at least a machine that was manufactured after 2015) with an installed SSD as the boot drive._
+**NOTE 1:** The `/home` directory will also be created along with the **ROOT** directory if we choose to allocate the remaining drive space to **ROOT** (`/`). If required, a separate `/home` partition can be created as well.
+
+**Example:**
+
+**UEFI System (with a separate /home partition):**
+
+> EFI : 1GB
+
+> swap – 4GB (not a must-have)
+
+> /home – 30GB
+
+> /  – Remaining (ROOT)
+
+**NOTE 2:** _A dedicated swap partition is unnecessary on a newer machine (at least a machine that was manufactured after 2015) with an installed SSD as the boot drive._
 
 ## F6 options for older computers
 
