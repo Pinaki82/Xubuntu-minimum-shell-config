@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Test your Hard Drive Speed.
-# The Linux Way of measuring drive read/write speed like
-# on MS Windows with 'HD Tune Pro'.
+# The Linux Way of measuring drive read/write speed similar to
+# doing the same with 'HD Tune Pro' on MS Windows.
 
 # References:
 # https://www.linux-magazine.com/Online/Features/Tune-Your-Hard-Disk-with-hdparm
