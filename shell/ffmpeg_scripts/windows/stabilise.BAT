@@ -28,7 +28,7 @@ set /p filename="Type the filename with extension: "
 echo filename: %filename%
 set newfilename=%filename%.AVI
 echo newfilename: %newfilename%
-ffmpeg -i %filename% -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:a copy -c:v ffv1 -level 3 -threads 8 -coder 1 -context 1 -g 1 -slices 24 -slicecrc 1 -preset veryslow %newfilename%
+ffmpeg -i %filename% -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:a copy -c:v ffv1 -level 3 -threads 8 -coder 1 -context 1 -g 1 -slices 24 -slicecrc 1 -preset fast %newfilename%
 
 @ECHO OFF
 REM ===================================================================
@@ -39,7 +39,7 @@ ffmpeg -i %newfilename% -vf "vidstabdetect=stepsize=32:shakiness=10:accuracy=15:
 
 REM # The second pass ('transform') uses the .trf and creates the new stabilised video.
 
-ffmpeg -i %newfilename% -filter:v vidstabtransform=zoom=10:input="$transform_file":interpol=bicubic -c:v mjpeg -pix_fmt yuvj420p -q:v 0 -crf 18 -c:a pcm_s16le -ar 48000 -ac 2 -ab 384k -preset veryslow %newfilename%-stabilised.AVI
+ffmpeg -i %newfilename% -filter:v vidstabtransform=zoom=10:input="$transform_file":interpol=bicubic -c:v mjpeg -pix_fmt yuvj420p -q:v 0 -crf 18 -c:a pcm_s16le -ar 48000 -ac 2 -ab 384k -preset fast %newfilename%-stabilised.AVI
 
 @ECHO OFF
 REM =========OPTIONAL======================
