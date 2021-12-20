@@ -10,7 +10,6 @@ audiosamplerate=48000
 audiochannel=2
 audiobitrate=384k
 videoquality=0
-qscale_quality=0
 constantratefactor=0 #The range of the CRF scale is 0–51, where 0 is lossless, 23 is the default, and 51 is worst quality possible. A lower value generally leads to higher quality, and a subjectively sane range is 17–28.
 # 0 for higher speed, lower compression, larger file size (as obtained from the results of a few dry runs)
 chromasubsampling_pixelformat=yuvj420p
@@ -26,7 +25,7 @@ for inputfile in "$inputfolder"/*.* -hwaccel ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").AVI"
     ffmpeg -i "$inputfile" -c:v $codecoption -c:a $audiocodec -ar $audiosamplerate \
     -ac $audiochannel -ab $audiobitrate \
-    -q:v $videoquality -preset $SPEED -qscale $qscale_quality -crf $constantratefactor -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" \
+    -q:v $videoquality -preset $SPEED -crf $constantratefactor -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" \
     -pix_fmt $chromasubsampling_pixelformat -aspect $aspectratio -s $dimension \
     -r $framerateconversionratio_at_output "$outputfile"
 done

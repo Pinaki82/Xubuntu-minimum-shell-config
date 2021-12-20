@@ -28,7 +28,7 @@ convrtd_file_s_extnsn='.AVI'
 newfilename="${filename}${convrtd_file_s_extnsn}"
 echo newfilename: $newfilename
 
-ffmpeg -i $filename -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:a copy -c:v ffv1 -level 3 -threads 8 -coder 1 -context 1 -g 1 -slices 24 -slicecrc 1 -preset fast $newfilename
+ffmpeg -i $filename -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" -c:a copy -c:v ffv1 -level 3 -threads 8 -coder 1 -context 1 -g 1 -slices 24 -slicecrc 1 -q:v 0 -crf 0 -preset ultrafast $newfilename
 
 # ===================================================================
 
@@ -39,7 +39,7 @@ stabilised_vdo="${newfilename}${stabilised_vdo_extnsn}"
 echo stabilised_vdo: $stabilised_vdo
 # The second pass ('transform') uses the .trf and creates the new stabilised video.
 
-ffmpeg -i $newfilename -filter:v vidstabtransform=zoom=10:input="transform_file":interpol=bicubic -c:v mjpeg -pix_fmt yuvj420p -q:v 0 -crf 18 -c:a pcm_s16le -ar 48000 -ac 2 -ab 384k -preset fast $stabilised_vdo
+ffmpeg -i $newfilename -filter:v vidstabtransform=zoom=10:input="transform_file":interpol=bicubic -c:v mjpeg -pix_fmt yuvj420p -q:v 0 -crf 0 -c:a pcm_s16le -ar 48000 -ac 2 -ab 384k -preset ultrafast $stabilised_vdo
 
 # =========OPTIONAL======================
 vstacked_mkv_extnsn='-stacked.mkv'

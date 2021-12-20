@@ -8,10 +8,14 @@ codecoption=mjpeg
 audiocodec=pcm_s16le
 videoquality=0
 constantratefactor=0 #The range of the CRF scale is 0–51, where 0 is lossless, 23 is the default, and 51 is worst quality possible. A lower value generally leads to higher quality, and a subjectively sane range is 17–28.
+SPEED=ultrafast #superfast, veryfast, faster, fast, medium, slow, slower, veryslow
+# https://superuser.com/questions/714804/converting-video-from-1080p-to-720p-with-smallest-quality-loss-using-ffmpeg
+# https://www.macxdvd.com/mac-dvd-video-converter-how-to/ffmpeg-avi-to-mp4-free.htm
+# https://superuser.com/questions/1556953/why-does-preset-veryfast-in-ffmpeg-generate-the-most-compressed-file-compared
 
 for inputfile in "$inputfolder"/*.* -hwaccel ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").AVI"
     ffmpeg -i "$inputfile" -c:v $codecoption -c:a $audiocodec \
-    -q:v $videoquality -crf $constantratefactor \
+    -q:v $videoquality -preset $SPEED -crf $constantratefactor \
     "$outputfile"
 done

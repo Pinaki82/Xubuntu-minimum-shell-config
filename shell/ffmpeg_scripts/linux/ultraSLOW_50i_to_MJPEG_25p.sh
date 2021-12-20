@@ -15,12 +15,16 @@ chromasubsampling_pixelformat=yuvj420p
 aspectratio=16:9
 dimension=1024x576
 framerateconversionratio_at_output=25
+SPEED=ultrafast #superfast, veryfast, faster, fast, medium, slow, slower, veryslow
+# https://superuser.com/questions/714804/converting-video-from-1080p-to-720p-with-smallest-quality-loss-using-ffmpeg
+# https://www.macxdvd.com/mac-dvd-video-converter-how-to/ffmpeg-avi-to-mp4-free.htm
+# https://superuser.com/questions/1556953/why-does-preset-veryfast-in-ffmpeg-generate-the-most-compressed-file-compared
 
 for inputfile in "$inputfolder"/*.* -hwaccel ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").AVI"
     ffmpeg -i "$inputfile" -c:v $codecoption -c:a $audiocodec -ar $audiosamplerate \
     -ac $audiochannel -ab $audiobitrate \
-    -q:v $videoquality -crf $constantratefactor -filter:v yadif=1:-1:0, mcdeint=0:0:20, framestep=2" \
+    -q:v $videoquality -preset $SPEED -crf $constantratefactor -filter:v yadif=1:-1:0, mcdeint=0:0:20, framestep=2" \
     -pix_fmt $chromasubsampling_pixelformat -aspect $aspectratio -s $dimension \
     -r $framerateconversionratio_at_output "$outputfile"
 done
