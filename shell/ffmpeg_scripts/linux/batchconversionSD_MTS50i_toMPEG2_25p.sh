@@ -22,7 +22,7 @@ conversion_buffer_size=10M
 gop_size=1
 b_frames=1
 
-for inputfile in "$inputfolder"/*.* -hwaccel ; do
+for inputfile in "$inputfolder"/*.* ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").AVI"
     ffmpeg -i "$inputfile" -c:v $codecoption -c:a $audiocodec -ar $audiosamplerate \
     -ac $audiochannel -ab $audiobitrate \

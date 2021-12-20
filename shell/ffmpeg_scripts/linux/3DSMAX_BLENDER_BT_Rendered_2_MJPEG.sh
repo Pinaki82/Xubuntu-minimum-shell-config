@@ -12,7 +12,7 @@ SPEED=ultrafast #superfast, veryfast, faster, fast, medium, slow, slower, verysl
 # https://superuser.com/questions/1556953/why-does-preset-veryfast-in-ffmpeg-generate-the-most-compressed-file-compared
 chromasubsampling_pixelformat=yuvj420p
 
-for inputfile in "$inputfolder"/*.* -hwaccel ; do
+for inputfile in "$inputfolder"/*.* ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").AVI"
     ffmpeg -i "$inputfile" -c:v $codecoption \
     -q:v $videoquality -crf $constantratefactor -preset $encodingspeed -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" \

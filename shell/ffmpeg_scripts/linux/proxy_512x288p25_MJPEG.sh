@@ -20,7 +20,7 @@ SPEED=ultrafast #superfast, veryfast, faster, fast, medium, slow, slower, verysl
 # https://www.macxdvd.com/mac-dvd-video-converter-how-to/ffmpeg-avi-to-mp4-free.htm
 # https://superuser.com/questions/1556953/why-does-preset-veryfast-in-ffmpeg-generate-the-most-compressed-file-compared
 
-for inputfile in "$inputfolder"/*.* -hwaccel ; do
+for inputfile in "$inputfolder"/*.* ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").AVI"
     ffmpeg -i "$inputfile" -c:v $codecoption -c:a $audiocodec -ar $audiosamplerate \
     -ac $audiochannel -ab $audiobitrate \

@@ -44,7 +44,7 @@ inputfolder="/media/sf_ffmpeg_linux_tst"
 outputfolder="/media/sf_ffmpeg_linux_tst"
 codecoption=libx264
 videoquality=0
-constantratefactor=16 #The range of the CRF scale is 0–51, where 0 is lossless, 23 is the default, and 51 is worst quality possible. A lower value generally leads to higher quality, and a subjectively sane range is 17–28.
+constantratefactor=16 #The range of the CRF scale is 0â€“51, where 0 is lossless, 23 is the default, and 51 is worst quality possible. A lower value generally leads to higher quality, and a subjectively sane range is 17â€“28.
 aspectratio=16:9
 dimension=hd1080
 SPEED=fast #ultrafast, #superfast, veryfast, faster, fast, medium, slow, slower, veryslow
@@ -53,11 +53,12 @@ SPEED=fast #ultrafast, #superfast, veryfast, faster, fast, medium, slow, slower,
 # https://superuser.com/questions/1556953/why-does-preset-veryfast-in-ffmpeg-generate-the-most-compressed-file-compared
 framerateconversionratio_at_output=50000/2000
 
-for inputfile in "$inputfolder"/*.* -hwaccel ; do
+for inputfile in "$inputfolder"/*.* ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").mp4"
     ffmpeg -i "$inputfile" -c:v $codecoption \
     -q:v $videoquality -preset $SPEED -crf $constantratefactor -filter:v "yadif=0:-1:0, scale=trunc(iw/2)*2:trunc(ih/2)*2" \
     -aspect $aspectratio -s $dimension \
     -r $framerateconversionratio_at_output "$outputfile"
 done
+
 
