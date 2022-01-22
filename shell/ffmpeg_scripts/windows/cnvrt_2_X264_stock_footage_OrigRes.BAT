@@ -36,6 +36,7 @@ REM A good balance between file size and no noticeable loss in quality
 REM is '-crf 16 -preset fast'. It's acceptable in case you want to keep a
 REM file for later use as stock footage. Save your drive space, put less stress
 REM on the CPU, and save encoding time.
+REM '-an' will disable audio in the output.
 
 set path="C:\Program Files\ffmpeg-20160522-git-566be4f-win64-shared\bin"; %path%;
 @ECHO ON
