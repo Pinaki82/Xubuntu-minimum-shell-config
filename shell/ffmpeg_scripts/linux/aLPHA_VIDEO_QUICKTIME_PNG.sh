@@ -16,6 +16,9 @@ outputfolder="/media/sf_ffmpeg_linux_tst"
 codecoption=png
 videoquality=0
 
+# Change Output Aspect Ratio, Output Resolution, and Framerate: -aspect 16:9 -s hd1080 -r 50000/2000
+# '-an' will disable audio in the output.
+
 for inputfile in "$inputfolder"/*.* ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").PNG.mov"
     ffmpeg -i "$inputfile" -an -c:v $codecoption \
