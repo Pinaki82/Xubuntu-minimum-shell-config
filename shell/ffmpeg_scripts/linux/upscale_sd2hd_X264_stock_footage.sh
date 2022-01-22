@@ -53,6 +53,8 @@ SPEED=fast #ultrafast, #superfast, veryfast, faster, fast, medium, slow, slower,
 # https://superuser.com/questions/1556953/why-does-preset-veryfast-in-ffmpeg-generate-the-most-compressed-file-compared
 framerateconversionratio_at_output=50000/2000
 
+# To disable audio, use the '-an' flag.
+
 for inputfile in "$inputfolder"/*.* ; do
     outputfile="$outputfolder/$(basename "${inputfile%}").mp4"
     ffmpeg -i "$inputfile" -c:v $codecoption \
