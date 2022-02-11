@@ -672,6 +672,7 @@ sudo apt install deborphan -y && \
 # https://www.thrysoee.dk/laeqed/
 
 sudo apt install texlive-base -y && \
+sudo apt install texlive-latex-base -y && \
 sudo apt install dvipng -y && \
 sudo apt install dvisvgm -y && \
 sudo apt install ghostscript -y && \

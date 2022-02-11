@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo apt install texlive-base && \
+sudo apt install texlive-latex-base && \
 sudo apt install dvipng && \
 sudo apt install dvisvgm && \
 sudo apt install ghostscript && \
