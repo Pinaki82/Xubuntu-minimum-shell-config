@@ -1,0 +1,17 @@
+markdown to epub pandoc
+https://medium.com/@sebahaeusler/how-to-epub-from-markdown-188fef880fbb
+https://pandoc.org/epub.html
+https://github.com/wikiti/pandoc-book-template
+pandoc -t epub3 -f gfm --gladtex --toc --toc-depth=2 --css=pandoc.css --epub-metadata metadata.txt mybook.md --metadata title="Book Title" --epub-cover-image=cover.jpg -o mybook.epub
+pandoc -t html -f gfm --standalone --toc --toc-depth=2 --css=pandoc.css --epub-metadata metadata.txt mybook.md --metadata title="Book Title" --epub-cover-image=cover.jpg -o mybook.html
+
+Sigil:
+
+Inline: (125)
+
+<p>Here's, <img width="125" alt="int01" src="../media/eq001.png"/>, the mean equation, ...</p>
+<br/>
+<br/>
+<img width="250" alt="int01" src="../media/int01.png"/><br/>
+
+Display: (250)
