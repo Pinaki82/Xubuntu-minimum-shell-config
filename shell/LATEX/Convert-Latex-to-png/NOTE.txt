@@ -5,9 +5,14 @@ https://github.com/wikiti/pandoc-book-template
 pandoc -t epub3 -f gfm --gladtex --toc --toc-depth=2 --css=pandoc.css --epub-metadata metadata.txt mybook.md --metadata title="Book Title" --epub-cover-image=cover.jpg -o mybook.epub
 pandoc -t html -f gfm --standalone --toc --toc-depth=2 --css=pandoc.css --epub-metadata metadata.txt mybook.md --metadata title="Book Title" --epub-cover-image=cover.jpg -o mybook.html
 
-Sigil:
+Pandoc: sudo apt install pandoc
 
+Sigil:
+Ubuntu Focal Fossa 20.04:
 https://ubuntuhandbook.org/index.php/2021/06/install-sigil-ebook-editor-ubuntu-20-04/
+
+sudo add-apt-repository ppa:xiota/stuff-20.04
+sudo apt install sigil
 
 Inline: (125)
 

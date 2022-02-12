@@ -686,6 +686,10 @@ sudo apt install deborphan -y && \
 # sudo apt install dvipng -y && \
 # sudo apt install dvisvgm -y && \
 # sudo apt install ghostscript -y && \
+
+# Pandoc:
+# sudo apt install pandoc -y && \
+
 # sudo apt install equalx -y && \
 # JVM Runtime is required by Laeqed
 # sudo apt install default-jre -y && \
