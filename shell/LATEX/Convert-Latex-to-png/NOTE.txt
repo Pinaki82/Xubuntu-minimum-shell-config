@@ -7,6 +7,8 @@ pandoc -t html -f gfm --standalone --toc --toc-depth=2 --css=pandoc.css --epub-m
 
 Sigil:
 
+https://ubuntuhandbook.org/index.php/2021/06/install-sigil-ebook-editor-ubuntu-20-04/
+
 Inline: (125)
 
 <p>Here's, <img width="125" alt="int01" src="../media/eq001.png"/>, the mean equation, ...</p>
