@@ -13,7 +13,8 @@ identifier:
 - scheme: DOI
   text: doi:10.234234.234/33
 publisher:  My Press
-rights: © 2022 Pinaki Gupta, CC BY-NC
+rights: Â© 2022 Pinaki Gupta, CC BY-NC
 ibooks:
   version: 1.3.4
 ...
+

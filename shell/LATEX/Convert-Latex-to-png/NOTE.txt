@@ -4,6 +4,7 @@ https://pandoc.org/epub.html
 https://github.com/wikiti/pandoc-book-template
 pandoc -t epub3 -f gfm --gladtex --toc --toc-depth=2 --css=pandoc.css --epub-metadata metadata.txt mybook.md --metadata title="Book Title" --epub-cover-image=cover.jpg -o mybook.epub
 pandoc -t html -f gfm --standalone --toc --toc-depth=2 --css=pandoc.css --epub-metadata metadata.txt mybook.md --metadata title="Book Title" --epub-cover-image=cover.jpg -o mybook.html
+pandoc -t epub3 -f html --gladtex --toc --toc-depth=2 --css=pandoc.css --epub-metadata metadata.txt mybook.html --metadata title="Book Title" --epub-cover-image=cover.jpg -o mybook.epub
 
 Pandoc: sudo apt install pandoc
 
@@ -22,3 +23,5 @@ Inline: (125)
 <img width="250" alt="int01" src="../media/int01.png"/><br/>
 
 Display: (250)
+
+
