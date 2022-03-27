@@ -36,7 +36,7 @@ jitsi-meet -> Videoconferencing. https://appimage.github.io/jitsi-meet/
 DeaDBeeF Audio Player -> (Portable but not availble in an AppImage package) https://deadbeef.sourceforge.io/download.html
 Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
 LibreWolf, the community-maintained fork of Librefox: a privacy and security-focused browser -> https://gitlab.com/librewolf-community/browser
-LibreWolf AppImage -> https://gitlab.com/librewolf-community/browser/linux/-/releases
+LibreWolf AppImage -> https://librewolf.net/installation/linux/
 ungoogled-chromium AppImages -> https://github.com/Eloston/ungoogled-chromium
 [Chrome Web Store cannot be put directly in use on Ungoogled Chromium. Install Chrome extensions manually. Download the latest 'chromium-web-store' from https://github.com/NeverDecaf/chromium-web-store and follow the instructions provided here: https://avoidthehack.com/manually-install-extensions-ungoogled-chromium]
 Brave Browser -> https://www.appimagehub.com/p/1411550/
