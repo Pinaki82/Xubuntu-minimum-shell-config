@@ -6,6 +6,6 @@ CMHS|O
 Clock Format:
 R-Click on the Clock -> Properties -> Clock Options
 
-%a %d %b %I:%M:$S %p
+%a %d %b %I:%M:%S %p
 
 Sat 09 Jan 2:00 AM
