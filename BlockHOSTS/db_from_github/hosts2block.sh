@@ -4,13 +4,13 @@
 
 # update the system and install 'trash-cli' and 'curl' (required)
 
-sudo apt update && \
-sudo apt list --upgradable && \
-sudo apt upgrade && \
-sudo apt update && \
-sudo apt install -f && \
-sudo apt install trash-cli && \
-sudo apt install curl && \
+yes | sudo apt update && \
+yes | sudo apt list --upgradable && \
+yes | sudo apt upgrade && \
+yes | sudo apt update && \
+yes | sudo apt install -f && \
+sudo apt install trash-cli -y && \
+sudo apt install curl -y && \
 
 # Download the lists of hostnames in multiple files, then merge the downloaded file into one large text blob
 
