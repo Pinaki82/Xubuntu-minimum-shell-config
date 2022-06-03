@@ -57,7 +57,7 @@ sudo apt install torbrowser-launcher && \
 
 # sudo apt install epiphany-browser && \
 # sudo add-apt-repository ppa:otter-browser/release && \
-#sudo apt update && \
+# sudo apt update && \
 # sudo apt install otter-browser && \
 
 # # # # # # # # # # # # # # # # # # # # #
@@ -186,6 +186,7 @@ sudo apt install inkscape && \
 # sudo apt upgrade && \
 # sudo apt install inkscape-trunk && \
 
+sudo apt install libfuse2 && \
 sudo apt-get install ttf-mscorefonts-installer && \
 sudo fc-cache \
 

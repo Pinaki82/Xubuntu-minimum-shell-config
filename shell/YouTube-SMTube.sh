@@ -11,13 +11,14 @@
 # instead of a flash player, this allows better performance, 
 # particularly with HD content."
 
-# https://www.smtube.org/
 
 # echo 'deb http://download.opensuse.org/repositories/home:/smplayerdev/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:smplayerdev.list && \
 # curl -fsSL https://download.opensuse.org/repositories/home:smplayerdev/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_smplayerdev.gpg > /dev/null && \
 # sudo apt update && \
 # sudo apt install youtube-dl && \
 # sudo apt install smtube \
+
+# https://www.smtube.org/
 
 sudo add-apt-repository ppa:rvm/smplayer && \
 sudo apt-get update && \

@@ -301,6 +301,10 @@ sudo apt install simplescreenrecorder -y && \
 # sudo apt install gnome-software-plugin-flatpak -y && \
 # yes | flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
 
+# AppImage support
+
+sudo apt install libfuse2 -y && \
+
 yes | sudo add-apt-repository ppa:appimagelauncher-team/stable && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \

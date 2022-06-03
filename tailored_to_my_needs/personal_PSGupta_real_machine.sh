@@ -283,10 +283,16 @@ sudo apt install fish -y && \
 sudo apt install kitty -y && \
 sudo apt install mc -y && \
 sudo apt install simplescreenrecorder -y && \
-sudo snap install snap-store && \
-sudo apt install flatpak -y && \
-sudo apt install gnome-software-plugin-flatpak -y && \
-yes | flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+
+# sudo snap install snap-store && \
+# sudo apt install flatpak -y && \
+# sudo apt install gnome-software-plugin-flatpak -y && \
+# yes | flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+
+# AppImage support
+
+sudo apt install libfuse2 -y && \
+
 yes | sudo add-apt-repository ppa:appimagelauncher-team/stable && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
@@ -300,9 +306,10 @@ sudo apt install psensor -y && \
 sudo apt install torbrowser-launcher -y && \
 # sudo apt install epiphany-browser -y && \
 
-yes | sudo add-apt-repository ppa:otter-browser/release && \
-yes | sudo apt update && \
-sudo apt install otter-browser -y && \
+# yes | sudo add-apt-repository ppa:otter-browser/release && \
+# yes | sudo apt update && \
+# sudo apt install otter-browser -y && \
+
 # # # # # # # # # # # # # # # # # # # # #
 # Surf browser
 # apt search surf
@@ -322,7 +329,7 @@ sudo apt install otter-browser -y && \
 # Ctrl+L is Forward ->
 sudo apt install surf -y && \
 # # # # # # # # # # # # # # # # # # # # #
-sudo snap install goldendictionary && \
+# sudo snap install goldendictionary && \
 
 sudo apt install artha -y && \
 sudo apt install okular -y && \
@@ -484,7 +491,9 @@ sudo apt install scdaemon -y && \
 # fancy-dock-n-search
 # =================================================================
 sudo apt install plank -y && \
-sudo apt install synapse -y && \
+
+# sudo apt install synapse -y && \
+
 # =================================================================
 # fancy-dock-n-search (END)
 # =================================================================
@@ -755,7 +764,7 @@ sudo apt install opensc -y && \
 # site blocker
 # =================================================================
 
-sudo apt install nscd -y \
+sudo apt install nscd -y && \
 
 # =================================================================
 # site blocker (END)
@@ -777,11 +786,21 @@ sudo apt install nscd -y \
 # instead of a flash player, this allows better performance,
 # particularly with HD content."
 
-yes | echo 'deb http://download.opensuse.org/repositories/home:/smplayerdev/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:smplayerdev.list && \
-yes | curl -fsSL https://download.opensuse.org/repositories/home:smplayerdev/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_smplayerdev.gpg > /dev/null && \
-sudo apt update -y && \
-sudo apt install youtube-dl -y && \
-sudo apt install smtube -y \
+# yes | echo 'deb http://download.opensuse.org/repositories/home:/smplayerdev/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:smplayerdev.list && \
+# yes | curl -fsSL https://download.opensuse.org/repositories/home:smplayerdev/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_smplayerdev.gpg > /dev/null && \
+# sudo apt update -y && \
+# sudo apt install youtube-dl -y && \
+# sudo apt install smtube -y \
+
+# https://www.smtube.org/
+
+sudo add-apt-repository ppa:rvm/smplayer && \
+sudo apt-get update && \
+sudo apt-get install smtube && \
+
+# youtube-dlG
+# https://github.com/MrS0m30n3/youtube-dl-gui
+
 
 # ------------------------------------------------------------------------------
 # I tested SMTube on a VM. SMTube behaved unexpectedly when installed inside the guest VM.
@@ -799,6 +818,14 @@ sudo apt install smtube -y \
 # =================================================================
 # YouTube-SMTube (END)
 # =================================================================
+
+# VeraCrypt Xubuntu 22.04
+# https://linuxhint.com/install-use-veracrypt-ubuntu-22-04/
+
+sudo add-apt-repository ppa:unit193/encryption && \
+sudo apt update && \
+sudo apt install veracrypt \
+
 
 echo "--------------------------------------"
 echo "Done!"
