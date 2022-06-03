@@ -48,6 +48,10 @@ sudo apt install simplescreenrecorder && \
 # sudo apt install gnome-software-plugin-flatpak && \
 # flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
 
+# AppImage support
+
+sudo apt install libfuse2 && \
+
 sudo add-apt-repository ppa:appimagelauncher-team/stable && \
 sudo apt update && \
 sudo apt install appimagelauncher && \
@@ -186,7 +190,6 @@ sudo apt install inkscape && \
 # sudo apt upgrade && \
 # sudo apt install inkscape-trunk && \
 
-sudo apt install libfuse2 && \
 sudo apt-get install ttf-mscorefonts-installer && \
 sudo fc-cache \
 
