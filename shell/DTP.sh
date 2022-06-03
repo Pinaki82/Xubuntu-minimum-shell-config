@@ -8,7 +8,17 @@ sudo apt install ghostscript && \
 sudo apt install pandoc && \
 sudo apt install gimp && \
 sudo apt install gimp-plugin-registry && \
-sudo snap install inkscape && \
+
+# Inkscape
+
+# Inkscape latest STABLE version
+
+sudo add-apt-repository ppa:inkscape.dev/stable && \
+sudo apt update && \
+sudo apt upgrade && \
+sudo apt install inkscape && \
+
+
 sudo apt install lyx && \
 sudo apt install scribus \
 

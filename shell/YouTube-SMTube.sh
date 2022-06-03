@@ -11,11 +11,21 @@
 # instead of a flash player, this allows better performance, 
 # particularly with HD content."
 
-echo 'deb http://download.opensuse.org/repositories/home:/smplayerdev/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:smplayerdev.list && \
-curl -fsSL https://download.opensuse.org/repositories/home:smplayerdev/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_smplayerdev.gpg > /dev/null && \
-sudo apt update && \
-sudo apt install youtube-dl && \
-sudo apt install smtube \
+# https://www.smtube.org/
+
+# echo 'deb http://download.opensuse.org/repositories/home:/smplayerdev/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:smplayerdev.list && \
+# curl -fsSL https://download.opensuse.org/repositories/home:smplayerdev/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_smplayerdev.gpg > /dev/null && \
+# sudo apt update && \
+# sudo apt install youtube-dl && \
+# sudo apt install smtube \
+
+sudo add-apt-repository ppa:rvm/smplayer && \
+sudo apt-get update && \
+sudo apt-get install smtube \
+
+# youtube-dlG
+# https://github.com/MrS0m30n3/youtube-dl-gui
+
 
 # ------------------------------------------------------------------------------
 # I tested SMTube on a VM. SMTube behaved unexpectedly when installed inside the guest VM.

@@ -59,3 +59,6 @@ LibrePCB EDA Software (Circuit/Schematic Designing) -> https://librepcb.org/
 FreeCAD (Parametric 3D CAD Modeler) -> https://www.freecadweb.org/
 OpenSCAD (Script file based graphical CAD environment) -> http://openscad.org/downloads.html#linux
 vidcutter -> A modern yet simple multi-platform video cutter and joiner. -> https://github.com/ozmartian/vidcutter/releases
+Audacity audio editor -> https://www.audacityteam.org/download/linux/
+Krita (2D painting application) -> https://krita.org/en/download/krita-desktop/
+LMMS (audio production software) -> https://lmms.io/download#linux

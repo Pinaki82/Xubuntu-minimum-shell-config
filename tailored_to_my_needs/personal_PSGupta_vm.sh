@@ -295,10 +295,12 @@ sudo apt install fish -y && \
 sudo apt install kitty -y && \
 sudo apt install mc -y && \
 sudo apt install simplescreenrecorder -y && \
-sudo snap install snap-store && \
-sudo apt install flatpak -y && \
-sudo apt install gnome-software-plugin-flatpak -y && \
-yes | flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+
+# sudo snap install snap-store && \
+# sudo apt install flatpak -y && \
+# sudo apt install gnome-software-plugin-flatpak -y && \
+# yes | flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+
 yes | sudo add-apt-repository ppa:appimagelauncher-team/stable && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
@@ -311,9 +313,10 @@ sudo apt install appimagelauncher -y && \
 # sudo apt install torbrowser-launcher -y && \
 # sudo apt install epiphany-browser -y && \
 
-yes | sudo add-apt-repository ppa:otter-browser/release && \
-yes | sudo apt update && \
-sudo apt install otter-browser -y && \
+# yes | sudo add-apt-repository ppa:otter-browser/release && \
+# yes | sudo apt update && \
+# sudo apt install otter-browser -y && \
+
 # # # # # # # # # # # # # # # # # # # # #
 # Surf browser
 # apt search surf

@@ -1,5 +1,6 @@
 #!/bin/bash
 
-sudo apt install plank && \
-sudo apt install synapse \
+# sudo apt install synapse && \
+
+sudo apt install plank \
 

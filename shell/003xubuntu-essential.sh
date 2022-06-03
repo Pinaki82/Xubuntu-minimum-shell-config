@@ -42,20 +42,24 @@ sudo apt install fish && \
 sudo apt install kitty && \
 sudo apt install mc && \
 sudo apt install simplescreenrecorder && \
-sudo snap install snap-store && \
-sudo apt install flatpak && \
-sudo apt install gnome-software-plugin-flatpak && \
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+
+# sudo snap install snap-store && \
+# sudo apt install flatpak && \
+# sudo apt install gnome-software-plugin-flatpak && \
+# flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && \
+
 sudo add-apt-repository ppa:appimagelauncher-team/stable && \
 sudo apt update && \
 sudo apt install appimagelauncher && \
 sudo apt install psensor && \
 sudo apt install gkrellm && \
 sudo apt install torbrowser-launcher && \
-sudo apt install epiphany-browser && \
-sudo add-apt-repository ppa:otter-browser/release && \
-sudo apt update && \
-sudo apt install otter-browser && \
+
+# sudo apt install epiphany-browser && \
+# sudo add-apt-repository ppa:otter-browser/release && \
+#sudo apt update && \
+# sudo apt install otter-browser && \
+
 # # # # # # # # # # # # # # # # # # # # #
 # Surf browser
 # apt search surf
@@ -75,7 +79,8 @@ sudo apt install otter-browser && \
 # Ctrl+L is Forward ->
 sudo apt install surf && \
 # # # # # # # # # # # # # # # # # # # # #
-sudo snap install goldendictionary && \
+# sudo apt install goldendictionary && \
+
 sudo apt install artha && \
 sudo apt install xchm && \
 sudo apt install okular && \
@@ -142,7 +147,11 @@ sudo apt install gtkhash && \
 
 sudo apt install uget && \
 
-sudo snap install pinta-james-carroll && \
+# sudo snap install pinta-james-carroll && \
+
+# sudo apt instal krita && \
+# Download Krita AppImage. https://krita.org/en/download/krita-desktop/
+
 sudo add-apt-repository ppa:peek-developers/stable && \
 sudo apt update && \
 sudo apt install peek && \

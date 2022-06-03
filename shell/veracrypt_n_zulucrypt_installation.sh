@@ -41,9 +41,16 @@ yes | sudo apt install -f && \
 # *-Ubuntu 20.04
 # =================================================================
 
-cd Downloads/ && \
-wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb && \
-sudo dpkg -i veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb \
+# cd Downloads/ && \
+# wget https://launchpad.net/veracrypt/trunk/1.24-update7/+download/veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb && \
+# sudo dpkg -i veracrypt-1.24-Update7-Ubuntu-20.04-amd64.deb \
+
+# Xubuntu 22.04
+# https://linuxhint.com/install-use-veracrypt-ubuntu-22-04/
+
+sudo add-apt-repository ppa:unit193/encryption && \
+sudo apt update && \
+sudo apt install veracrypt \
 
 # =================================================================
 # (END) Method 2.
