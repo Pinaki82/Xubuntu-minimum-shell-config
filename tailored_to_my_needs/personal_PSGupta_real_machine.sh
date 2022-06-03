@@ -521,7 +521,7 @@ sudo apt install winff-doc -y && \
 
 # https://www.osradar.com/install-bpytop-on-ubuntu-debian-a-terminal-monitoring-tool/
 
-pip3 install bpytop && \
+pip3 install bpytop -y && \
 
 # =================================================================
 # 'bpytop' System Monitoring Tool (END)
@@ -794,9 +794,9 @@ sudo apt install nscd -y && \
 
 # https://www.smtube.org/
 
-sudo add-apt-repository ppa:rvm/smplayer && \
-sudo apt-get update && \
-sudo apt-get install smtube && \
+yes | sudo add-apt-repository ppa:rvm/smplayer && \
+sudo apt-get update -y && \
+sudo apt-get install smtube -y && \
 
 # youtube-dlG
 # https://github.com/MrS0m30n3/youtube-dl-gui
@@ -822,9 +822,9 @@ sudo apt-get install smtube && \
 # VeraCrypt Xubuntu 22.04
 # https://linuxhint.com/install-use-veracrypt-ubuntu-22-04/
 
-sudo add-apt-repository ppa:unit193/encryption && \
-sudo apt update && \
-sudo apt install veracrypt \
+yes | sudo add-apt-repository ppa:unit193/encryption && \
+sudo apt update -y && \
+sudo apt install veracrypt -y \
 
 
 echo "--------------------------------------"
