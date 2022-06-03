@@ -1,0 +1,137 @@
+Get rid of Snap and Flatpak completely.
+================================================================================
+Ref:
+https://fedingo.com/how-to-remove-snap-in-ubuntu/
+https://askubuntu.com/questions/1045542/how-to-stop-snapd-from-auto-updating
+https://fedingo.com/how-to-remove-snap-in-ubuntu/
+https://askubuntu.com/questions/1035915/how-to-remove-snap-from-ubuntu
+https://askubuntu.com/questions/1174596/how-to-completely-remove-flatpak
+https://www.omgubuntu.co.uk/2022/04/how-to-install-firefox-deb-apt-ubuntu-22-04
+https://itsfoss.com/cant-run-appimage-ubuntu/
+
+================================================================================
+List all snap applications:
+Usually, one app is found on a fresh Xubuntu installation, i.e., Firefox.
+================================================================================
+
+snap list
+
+================================================================================
+Unmount snap:
+================================================================================
+
+sudo umount /var/snap
+
+================================================================================
+Force stop and disable snap service.
+================================================================================
+
+sudo systemctl stop snapd.service
+sudo systemctl disable snapd.service
+
+================================================================================
+Uninstall the snap version of Firefox.
+We will install Firefox later from a PPA.
+================================================================================
+
+sudo snap remove firefox
+
+================================================================================
+Uninstall other snap components.
+================================================================================
+
+sudo snap remove snap-store
+sudo snap remove gtk-common-theme
+sudo snap remove gnome-3-34-1804
+
+
+
+================================================================================
+Permanently delete the snap cache directory.
+================================================================================
+
+sudo rm -rf /var/cache/snapd/
+
+================================================================================
+Uninstall snapd (the actual snap service) along with snap's GNOME components.
+================================================================================
+
+sudo apt autoremove --purge snapd gnome-software-plugin-snap
+
+================================================================================
+Delete the snap folder from the $HOME and other
+snap installation directories found under the system's root.
+================================================================================
+
+rm -rf ~/snap
+sudo rm -rf /snap
+sudo rm -rf /var/snap
+sudo rm -rf /var/lib/snapd
+
+================================================================================
+Permanently put the Snapd service on hold.
+No installer will ever be able to install Snap again.
+Also, Snap cannot be installed due to a user error.
+================================================================================
+
+sudo apt-mark hold snapd
+
+================================================================================
+FLATPAK:
+===============
+Re-install, then uninstall Flatpak, so that all
+Flatpak apps get flushed out first.
+================================================================================
+
+sudo apt install flatpak
+sudo apt purge --autoremove flatpak
+
+================================================================================
+Put Flatpak on hold forever.
+Flatpak will not be installed again under any circumstances.
+================================================================================
+
+sudo apt-mark hold flatpak
+
+================================================================================
+Install Firefox as a native system app from a PPA.
+Add the PPA (remote repository) first to your apt sources.
+Update the system,
+follow some simple steps, and install Firefox.
+================================================================================
+
+sudo add-apt-repository ppa:mozillateam/ppa
+sudo apt update
+
+================================================================================
+(Copy and paste it whole, not line by line): ->
+================================================================================
+
+echo '
+Package: *
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 1001
+' | sudo tee /etc/apt/preferences.d/mozilla-firefox
+
+
+================================================================================
+Next:
+================================================================================
+
+echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
+sudo apt update
+sudo apt install firefox
+
+================================================================================
+In case, programs packaged in AppImage format refuse
+to work on the system, make sure you have libfuse2 installed.
+================================================================================
+
+whereis libfuse2
+
+================================================================================
+If not, install libfuse2.
+================================================================================
+
+sudo apt update
+sudo apt install libfuse2
