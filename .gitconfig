@@ -1,0 +1,26 @@
+[user]
+	signingkey = CBNNNNNNNNNNNNEC
+	name = Pppppp
+	email = acccccccccc7@gmail.com
+[commit]
+	gpgsign = true
+[core]
+	editor = mousepad
+[color]
+	ui = true
+	status = auto
+	branch = auto
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[difftool]
+	prompt = false
+	trustExitCode = true
+	keepBackup = false
+[mergetool]
+	prompt = false
+	trustExitCode = true
+	keepBackup = false
+[init]
+	defaultBranch = main
