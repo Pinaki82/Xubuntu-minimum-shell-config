@@ -22,7 +22,7 @@
 
 # sudo add-apt-repository ppa:rvm/smplayer && \
 # sudo apt-get update && \
-sudo apt-get install smtube \
+sudo apt install smtube smplayer \
 
 # youtube-dlG
 # https://github.com/MrS0m30n3/youtube-dl-gui
