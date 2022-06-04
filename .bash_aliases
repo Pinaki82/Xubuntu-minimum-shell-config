@@ -23,3 +23,7 @@ alias myip='curl ipinfo.io/ip'
 # SSD TRIM
 alias trim="sh ~/shell/ssd_trim.sh"
 # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# Stop 'appimagelaunche' background service.
+alias appimg='pkill appimagelaunche'
+# # # # # # # # # # # # # # # # # # # # # # # # # # #

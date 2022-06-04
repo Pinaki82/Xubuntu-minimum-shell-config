@@ -20,8 +20,8 @@
 
 # https://www.smtube.org/
 
-sudo add-apt-repository ppa:rvm/smplayer && \
-sudo apt-get update && \
+# sudo add-apt-repository ppa:rvm/smplayer && \
+# sudo apt-get update && \
 sudo apt-get install smtube \
 
 # youtube-dlG

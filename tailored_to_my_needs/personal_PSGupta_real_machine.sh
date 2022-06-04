@@ -4,9 +4,6 @@
 # Allow the file to execute (change permission parameters) (common step):
 # chmod +x script_to_run.sh
 # Run:
-# Method One:
-# sh script_to_run.sh
-# Method Two:
 # ./script_to_run.sh
 # Do not prepend 'sudo' to run this script.
 # *********************
@@ -91,10 +88,11 @@ echo "file:  .bashrc"
 sleep 3
 mousepad .bashrc  && \
 # https://askubuntu.com/questions/108258/what-is-the-bash-equivalent-of-doss-pause-command
-read -p ""  && \
-source .bashrc  && \
-source .bash_profile  && \
-source .profile  && \
+read -p " "  && \
+sleep 1
+source "/home/$(whoami)/.bashrc"  && \
+source "/home/$(whoami)/.bash_profile"  && \
+source "/home/$(whoami)/.profile"  && \
 
 # =================================================================
 # pip3 packages - path setup (END)
@@ -170,8 +168,8 @@ sudo apt install tree -y && \
 sudo apt install mc -y && \
 sudo apt install xclip -y && \
 # https://itsfoss.com/vim-8-release-install/
-sudo add-apt-repository ppa:jonathonf/vim -y && \
-sudo apt update -y && \
+# sudo add-apt-repository ppa:jonathonf/vim -y && \
+# sudo apt update -y && \
 sudo apt install vim-gtk -y && \
 sudo apt install cppcheck -y && \
 sudo apt install cppcheck-gui -y && \
@@ -207,7 +205,7 @@ sudo apt install ddd -y && \
 sudo apt install valgrind -y && \
 sudo apt install cgdb -y && \
 sudo apt install astyle -y && \
-sudo apt install ctags -y && \
+sudo apt install universal-ctags -y && \
 sudo apt install autoconf -y && \
 sudo apt install pkg-config -y && \
 sudo apt install libx11-dev -y && \
@@ -229,7 +227,7 @@ sudo apt install markdown -y && \
 # Text search utilities
 
 sudo apt install regexxer -y && \
-sudo apt install vizigrep -y && \
+# sudo apt install vizigrep -y && \
 sudo apt install searchmonkey -y && \
 
 # =================================================================
@@ -521,7 +519,7 @@ sudo apt install winff-doc -y && \
 
 # https://www.osradar.com/install-bpytop-on-ubuntu-debian-a-terminal-monitoring-tool/
 
-pip3 install bpytop -y && \
+pip3 install bpytop && \
 
 # =================================================================
 # 'bpytop' System Monitoring Tool (END)
@@ -794,12 +792,9 @@ sudo apt install nscd -y && \
 
 # https://www.smtube.org/
 
-yes | sudo add-apt-repository ppa:rvm/smplayer && \
-sudo apt-get update -y && \
-sudo apt-get install smtube -y && \
-
-# youtube-dlG
-# https://github.com/MrS0m30n3/youtube-dl-gui
+# yes | sudo add-apt-repository ppa:rvm/smplayer && \
+# sudo apt update -y && \
+sudo apt install smtube smplayer -y && \
 
 
 # ------------------------------------------------------------------------------

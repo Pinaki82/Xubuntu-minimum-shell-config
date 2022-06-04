@@ -21,8 +21,8 @@ sudo apt install tree && \
 sudo apt install mc && \
 sudo apt install xclip && \
 # https://itsfoss.com/vim-8-release-install/
-sudo add-apt-repository ppa:jonathonf/vim && \
-sudo apt update && \
+# sudo add-apt-repository ppa:jonathonf/vim && \
+# sudo apt update && \
 sudo apt install vim-gtk && \
 sudo apt install cppcheck && \
 sudo apt install cppcheck-gui && \
@@ -92,7 +92,7 @@ sudo apt install ddd && \
 sudo apt install valgrind && \
 sudo apt install cgdb && \
 sudo apt install astyle && \
-sudo apt install ctags && \
+sudo apt install universal-ctags && \
 sudo apt install autoconf && \
 sudo apt install pkg-config && \
 sudo apt install libx11-dev && \
@@ -133,6 +133,6 @@ sudo apt install markdown && \
 # Text search utilities
 
 sudo apt install regexxer && \
-sudo apt install vizigrep && \
+# sudo apt install vizigrep && \
 sudo apt install searchmonkey \
 

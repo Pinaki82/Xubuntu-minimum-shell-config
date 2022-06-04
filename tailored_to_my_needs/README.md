@@ -21,15 +21,7 @@ chmod +x script_to_run.sh
 ```
 
 2. Run:
-   
-   a. Method One:
-   
-   ```
-   sh script_to_run.sh
-   ```
-   
-   b. Method Two:
-   
+
    ```
    ./script_to_run.sh
    ```

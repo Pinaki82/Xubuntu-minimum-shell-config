@@ -4,9 +4,6 @@
 # Allow the file to execute (change permission parameters) (common step):
 # chmod +x script_to_run.sh
 # Run:
-# Method One:
-# sh script_to_run.sh
-# Method Two:
 # ./script_to_run.sh
 # Do not prepend 'sudo' to run this script.
 # *********************
@@ -103,10 +100,11 @@ echo "file:  .bashrc"
 sleep 3
 mousepad .bashrc  && \
 # https://askubuntu.com/questions/108258/what-is-the-bash-equivalent-of-doss-pause-command
-read -p ""  && \
-source .bashrc  && \
-source .bash_profile  && \
-source .profile  && \
+read -p " "  && \
+sleep 1
+source "/home/$(whoami)/.bashrc"  && \
+source "/home/$(whoami)/.bash_profile"  && \
+source "/home/$(whoami)/.profile"  && \
 
 # =================================================================
 # pip3 packages - path setup (END)
@@ -182,8 +180,8 @@ sudo apt install tree -y && \
 sudo apt install mc -y && \
 sudo apt install xclip -y && \
 # https://itsfoss.com/vim-8-release-install/
-sudo add-apt-repository ppa:jonathonf/vim -y && \
-sudo apt update -y && \
+# sudo add-apt-repository ppa:jonathonf/vim -y && \
+# sudo apt update -y && \
 sudo apt install vim-gtk -y && \
 sudo apt install cppcheck -y && \
 sudo apt install cppcheck-gui -y && \
@@ -219,7 +217,7 @@ sudo apt install ddd -y && \
 sudo apt install valgrind -y && \
 sudo apt install cgdb -y && \
 sudo apt install astyle -y && \
-sudo apt install ctags -y && \
+sudo apt install universal-ctags -y && \
 sudo apt install autoconf -y && \
 sudo apt install pkg-config -y && \
 sudo apt install libx11-dev -y && \
@@ -241,7 +239,7 @@ sudo apt install markdown -y && \
 # Text search utilities
 
 sudo apt install regexxer -y && \
-sudo apt install vizigrep -y && \
+# sudo apt install vizigrep -y && \
 sudo apt install searchmonkey -y && \
 
 # =================================================================
@@ -502,6 +500,7 @@ sudo apt install gnupg -y && \
 # =================================================================
 # sudo apt install plank -y && \
 # sudo apt install synapse -y && \
+
 # =================================================================
 # fancy-dock-n-search (END)
 # =================================================================
@@ -800,6 +799,13 @@ sudo apt install nscd -y \
 # sudo apt install youtube-dl -y && \
 # sudo apt install smtube -y \
 
+# https://www.smtube.org/
+
+# yes | sudo add-apt-repository ppa:rvm/smplayer && \
+# sudo apt update -y && \
+# sudo apt install smtube smplayer -y && \
+
+
 # ------------------------------------------------------------------------------
 # I tested SMTube on a VM. SMTube behaved unexpectedly when installed inside the guest VM.
 # It changed the cursor/'mouse pointer' to a
@@ -816,6 +822,14 @@ sudo apt install nscd -y \
 # =================================================================
 # YouTube-SMTube (END)
 # =================================================================
+
+# VeraCrypt Xubuntu 22.04
+# https://linuxhint.com/install-use-veracrypt-ubuntu-22-04/
+
+# yes | sudo add-apt-repository ppa:unit193/encryption && \
+# sudo apt update -y && \
+# sudo apt install veracrypt -y \
+
 
 echo "--------------------------------------"
 echo "Done!"
