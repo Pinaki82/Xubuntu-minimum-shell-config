@@ -62,3 +62,11 @@ vidcutter -> A modern yet simple multi-platform video cutter and joiner. -> http
 Audacity audio editor -> https://www.audacityteam.org/download/linux/
 Krita (2D painting application) -> https://krita.org/en/download/krita-desktop/
 LMMS (audio production software) -> https://lmms.io/download#linux
+KOReader (ebook reader for EPUB, FB2, PDF, azw3 etc.) -> https://github.com/koreader/koreader/releases
+
+
+
+
+Find extra AppImage Download Links:
+https://github.com/AppImage/appimage.github.io/tree/master/data
+https://github.com/appimage-packages
