@@ -24,7 +24,7 @@ Comment=Search Engine
 # Path=/opt/jmemorise
 
 # The executable of the application, possibly with arguments.
-Exec=surf google.com
+Exec=firejail surf google.com
 
 # The name of the icon that will be used to display this entry
 Icon=/home/YOUR_USERNAME/.local/share/icons/Google__G__Logo.svg
