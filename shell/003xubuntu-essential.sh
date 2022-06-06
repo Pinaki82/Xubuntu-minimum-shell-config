@@ -26,6 +26,7 @@ sudo apt install tlp-rdw && \
 
 # #################################################
 sudo apt install redshift-gtk && \
+sudo apt install caffeine && \
 sudo apt install hardinfo && \
 sudo apt install htop && \
 # ranger: Console File Manager with VI Key Bindings
