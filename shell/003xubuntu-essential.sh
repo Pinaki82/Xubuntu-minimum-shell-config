@@ -5,6 +5,7 @@ sudo apt install clamtk-gnome && \
 sudo apt install chkrootkit && \
 sudo apt install rkhunter && \
 sudo apt install firejail && \
+sudo apt install firetools && \
 sudo apt install ntp && \
 sudo apt install gparted && \
 sudo apt install gnome-disk-utility && \

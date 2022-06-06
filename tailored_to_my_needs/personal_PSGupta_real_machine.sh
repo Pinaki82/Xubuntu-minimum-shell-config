@@ -244,6 +244,7 @@ sudo apt install clamtk-gnome -y && \
 sudo apt install chkrootkit -y && \
 sudo apt install rkhunter -y && \
 sudo apt install firejail -y && \
+sudo apt install firetools -y && \
 sudo apt install ntp -y && \
 sudo apt install gparted -y && \
 sudo apt install gnome-disk-utility -y && \
