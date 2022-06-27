@@ -27,3 +27,8 @@ alias trim="sh ~/shell/ssd_trim.sh"
 # Stop 'appimagelaunche' background service.
 alias appimg='pkill appimagelaunche'
 # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# iBus
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
