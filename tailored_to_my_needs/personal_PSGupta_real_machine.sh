@@ -333,6 +333,7 @@ sudo apt install surf -y && \
 
 sudo apt install artha -y && \
 sudo apt install okular -y && \
+sudo apt install ghostwriter -y && \
 sudo apt install xchm -y && \
 
 sudo apt install unrar -y && \
@@ -492,7 +493,7 @@ sudo apt install scdaemon -y && \
 # =================================================================
 sudo apt install plank -y && \
 
-# sudo apt install synapse -y && \
+sudo apt install synapse -y && \
 
 # =================================================================
 # fancy-dock-n-search (END)

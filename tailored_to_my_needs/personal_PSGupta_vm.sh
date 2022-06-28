@@ -344,6 +344,7 @@ sudo apt install surf -y && \
 
 # sudo apt install artha -y && \
 # sudo apt install okular -y && \
+# sudo apt install ghostwriter -y && \
 # sudo apt install xchm -y && \
 
 sudo apt install unrar -y && \
