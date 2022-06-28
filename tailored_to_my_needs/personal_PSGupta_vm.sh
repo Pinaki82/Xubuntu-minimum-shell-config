@@ -252,6 +252,7 @@ sudo apt install searchmonkey -y && \
 # =================================================================
 
 sudo apt install gufw -y && \
+sudo apt install resolvconf -y && \
 sudo apt install clamtk-gnome -y && \
 sudo apt install chkrootkit -y && \
 sudo apt install rkhunter -y && \

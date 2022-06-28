@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo apt install gufw && \
+sudo apt install resolvconf && \
 sudo apt install clamtk-gnome && \
 sudo apt install chkrootkit && \
 sudo apt install rkhunter && \
