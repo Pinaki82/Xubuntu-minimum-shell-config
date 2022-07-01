@@ -65,6 +65,17 @@ Repeat the steps to update the blocklist once a month, at least.
 Are you on MS Windows? Windows update can wipe off your custom 'hosts' file.
 Recreate the 'hosts' file when it happens.
 
+Do you use an Antivirus program that deletes suspicious files without warning?
+Avast AV was deleting the file 'hosts' on my machine.
+Although it is a security risk to add a system path to your AV's exception,
+you can try adding "C:\Windows\System32\drivers\etc\*" to your AV's exception
+list in case your AV keeps deleting the 'hosts' file unconditionally.
+Also, adjust file read/write permissions in a way so that no application or a
+piece of malware can delete/overwrite the 'hosts' file. That is, disable the
+write permission completely.
+You'll have to change the write permission parameter in 'Safe Mode'.
+The attached screenshots might be of some help.
+
 Referenced:
 
 https://www.comparitech.com/blog/information-security/block-ads-malware-with-host-files/
