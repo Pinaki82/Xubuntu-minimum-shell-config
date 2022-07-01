@@ -6,6 +6,10 @@ sudo apt install clamtk-gnome && \
 sudo apt install chkrootkit && \
 sudo apt install rkhunter && \
 sudo apt install firejail && \
+sudo apt install openvpn && \
+sudo apt install network-manager-openvpn && \
+sudo apt install smartmontools && \
+sudo apt install gsmartcontrol && \
 # sudo apt install firetools && \
 sudo apt install ntp && \
 sudo apt install gparted && \
