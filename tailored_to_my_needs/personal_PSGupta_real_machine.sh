@@ -164,6 +164,7 @@ sudo apt-get install -y nodejs -y && \
 sudo apt install cdecl -y && \
 sudo apt install cutils -y && \
 sudo apt install kitty -y && \
+# sudo apt install gnome-terminal -y && \
 sudo apt install tree -y && \
 sudo apt install mc -y && \
 sudo apt install xclip -y && \
@@ -171,6 +172,7 @@ sudo apt install xclip -y && \
 # sudo add-apt-repository ppa:jonathonf/vim -y && \
 # sudo apt update -y && \
 sudo apt install vim-gtk -y && \
+# sudo apt install kate -y && \
 sudo apt install cppcheck -y && \
 sudo apt install cppcheck-gui -y && \
 sudo apt install splint -y && \

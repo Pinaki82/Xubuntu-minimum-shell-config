@@ -47,6 +47,7 @@ sudo apt install neofetch && \
 # to configure fish shell (e.g. aliases)
 sudo apt install fish && \
 sudo apt install kitty && \
+# sudo apt install gnome-terminal && \
 sudo apt install mc && \
 sudo apt install simplescreenrecorder && \
 
