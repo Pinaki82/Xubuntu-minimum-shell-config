@@ -401,7 +401,10 @@ sudo apt install python3-pip -y && \
 
 sudo apt install testdisk -y && \
 sudo apt install safecopy -y && \
-sudo apt install foremost -y && \
+# sudo apt install foremost -y && \
+# sudo apt install gddrescue -y && \
+# sudo apt install ddrescueview -y && \
+sudo apt install recoverjpeg -y && \
 
 sudo apt install ffmpeg -y && \
 

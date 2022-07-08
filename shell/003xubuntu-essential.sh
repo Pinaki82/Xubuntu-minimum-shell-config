@@ -145,6 +145,9 @@ sudo apt install python3-pip && \
 sudo apt install testdisk && \
 sudo apt install safecopy && \
 sudo apt install foremost && \
+sudo apt install gddrescue && \
+sudo apt install ddrescueview && \
+sudo apt install recoverjpeg && \
 
 sudo apt install ffmpeg && \
 sudo apt install youtube-dl && \

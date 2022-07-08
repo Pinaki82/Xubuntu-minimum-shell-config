@@ -15,7 +15,7 @@ Type=Application
 Version=1.0
 
 # The name of the application
-Name=Searx.me
+Name=Searx
 
 # A comment which can/will be used as a tooltip
 Comment=Search Engine
