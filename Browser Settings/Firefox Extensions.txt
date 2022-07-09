@@ -1,8 +1,13 @@
-Adblock Plus
-Cookie Quick Manager
-DuckDuckGo
+LibreWolf/Firefox:
+----------------
+Facebook Container
+uBlock Origin
+Privacy Badger
+Bitwarden
 Grammarly
-HTTPS Everywhere
-Krypton
-MYKI
+Krypton Authenticator
+
+
+(Optional):
+Cookie Quick Manager
 Bookmark Dupes https://addons.mozilla.org/en-US/firefox/addon/bookmark-dupes/

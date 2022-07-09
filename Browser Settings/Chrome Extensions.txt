@@ -1,6 +1,7 @@
-Adblock Plus
+Brave:
+----------------
+uBlock Origin
+Privacy Badger
+Bitwarden
 Grammarly
-HTTPS Everywhere
-Krypton Authenticator
-MYKI
-Jitsi Meetings
+Privacy Pass

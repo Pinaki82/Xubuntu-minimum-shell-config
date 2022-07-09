@@ -4,12 +4,17 @@ https://chrome.google.com/webstore/category/extensions
 Firefox Add-ons
 https://addons.mozilla.org/en-US/firefox/
 
-Check
-Check.html
+Recommended by Pocket
+https://getpocket.com/explore
 
 VPN_IP
 VPN_IP.html
 
+Check
+Check.html
+
+Search
+Search.html
 
 VirusTotal
 https://www.virustotal.com
@@ -20,18 +25,9 @@ https://papaly.com
 Atavi
 https://m.atavi.com
 
-DuckDuckGo
-https://duckduckgo.com/
-
 Google
 https://www.google.com/
 
-Linguix
-https://linguix.com/
-
-Grammarly
-https://app.grammarly.com
-
-protectedText
-https://www.protectedtext.com/
+Google Calendar
+https://calendar.google.com/calendar/
 
