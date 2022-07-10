@@ -15,6 +15,11 @@
 # Put that .tar.gz file into a pen drive and take it to other machines
 # where you need to install the same packages.
 # Extract the archive into the folder /var/cache on that machine.
+# NOTE: You'll need an active internet connection to
+# install software on any system. Downloaded installer files will save
+# your time to fetch packages from a remote repository and may
+# also save some bandwidth (depending on the size of each
+# program and the number of programs on your system).
 
 # Folder structure: ###############################
 #     /var/cache/apt
