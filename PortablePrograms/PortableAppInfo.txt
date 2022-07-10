@@ -67,7 +67,7 @@ ONLYOFFICE (MS Office compatible alternative
 office productivity
 app) (AppImage available) -> https://www.onlyoffice.com/
 GoldenDict -> https://appimage.github.io/GoldenDict/
-
+Bitwarden Password Manager -> https://bitwarden.com/download/
 
 
 
