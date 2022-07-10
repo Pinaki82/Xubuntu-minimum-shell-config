@@ -24,6 +24,9 @@ There are two variants, the light theme & the dark one.)
 Mc-OS CTLina XFCE
 https://www.xfce-look.org/p/1326265/
 
+Greybird-Pro
+https://www.xfce-look.org/s/XFCE/p/1246103/
+
 
 ------------------------------------------------------------
 Wallpapers:
