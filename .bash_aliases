@@ -32,3 +32,10 @@ alias appimg='pkill appimagelaunche'
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
+
+# Bitwarden Password Manager to the search path
+# mkdir $HOME/.bw
+# Put 'bw' in that folder
+# chmod +x bw
+# source ~/.bash_aliases
+export PATH="$HOME/.bw/:$PATH"
