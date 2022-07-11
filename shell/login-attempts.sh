@@ -22,6 +22,6 @@ if [ "${choice}" = '0' ]; then
 else
   printf "\nExecuting the command: sudo last -f /var/log/btmp \n"
   sudo last -f /var/log/btmp
-printf "\ncommand: sudo lastb \n"
+  printf "\ncommand: sudo lastb \n"
   sudo lastb
 fi
