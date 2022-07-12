@@ -385,6 +385,11 @@ sudo apt install python3-pip -y && \
 # Sound device tweak utility
 # sudo apt install alsa-tools-gui && \
 
+# Defrag NTFS Volumes.
+# https://askubuntu.com/questions/59007/defragging-ntfs-partitions-from-linux
+# https://github.com/tuxera/ntfs-3g
+sudo apt install ntfs-3g -y && \
+
 # Data Recovery
 # https://www.ubuntupit.com/top-15-linux-data-recovery-tools-the-professionals-choice
 
