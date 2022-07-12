@@ -18,6 +18,9 @@ sudo apt install papirus-icon-theme
 vimix-icon-theme
 https://github.com/vinceliuice/vimix-icon-theme
 
+Flat Remix ICON theme
+https://www.xfce-look.org/p/1012430/
+
 Paper
 https://snwh.org/paper/download
 sudo add-apt-repository -u ppa:snwh/ppa
