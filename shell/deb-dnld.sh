@@ -33,5 +33,24 @@
 #                             a - z package.deb
 # ###############################################
 
+# ###############################################
+# Alternatively, you can run the following commands
+# to keep a list of installed packages in a compressed archive.
+
+# sudo apt install apt-clone
+
+# mkdir ~/aptback
+# sudo apt-clone clone ~/aptback
+# apt-clone info ~/aptback/apt-clone-state-YOUR_USERNAME-VirtualBox.tar.gz
+
+# Run the command written below to restore from the same list:
+
+# sudo apt-clone restore ~/aptback/apt-clone-state-YOUR_USERNAME-VirtualBox.tar.gz
+
+# Note that the command 'sudo apt-clone clone xxxxxxxxxx' won't back
+# up the installer (*.deb) files. Keep that in mind.
+# Run 'sudo apt-clone restore xxxxxxxx' once you've copied the
+# installer files into the respective directory (/var/cache/apt).
+# ###############################################
 
 dpkg -l | grep "^ii"| awk ' {print $2} ' | xargs sudo apt-get -y install --reinstall --download-only \
