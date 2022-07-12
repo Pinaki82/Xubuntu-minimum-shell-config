@@ -54,6 +54,9 @@
 # installer (*.deb) files. Keep that in mind.
 # Run 'sudo apt-clone restore xxxxxxxx' once you've copied the
 # installer files into the respective directory (/var/cache/apt).
+#
+# https://www.2daygeek.com/apt-clone-backup-installed-packages-and-restore-them-on-fresh-ubuntu-system/
+# https://ubunlog.com/en/apt-clone-copia-seguridad-paquetes/
 # ###############################################
 
 dpkg -l | grep "^ii"| awk ' {print $2} ' | xargs sudo apt-get -y install --reinstall --download-only \
