@@ -291,6 +291,31 @@ sudo apt install kitty -y && \
 sudo apt install mc -y && \
 sudo apt install simplescreenrecorder -y && \
 
+# ---------
+# 9 AMAZING COMMAND LINE TOOLS for Linux
+# https://youtu.be/kFh1acsQ8DQ
+
+# autojump
+# https://github.com/wting/autojump.git
+sudo apt install autojump -y && \
+sudo apt install fzf -y && \
+echo '. /usr/share/autojump/autojump.sh' >> ~/.bashrc && \
+source ~/.bashrc && \
+# https://www.tecmint.com/autojump-a-quickest-way-to-navigate-linux-filesystem/1/
+
+# thef**k
+sudo apt install thefuck -y && \
+echo 'eval "$(thefuck --alias)"' >> ~/.bashrc && \
+# https://github.com/nvbn/thefuck
+# https://programmerall.com/article/10391819507/
+# https://www.cyberciti.biz/media/new/cms/2017/08/demo-thefuck-command.gif
+
+# tldr
+# https://github.com/tldr-pages/tldr.git
+sudo apt install python3-pip -y && \
+pip3 install tldr && \
+# ---------
+
 # sudo snap install snap-store && \
 # sudo apt install flatpak -y && \
 # sudo apt install gnome-software-plugin-flatpak -y && \
