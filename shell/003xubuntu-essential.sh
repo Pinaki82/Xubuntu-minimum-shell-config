@@ -65,10 +65,22 @@ source ~/.bashrc && \
 
 # thef**k
 sudo apt install thefuck && \
-echo 'eval "$(thefuck --alias)"' >> ~/.bashrc && \
+# https://github.com/nvbn/thefuck/#requirements
+# Just type luck instead of typing f__k in an office or in front of clients.
+echo 'eval "$(thefuck --alias luck)"' >> ~/.bashrc && \
 # https://github.com/nvbn/thefuck
 # https://programmerall.com/article/10391819507/
 # https://www.cyberciti.biz/media/new/cms/2017/08/demo-thefuck-command.gif
+
+# thef__k for the FISH SHELL:
+# https://github.com/oh-my-fish/plugin-thefuck
+# https://github.com/oh-my-fish/oh-my-fish#installation
+sudo apt install git && \
+git clone https://github.com/oh-my-fish/oh-my-fish && \
+# Install manually:
+# cd oh-my-fish && \
+# bin/install --offline
+# omf install thefuck
 
 # tldr
 # https://github.com/tldr-pages/tldr.git
