@@ -579,17 +579,17 @@ sudo apt install libboost-all-dev -y && \
 
 # OpenGL libraries
 
-sudo apt install libglu1-mesa-dev -y && \
-sudo apt install freeglut3-dev -y && \
-sudo apt install mesa-common-dev -y && \
-sudo apt install libglew-dev -y && \
-sudo apt-get install binutils -y && \
-sudo apt install libglm-dev -y && \
-sudo apt install libgl-dev -y && \
-sudo apt install libglew-dev -y && \
-sudo apt install libglfw3-dev -y && \
-sudo apt install libglm-dev -y && \
-sudo apt install libglm-doc -y && \
+# sudo apt install libglu1-mesa-dev -y && \
+# sudo apt install freeglut3-dev -y && \
+# sudo apt install mesa-common-dev -y && \
+# sudo apt install libglew-dev -y && \
+# sudo apt-get install binutils -y && \
+# sudo apt install libglm-dev -y && \
+# sudo apt install libgl-dev -y && \
+# sudo apt install libglew-dev -y && \
+# sudo apt install libglfw3-dev -y && \
+# sudo apt install libglm-dev -y && \
+# sudo apt install libglm-doc -y && \
 
 # Some useful libraries
 
@@ -610,9 +610,14 @@ sudo apt install libglm-doc -y && \
 
 # Development Library and Toolkit for FLTK 1.3 GUI Library
 
-sudo apt install libfltk1.3-dev -y && \
-sudo apt install libfltk1.3-compat-headers -y && \
-sudo apt install pinentry-fltk -y && \
+# sudo apt install libfltk1.3-dev -y && \
+# sudo apt install libfltk1.3-compat-headers -y && \
+# sudo apt install pinentry-fltk -y && \
+
+# Tk C programming GUI Library (Development Library)
+# Tcl & Tk are components of the base distribution
+
+sudo apt install tk-dev -y && \
 
 # AI and Machine Learning
 

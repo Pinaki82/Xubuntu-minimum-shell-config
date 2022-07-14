@@ -41,6 +41,11 @@ sudo apt install libfltk1.3-dev && \
 sudo apt install libfltk1.3-compat-headers && \
 sudo apt install pinentry-fltk && \
 
+# Tk C programming GUI Library (Development Library)
+# Tcl & Tk are components of the base distribution
+
+sudo apt install tk-dev && \
+
 # AI and Machine Learning
 
 # Dlib
