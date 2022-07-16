@@ -33,7 +33,7 @@
 
 // Restrict to UNIX-like systems only
 #if !( defined( __unix__ ) || defined(_POSIX_VERSION) )
-  #error "For UNIX-like Operating Syatems Only"
+  #error "For UNIX-like Operating Systems Only"
 #endif
 
 #define MAX_LENGTH_OF_OUTPUT 1000000
