@@ -342,6 +342,13 @@ sudo apt install python3-pip -y && \
 pip3 install tldr && \
 # ---------
 
+# googler: Power tool to Google (Web & News) and Google Site Search from the terminal
+sudo apt install googler -y && \
+# googler disable swap in ubuntu
+# ddgr: DuckDuckGo from the terminal
+sudo apt install ddgr -y && \
+# ddgr disable swap in ubuntu
+
 # sudo snap install snap-store && \
 # sudo apt install flatpak -y && \
 # sudo apt install gnome-software-plugin-flatpak -y && \
