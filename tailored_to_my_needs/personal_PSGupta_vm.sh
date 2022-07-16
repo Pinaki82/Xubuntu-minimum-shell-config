@@ -287,6 +287,12 @@ sudo apt install redshift-gtk -y && \
 sudo apt install caffeine -y && \
 sudo apt install hardinfo -y && \
 sudo apt install htop -y && \
+# btop++: Modern and colorful command line resource monitor that shows
+# usage and stats for processor, memory, disks, network and processes.
+sudo apt install btop -y && \
+# Usage:
+# btop --utf-force
+# q
 # ranger: Console File Manager with VI Key Bindings
 sudo apt install ranger -y && \
 # trash-cli: Send files to trash from the terminal instead of permanently deleting them
