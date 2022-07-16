@@ -295,6 +295,12 @@ sudo apt install btop -y && \
 # q
 # ranger: Console File Manager with VI Key Bindings
 sudo apt install ranger -y && \
+# nnn: Free, fast, friendly file manager
+sudo apt install nnn -y && \
+# Usage:
+# nnn
+# Arrow-keys
+# q
 # trash-cli: Send files to trash from the terminal instead of permanently deleting them
 sudo apt install trash-cli -y && \
 # ncdu: ncurses disk usage viewer
