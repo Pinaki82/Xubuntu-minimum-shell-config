@@ -48,6 +48,8 @@ sudo apt install nnn && \
 # nnn
 # Arrow-keys
 # q
+# zoxide: Faster way to navigate your filesystem
+sudo apt install zoxide && \
 # trash-cli: Send files to trash from the terminal instead of permanently deleting them
 sudo apt install trash-cli && \
 # ncdu: ncurses disk usage viewer

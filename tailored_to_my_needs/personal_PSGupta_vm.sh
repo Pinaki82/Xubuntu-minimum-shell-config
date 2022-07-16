@@ -301,6 +301,8 @@ sudo apt install nnn -y && \
 # nnn
 # Arrow-keys
 # q
+# zoxide: Faster way to navigate your filesystem
+sudo apt install zoxide -y && \
 # trash-cli: Send files to trash from the terminal instead of permanently deleting them
 sudo apt install trash-cli -y && \
 # ncdu: ncurses disk usage viewer
