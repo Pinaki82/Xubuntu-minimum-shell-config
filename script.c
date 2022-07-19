@@ -46,6 +46,7 @@
 int main(int argc, char **argv)  {
   char apt_search[MAX_LENGTH_OF_OUTPUT] = "apt search "; //Edit this section to change the command
   char *search_query;
+  int retrnval;
   printf("Script name: %s\n", *argv);
   printf("Type the program name you're searching\nfrom the repository before running the script.\n");
   printf("To do that, type (example): ./script.c app-name\n");
@@ -55,7 +56,11 @@ int main(int argc, char **argv)  {
     search_query = *(argv + 1);
     strcat(apt_search, search_query);
     printf("%s\n", apt_search);
-    system(apt_search);
+    retrnval = system(apt_search);
+
+    if(retrnval == 0) {
+      printf("Search successful.\n");
+    }
   }
 
   else if(argc > 2) {
