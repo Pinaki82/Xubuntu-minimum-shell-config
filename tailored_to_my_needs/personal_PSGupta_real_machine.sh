@@ -268,6 +268,11 @@ sudo apt install tlp -y && \
 sudo apt install tlp-rdw -y && \
 
 # #################################################
+# DVTM. A Tiling Window Manager in the Console.
+
+sudo apt install dvtm -y && \
+
+# #################################################
 sudo apt install redshift-gtk -y && \
 sudo apt install caffeine -y && \
 sudo apt install hardinfo -y && \
