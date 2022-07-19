@@ -64,6 +64,12 @@ At this stage, you have split the window (screen-zone) vertically.
 
 Or `MOD` `q` `q` will let you **exit** DVTM.
 
+## Closing a Window
+
+`MOD` `x`
+
+Or `MOD` `x` `x` will let you **close** a window.
+
 ## The Next Window
 
 Let's switch to the next window.
