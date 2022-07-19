@@ -166,13 +166,13 @@ sudo apt install clang-tools -y && \
 sudo apt install lld -y && \
 sudo apt install libomp-dev -y && \
 sudo apt install curl -y && \
-yes | curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -  && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
 yes | sudo apt upgrade && \
 yes | sudo apt update && \
 yes | sudo apt install -f && \
-sudo apt-get install -y nodejs -y && \
+sudo apt install nodejs -y && \
+sudo apt install yarn -y && \
 sudo apt install cdecl -y && \
 sudo apt install cutils -y && \
 sudo apt install kitty -y && \
@@ -180,9 +180,6 @@ sudo apt install kitty -y && \
 sudo apt install tree -y && \
 sudo apt install mc -y && \
 sudo apt install xclip -y && \
-# https://itsfoss.com/vim-8-release-install/
-# sudo add-apt-repository ppa:jonathonf/vim -y && \
-# sudo apt update -y && \
 sudo apt install vim-gtk -y && \
 # sudo apt install kate -y && \
 sudo apt install cppcheck -y && \
@@ -260,9 +257,9 @@ sudo apt install chkrootkit -y && \
 sudo apt install rkhunter -y && \
 sudo apt install firejail -y && \
 sudo apt install openvpn -y && \
-sudo apt install network-manager-openvpn -y && \
-sudo apt install smartmontools -y && \
-sudo apt install gsmartcontrol -y && \
+# sudo apt install network-manager-openvpn -y && \
+# sudo apt install smartmontools -y && \
+# sudo apt install gsmartcontrol -y && \
 # sudo apt install firetools -y && \
 sudo apt install ntp -y && \
 sudo apt install gparted -y && \
@@ -284,7 +281,7 @@ sudo apt install tlp-rdw -y && \
 
 # #################################################
 sudo apt install redshift-gtk -y && \
-sudo apt install caffeine -y && \
+# sudo apt install caffeine -y && \
 sudo apt install hardinfo -y && \
 sudo apt install htop -y && \
 # btop++: Modern and colorful command line resource monitor that shows
@@ -342,7 +339,9 @@ echo 'eval "$(thefuck --alias luck)"' >> ~/.bashrc && \
 # https://github.com/oh-my-fish/plugin-thefuck
 # https://github.com/oh-my-fish/oh-my-fish#installation
 sudo apt install git -y && \
-git clone https://github.com/oh-my-fish/oh-my-fish && \
+# =======================================================
+# Install OH-MY-FISH (instructions): ====================
+# git clone https://github.com/oh-my-fish/oh-my-fish && \
 # Install manually:
 # cd oh-my-fish && \
 # bin/install --offline
@@ -445,7 +444,7 @@ yes | sudo apt list --upgradable && \
 yes | sudo apt upgrade && \
 yes | sudo apt update && \
 yes | sudo apt install -f && \
-sudo apt install dupeguru -y && \
+# sudo apt install dupeguru -y && \
 
 # Python3 PiP
 
@@ -617,7 +616,7 @@ sudo apt install winff-doc -y && \
 
 # Boost C++ libraries
 
-sudo apt install libboost-all-dev -y && \
+# sudo apt install libboost-all-dev -y && \
 
 # OpenGL libraries
 
@@ -779,7 +778,7 @@ sudo apt install deborphan -y && \
 
 # sudo apt install equalx -y && \
 # JVM Runtime is required by Laeqed
-# sudo apt install default-jre -y && \
+sudo apt install default-jre -y && \
 
 # On MS Windows, use MiKTeX (https://miktex.org/),
 # Ghostscript (https://www.ghostscript.com/),

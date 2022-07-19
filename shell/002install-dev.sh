@@ -12,8 +12,13 @@ sudo apt install clang-tools && \
 sudo apt install lld && \
 sudo apt install libomp-dev && \
 sudo apt install curl && \
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -  && \
-sudo apt-get install -y nodejs && \
+yes | sudo apt update && \
+yes | sudo apt list --upgradable && \
+yes | sudo apt upgrade && \
+yes | sudo apt update && \
+yes | sudo apt install -f && \
+sudo apt install nodejs && \
+sudo apt install yarn && \
 sudo apt install cdecl && \
 sudo apt install cutils && \
 sudo apt install kitty && \
@@ -21,9 +26,6 @@ sudo apt install kitty && \
 sudo apt install tree && \
 sudo apt install mc && \
 sudo apt install xclip && \
-# https://itsfoss.com/vim-8-release-install/
-# sudo add-apt-repository ppa:jonathonf/vim && \
-# sudo apt update && \
 sudo apt install vim-gtk && \
 # sudo apt install kate && \
 sudo apt install cppcheck && \

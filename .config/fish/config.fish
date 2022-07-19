@@ -39,3 +39,8 @@ function fish_user_key_bindings
   bind \e\e 'thefuck-command-line'  # Bind EscEsc to thefuck
   # ...
 end
+
+# https://codeyarns.com/tech/2014-02-27-how-to-create-alias-in-fish.html#gsc.tab=0
+function luck
+  fuck
+end

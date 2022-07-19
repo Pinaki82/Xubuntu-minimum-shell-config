@@ -154,13 +154,13 @@ sudo apt install clang-tools -y && \
 sudo apt install lld -y && \
 sudo apt install libomp-dev -y && \
 sudo apt install curl -y && \
-yes | curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -  && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
 yes | sudo apt upgrade && \
 yes | sudo apt update && \
 yes | sudo apt install -f && \
-sudo apt-get install -y nodejs -y && \
+sudo apt install nodejs -y && \
+sudo apt install yarn -y && \
 sudo apt install cdecl -y && \
 sudo apt install cutils -y && \
 sudo apt install kitty -y && \
@@ -168,9 +168,6 @@ sudo apt install kitty -y && \
 sudo apt install tree -y && \
 sudo apt install mc -y && \
 sudo apt install xclip -y && \
-# https://itsfoss.com/vim-8-release-install/
-# sudo add-apt-repository ppa:jonathonf/vim -y && \
-# sudo apt update -y && \
 sudo apt install vim-gtk -y && \
 # sudo apt install kate -y && \
 sudo apt install cppcheck -y && \
@@ -330,7 +327,9 @@ echo 'eval "$(thefuck --alias luck)"' >> ~/.bashrc && \
 # https://github.com/oh-my-fish/plugin-thefuck
 # https://github.com/oh-my-fish/oh-my-fish#installation
 sudo apt install git -y && \
-git clone https://github.com/oh-my-fish/oh-my-fish && \
+# =======================================================
+# Install OH-MY-FISH (instructions): ====================
+# git clone https://github.com/oh-my-fish/oh-my-fish && \
 # Install manually:
 # cd oh-my-fish && \
 # bin/install --offline

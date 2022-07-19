@@ -90,7 +90,9 @@ echo 'eval "$(thefuck --alias luck)"' >> ~/.bashrc && \
 # https://github.com/oh-my-fish/plugin-thefuck
 # https://github.com/oh-my-fish/oh-my-fish#installation
 sudo apt install git && \
-git clone https://github.com/oh-my-fish/oh-my-fish && \
+# =======================================================
+# Install OH-MY-FISH (instructions): ====================
+# git clone https://github.com/oh-my-fish/oh-my-fish && \
 # Install manually:
 # cd oh-my-fish && \
 # bin/install --offline
