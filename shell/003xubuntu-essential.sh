@@ -6,6 +6,7 @@ sudo apt install clamtk-gnome && \
 sudo apt install chkrootkit && \
 sudo apt install rkhunter && \
 sudo apt install firejail && \
+sudo apt install network-manager && \
 sudo apt install openvpn && \
 sudo apt install network-manager-openvpn && \
 sudo apt install smartmontools && \
@@ -155,6 +156,10 @@ sudo apt install torbrowser-launcher && \
 # Ctrl+H is Back <-
 # Ctrl+L is Forward ->
 sudo apt install surf && \
+
+# BitTorrent client
+sudo apt install transmission && \
+
 # # # # # # # # # # # # # # # # # # # # #
 # sudo apt install goldendictionary && \
 
@@ -162,6 +167,11 @@ sudo apt install artha && \
 sudo apt install xchm && \
 sudo apt install okular && \
 sudo apt install ghostwriter && \
+
+sudo apt install bzip2 && \
+sudo apt install tar && \
+sudo apt install xchm && \
+
 sudo apt install unrar && \
 sudo apt install rar && \
 sudo apt install p7zip-full && \
@@ -174,6 +184,29 @@ sudo apt install nscd && \
 sudo apt install xclip && \
 sudo apt install uget && \
 sudo apt install aria2 && \
+sudo apt install xpdf && \
+# GUI Archive manager.
+sudo apt install xarchiver && \
+sudo apt install thunar-archive-plugin && \
+# GUI Wallpaper Selector.
+sudo apt install nitrogen && \
+# Text Editor.
+sudo apt install geany && \
+# File Manager.
+sudo apt install pcmanfm && \
+# GUI Wi-Fi Connection Manager.
+sudo apt install wifi-qr && \
+# Launcher.
+sudo apt install rofi && \
+sudo apt install vlc && \
+# Network Utility.
+sudo apt install linssid && \
+# Image Viewer & Wallpaper Changer.
+sudo apt install feh && \
+# Screenshot Utility.
+sudo apt install flameshot && \
+# Image Viewer.
+sudo apt install ristretto && \
 
 # Find duplicate files
 # https://www.makeuseof.com/best-tools-find-and-remove-duplicate-files-linux/

@@ -244,6 +244,7 @@ sudo apt install clamtk-gnome -y && \
 sudo apt install chkrootkit -y && \
 sudo apt install rkhunter -y && \
 sudo apt install firejail -y && \
+sudo apt install network-manager -y && \
 sudo apt install openvpn -y && \
 sudo apt install network-manager-openvpn -y && \
 sudo apt install smartmontools -y && \
@@ -397,12 +398,19 @@ sudo apt install torbrowser-launcher -y && \
 # Ctrl+H is Back <-
 # Ctrl+L is Forward ->
 sudo apt install surf -y && \
+
+# BitTorrent client
+sudo apt install transmission -y && \
+
 # # # # # # # # # # # # # # # # # # # # #
 # sudo snap install goldendictionary && \
 
 sudo apt install artha -y && \
 sudo apt install okular -y && \
 sudo apt install ghostwriter -y && \
+
+sudo apt install bzip2 -y && \
+sudo apt install tar -y && \
 sudo apt install xchm -y && \
 
 sudo apt install unrar -y && \
@@ -417,6 +425,29 @@ sudo apt install nscd -y && \
 sudo apt install xclip -y && \
 sudo apt install uget -y && \
 sudo apt install aria2 -y && \
+sudo apt install xpdf -y && \
+# GUI Archive manager.
+sudo apt install xarchiver -y && \
+sudo apt install thunar-archive-plugin -y && \
+# GUI Wallpaper Selector.
+sudo apt install nitrogen -y && \
+# Text Editor.
+sudo apt install geany -y && \
+# File Manager.
+sudo apt install pcmanfm -y && \
+# GUI Wi-Fi Connection Manager.
+sudo apt install wifi-qr -y && \
+# Launcher.
+sudo apt install rofi -y && \
+sudo apt install vlc -y && \
+# Network Utility.
+sudo apt install linssid -y && \
+# Image Viewer & Wallpaper Changer.
+sudo apt install feh -y && \
+# Screenshot Utility.
+sudo apt install flameshot -y && \
+# Image Viewer.
+sudo apt install ristretto -y && \
 
 # Find duplicate files
 # https://www.makeuseof.com/best-tools-find-and-remove-duplicate-files-linux/
