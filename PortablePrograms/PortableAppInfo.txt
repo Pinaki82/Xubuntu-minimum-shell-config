@@ -9,6 +9,7 @@ https://bintray.com/probono/AppImages
 
 FreeFileSync (Portable but not available in AppImage format) -> Synchronize Files and Folders. https://freefilesync.org
 App Outlet-1.3.2.AppImage -> An Universal linux app store. https://app-outlet.github.io/
+PeaZip file archiver. Open/extract RAR TAR ZIP files -> Available in DEB, RPM, and TarBall formats -> https://peazip.github.io/
 Archipelago-3.11.0.AppImage -> Archipelago is a terminal emulator built on open web technologies.
 balenaEtcher-1.5.110-x64.AppImage -> Burn images to SD cards & USB drives, safely and easily. https://github.com/balena-io/etcher/releases
 cinelerra-5.1-ub20.04-20201031.x86_64-static.txz (Portable but not available in AppImage format) -> Cinelerra-GG Infinity. Professional Video Editing Software.
