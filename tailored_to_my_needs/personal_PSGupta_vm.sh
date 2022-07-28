@@ -446,12 +446,12 @@ sudo apt install nitrogen -y && \
 sudo apt install geany -y && \
 # File Manager.
 sudo apt install pcmanfm -y && \
-# GUI Wi-Fi Connection Manager.
+# Description: WiFi Share and Connect with QR.
 sudo apt install wifi-qr -y && \
 # Launcher.
 sudo apt install rofi -y && \
 sudo apt install vlc -y && \
-# Network Utility.
+# Description: graphical wireless scanner.
 sudo apt install linssid -y && \
 # Image Viewer & Wallpaper Changer.
 sudo apt install feh -y && \
