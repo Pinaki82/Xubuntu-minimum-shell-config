@@ -160,6 +160,13 @@ yes | sudo apt upgrade && \
 yes | sudo apt update && \
 yes | sudo apt install -f && \
 sudo apt install nodejs -y && \
+# Description: package manager for Node.js
+sudo apt install npm -y && \
+# Description: blackbox testing of Unix command line programs
+# cmdtest black box tests Unix command line tools. Roughly, it is given a
+# script, its input files, and its expected output files. cmdtest runs
+# the script, and checks the output is as expected.
+sudo apt install cmdtest -y && \
 sudo apt install yarn -y && \
 sudo apt install cdecl -y && \
 sudo apt install cutils -y && \
@@ -249,6 +256,12 @@ sudo apt install openvpn -y && \
 sudo apt install network-manager-openvpn -y && \
 sudo apt install smartmontools -y && \
 sudo apt install gsmartcontrol -y && \
+# X display manager
+sudo apt install xdm -y && \
+# Description: tool for selecting tasks for installation on Debian systems
+# This package provides 'tasksel', a simple interface for users who
+# want to configure their system to perform a specific task.
+sudo apt install tasksel -y && \
 # sudo apt install firetools -y && \
 sudo apt install ntp -y && \
 sudo apt install gparted -y && \
@@ -435,6 +448,10 @@ sudo apt install nitrogen -y && \
 sudo apt install geany -y && \
 # File Manager.
 sudo apt install pcmanfm -y && \
+# Wireless Device Monitoring Application.
+sudo apt install wavemon -y && \
+# Monitor status of an 802.11 wireless ethernet link.
+sudo apt install wmwave -y && \
 # Description: WiFi Share and Connect with QR.
 sudo apt install wifi-qr -y && \
 # Launcher.
@@ -500,6 +517,17 @@ sudo apt install youtube-dl -y && \
 sudo apt install gtkhash -y && \
 
 # Download QuickHash-GUI-Linux-v3.2.0 from: https://www.quickhash-gui.org
+
+# simulate (generate) X11 keyboard/mouse input events
+# xdotool lets you programmatically (or manually) simulate keyboard
+# input and mouse activity, move and resize windows, etc. It does this
+# using X11's XTEST extension and other Xlib functions.
+
+sudo apt install xdotool -y && \
+# CCAL is a drop in replacement for the standard unix calendar program.
+sudo apt install ccal -y && \
+# manager and address book modules.
+sudo apt install osmo -y && \
 
 # sudo snap install chromium && \
 

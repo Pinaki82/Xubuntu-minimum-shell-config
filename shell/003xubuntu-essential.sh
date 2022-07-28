@@ -11,6 +11,12 @@ sudo apt install openvpn && \
 sudo apt install network-manager-openvpn && \
 sudo apt install smartmontools && \
 sudo apt install gsmartcontrol && \
+# X display manager
+sudo apt install xdm && \
+# Description: tool for selecting tasks for installation on Debian systems
+# This package provides 'tasksel', a simple interface for users who
+# want to configure their system to perform a specific task.
+sudo apt install tasksel && \
 # sudo apt install firetools && \
 sudo apt install ntp && \
 sudo apt install gparted && \
@@ -194,6 +200,10 @@ sudo apt install nitrogen && \
 sudo apt install geany && \
 # File Manager.
 sudo apt install pcmanfm && \
+# Wireless Device Monitoring Application.
+sudo apt install wavemon && \
+# Monitor status of an 802.11 wireless ethernet link.
+sudo apt install wmwave && \
 # Description: WiFi Share and Connect with QR.
 sudo apt install wifi-qr && \
 # Launcher.
@@ -257,6 +267,18 @@ sudo apt install youtube-dl && \
 sudo apt install gtkhash && \
 
 # Download QuickHash-GUI-Linux-v3.2.0 from: https://www.quickhash-gui.org
+
+# simulate (generate) X11 keyboard/mouse input events
+# xdotool lets you programmatically (or manually) simulate keyboard
+# input and mouse activity, move and resize windows, etc. It does this
+# using X11's XTEST extension and other Xlib functions.
+
+sudo apt install xdotool && \
+# CCAL is a drop in replacement for the standard unix calendar program.
+sudo apt install ccal && \
+# Osmo is a personal organizer, which includes calendar, task
+# manager and address book modules.
+sudo apt install osmo && \
 
 # sudo snap install chromium && \
 

@@ -18,6 +18,13 @@ yes | sudo apt upgrade && \
 yes | sudo apt update && \
 yes | sudo apt install -f && \
 sudo apt install nodejs && \
+# Description: package manager for Node.js
+sudo apt install npm && \
+# Description: blackbox testing of Unix command line programs
+# cmdtest black box tests Unix command line tools. Roughly, it is given a
+# script, its input files, and its expected output files. cmdtest runs
+# the script, and checks the output is as expected.
+sudo apt install cmdtest && \
 sudo apt install yarn && \
 sudo apt install cdecl && \
 sudo apt install cutils && \
