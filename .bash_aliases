@@ -39,3 +39,8 @@ export QT_IM_MODULE=ibus
 # chmod +x bw
 # source ~/.bash_aliases
 export PATH="$HOME/.bw/:$PATH"
+
+# Weather: Type 'weather' to
+#    see the weather report in a
+#    terminal emulator.
+alias weather='curl wttr.in'
