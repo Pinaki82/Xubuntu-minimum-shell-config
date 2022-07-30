@@ -125,6 +125,16 @@ yes | sudo apt install -f && \
 # update (END)
 # =================================================================
 
+# =================================================================
+# Activate default Ubuntu repositories.
+# =================================================================
+yes | sudo add-apt-repository universe && \
+yes | sudo add-apt-repository multiverse && \
+yes | sudo add-apt-repository restricted && \
+yes | sudo apt update && \
+# =================================================================
+# Ubuntu repositories (END).
+# =================================================================
 
 # =================================================================
 # Lock the Desktop folder on Linux

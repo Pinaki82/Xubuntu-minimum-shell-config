@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# =================================================================
+# Activate default Ubuntu repositories.
+# =================================================================
+yes | sudo add-apt-repository universe && \
+yes | sudo add-apt-repository multiverse && \
+yes | sudo add-apt-repository restricted && \
+yes | sudo apt update && \
+# =================================================================
+# Ubuntu repositories (END).
+# =================================================================
+
 sudo apt install gufw && \
 sudo apt install resolvconf && \
 sudo apt install clamtk-gnome && \
