@@ -9,6 +9,16 @@ sudo apt install pandoc && \
 sudo apt install gimp && \
 sudo apt install gimp-plugin-registry && \
 
+# figlet: Make large character ASCII banners out of ordinary text
+# https://kerneltalks.com/tips-tricks/create-beautiful-ascii-text-banners-linux/
+# Brave: figlet windows
+# https://superuser.com/questions/1361312/figlets-installation-on-windows-10
+# npm install -g figlet-cli
+# Usage: figlet -f Slant Tulu-C-IDE > ascii-banner-output.txt
+# figlet My Text Banner
+
+sudo apt install figlet && \
+
 # Inkscape
 
 # Inkscape latest STABLE version
