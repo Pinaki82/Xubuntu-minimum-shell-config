@@ -1,0 +1,14 @@
+Open CMD in Admin mode:
+1. Windows Key + r (Run Prompt)
+2. Type cmd
+3. CTRL+SHIFT+ENTER
+
+Check:
+
+fsutil behavior query DisableDeleteNotify
+
+Apply:
+
+fsutil behavior set DisableDeleteNotify 0
+
+Ref: https://www.windowscentral.com/how-ensure-trim-enabled-windows-10-speed-ssd-performance
