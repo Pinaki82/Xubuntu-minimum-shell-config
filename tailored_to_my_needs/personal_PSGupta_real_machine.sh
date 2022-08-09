@@ -171,7 +171,7 @@ yes | sudo apt update && \
 yes | sudo apt install -f && \
 sudo apt install nodejs -y && \
 # Description: package manager for Node.js
-sudo apt install npm -y && \
+#sudo apt install npm && \ (Unmet dependencies)
 # Description: blackbox testing of Unix command line programs
 # cmdtest black box tests Unix command line tools. Roughly, it is given a
 # script, its input files, and its expected output files. cmdtest runs
@@ -537,7 +537,7 @@ sudo apt install xdotool -y && \
 # CCAL is a drop in replacement for the standard unix calendar program.
 sudo apt install ccal -y && \
 # manager and address book modules.
-sudo apt install osmo -y && \
+#sudo apt install osmo && \ (segmentation fault)
 
 # sudo snap install chromium && \
 

@@ -19,7 +19,7 @@ yes | sudo apt update && \
 yes | sudo apt install -f && \
 sudo apt install nodejs && \
 # Description: package manager for Node.js
-sudo apt install npm && \
+#sudo apt install npm && \ (Unmet dependencies)
 # Description: blackbox testing of Unix command line programs
 # cmdtest black box tests Unix command line tools. Roughly, it is given a
 # script, its input files, and its expected output files. cmdtest runs

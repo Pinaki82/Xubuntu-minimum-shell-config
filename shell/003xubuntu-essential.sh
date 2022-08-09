@@ -289,7 +289,7 @@ sudo apt install xdotool && \
 sudo apt install ccal && \
 # Osmo is a personal organizer, which includes calendar, task
 # manager and address book modules.
-sudo apt install osmo && \
+#sudo apt install osmo && \ (segmentation fault)
 
 # sudo snap install chromium && \
 
