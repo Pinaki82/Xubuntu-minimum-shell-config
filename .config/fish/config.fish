@@ -15,7 +15,11 @@ function ll
     ls -lh $argv
 end
 
-alias upd="sh ~/shell/000update-n-clean-automated.sh"
+# Update using 'apt'.
+alias upda="sh ~/shell/000update-n-clean-automated.sh"
+# Update using 'nala'.
+alias updn="sh ~/shell/000update-n-clean-automated-nala.sh"
+# TRIM SSDs.
 alias trim="sh ~/shell/ssd_trim.sh"
 
 # req. by 'autojump'

@@ -7,7 +7,10 @@ export PATH="$HOME/.local/bin/:$PATH"
 # alias alias_name="command_to_run"
 
 # Update #NOTE: uncomment the line below in .bashrc
-alias upd="sh ~/shell/000update-n-clean-automated.sh"
+# Update using 'apt'.
+alias upda="sh ~/shell/000update-n-clean-automated.sh"
+# Update using 'nala'.
+alias updn="sh ~/shell/000update-n-clean-automated-nala.sh"
 # Print my public IP #NOTE: uncomment the line below in .bashrc
 alias myip='curl ipinfo.io/ip'
 
