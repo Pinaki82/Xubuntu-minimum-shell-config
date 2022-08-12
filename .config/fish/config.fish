@@ -57,6 +57,10 @@ set PATH $PATH "$HOME/bin/:$PATH"
 # mkdir -p ~/.config/fish/completions/
 # cp ~/bin/arduino-cli.fish ~/.config/fish/completions/
 export PATH
+# avrdude (for uploading HEX files to boards)
+# ln -s ~/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude ~/.local/bin/avrdude
+export PATH="$HOME/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/:$PATH"
+export PATH
 
 # PlatformIO Core CLI
 export PATH="$HOME/.platformio/penv/bin/:$PATH"

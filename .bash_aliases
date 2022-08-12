@@ -52,6 +52,9 @@ alias weather='curl wttr.in'
 export PATH="$HOME/bin/:$PATH"
 # arduino-cli completion bash > arduino-cli.sh
 source ~/bin/arduino-cli.sh
+# avrdude (for uploading HEX files to boards)
+# ln -s ~/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude ~/.local/bin/avrdude
+export PATH="$HOME/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/:$PATH"
 
 # PlatformIO Core CLI
 # ln -s ~/.platformio/penv/bin/platformio ~/.local/bin/platformio
