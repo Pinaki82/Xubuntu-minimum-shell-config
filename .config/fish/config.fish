@@ -51,3 +51,9 @@ end
 
 set PATH $PATH /home/linuxbrew/.linuxbrew/bin/
 export PATH
+# Arduino-CLI
+set PATH $PATH "$HOME/bin/:$PATH"
+# arduino-cli completion fish > arduino-cli.fish
+# mkdir -p ~/.config/fish/completions/
+# cp ~/bin/arduino-cli.fish ~/.config/fish/completions/
+export PATH

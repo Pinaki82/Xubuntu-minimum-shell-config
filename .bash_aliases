@@ -47,3 +47,8 @@ export PATH="$HOME/.bw/:$PATH"
 #    see the weather report in a
 #    terminal emulator.
 alias weather='curl wttr.in'
+
+# Arduino-CLI
+export PATH="$HOME/bin/:$PATH"
+# arduino-cli completion bash > arduino-cli.sh
+source ~/bin/arduino-cli.sh
