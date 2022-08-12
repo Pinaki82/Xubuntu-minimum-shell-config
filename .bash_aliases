@@ -52,3 +52,9 @@ alias weather='curl wttr.in'
 export PATH="$HOME/bin/:$PATH"
 # arduino-cli completion bash > arduino-cli.sh
 source ~/bin/arduino-cli.sh
+
+# PlatformIO Core CLI
+# ln -s ~/.platformio/penv/bin/platformio ~/.local/bin/platformio
+# ln -s ~/.platformio/penv/bin/pio ~/.local/bin/pio
+# ln -s ~/.platformio/penv/bin/piodebuggdb ~/.local/bin/piodebuggdb
+export PATH="$HOME/.platformio/penv/bin/:$PATH"

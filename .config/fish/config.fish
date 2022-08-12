@@ -57,3 +57,7 @@ set PATH $PATH "$HOME/bin/:$PATH"
 # mkdir -p ~/.config/fish/completions/
 # cp ~/bin/arduino-cli.fish ~/.config/fish/completions/
 export PATH
+
+# PlatformIO Core CLI
+export PATH="$HOME/.platformio/penv/bin/:$PATH"
+export PATH
