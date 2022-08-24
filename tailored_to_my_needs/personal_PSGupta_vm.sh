@@ -194,7 +194,7 @@ sudo apt install yarn -y && \
 sudo apt install cdecl -y && \
 sudo apt install cutils -y && \
 sudo apt install kitty -y && \
-sudo apt install kitty -y && \
+sudo apt install sakura -y && \
 # sudo apt install gnome-terminal -y && \
 sudo apt install tree -y && \
 sudo apt install mc -y && \
