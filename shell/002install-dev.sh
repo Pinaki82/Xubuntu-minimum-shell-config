@@ -18,6 +18,7 @@ yes | sudo apt upgrade && \
 yes | sudo apt update && \
 yes | sudo apt install -f && \
 sudo apt install nodejs && \
+sudo apt install jq && \
 # Description: package manager for Node.js
 #sudo apt install npm && \ (Unmet dependencies)
 # Description: blackbox testing of Unix command line programs
@@ -29,6 +30,7 @@ sudo apt install yarn && \
 sudo apt install cdecl && \
 sudo apt install cutils && \
 sudo apt install kitty && \
+sudo apt install sakura && \
 # sudo apt install gnome-terminal && \
 sudo apt install tree && \
 sudo apt install mc && \
@@ -53,6 +55,7 @@ sudo apt install git && \
 
 sudo apt install gitk && \
 sudo apt install git-gui && \
+sudo apt install giggle && \
 
 # GUI frontends for Git Version Control System:
 # Gitg is pretty barebone at the moment. Git Cola comes packed with all the

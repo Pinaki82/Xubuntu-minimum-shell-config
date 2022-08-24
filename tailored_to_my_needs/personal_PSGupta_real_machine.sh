@@ -170,6 +170,7 @@ yes | sudo apt upgrade && \
 yes | sudo apt update && \
 yes | sudo apt install -f && \
 sudo apt install nodejs -y && \
+sudo apt install jq -y && \
 # Description: package manager for Node.js
 #sudo apt install npm && \ (Unmet dependencies)
 # Description: blackbox testing of Unix command line programs
@@ -181,6 +182,7 @@ sudo apt install yarn -y && \
 sudo apt install cdecl -y && \
 sudo apt install cutils -y && \
 sudo apt install kitty -y && \
+sudo apt install sakura -y && \
 # sudo apt install gnome-terminal -y && \
 sudo apt install tree -y && \
 sudo apt install mc -y && \
@@ -205,6 +207,7 @@ sudo apt install git -y && \
 
 sudo apt install gitk -y && \
 sudo apt install git-gui -y && \
+sudo apt install giggle -y && \
 
 # Below are some (terminal-based) utilities for adding more
 # functionalities to the existing Git installation
