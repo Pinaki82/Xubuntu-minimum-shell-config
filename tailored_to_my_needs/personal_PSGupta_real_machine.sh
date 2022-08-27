@@ -712,6 +712,11 @@ sudo apt install libboost-all-dev -y && \
 
 # Some useful libraries
 
+sudo apt install libbsd-dev -y && \
+#    #include <bsd/string.h>
+# pass -lbsd flag to the linker, like
+# gcc -g -Wall -Wextra -pedantic -fstack-protector-all prog.c -o prog -lbsd
+
 # sudo apt install zlibc && \
 # sudo apt install libxml2-utils && \
 # sudo apt install libtinyxml2-dev && \
