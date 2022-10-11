@@ -134,6 +134,15 @@ sudo apt install googler && \
 sudo apt install ddgr && \
 # ddgr disable swap in ubuntu
 
+# Clipboard Manager
+sudo apt install diodon && \
+#  Whisker Menu -> Settings -> Keyboard ->
+#   -> Application Shortcut tab ->
+#   -> +Add -> /usr/bin/diodon
+# Keyboard Shortcut: Use any keybinding you may like.
+# I registered the keybinding Ctrl+Shift+V.
+
+
 # sudo snap install snap-store && \
 # sudo apt install flatpak && \
 # sudo apt install gnome-software-plugin-flatpak && \
