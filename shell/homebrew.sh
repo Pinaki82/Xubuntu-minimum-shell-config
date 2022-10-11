@@ -30,3 +30,7 @@ echo "eval \"\$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)\"" >> ~/.bashrc \
 
 # ---------------------------------------------------
 # Complete
+
+# Uninstall Homebrew:
+# https://github.com/homebrew/install#uninstall-homebrew
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
