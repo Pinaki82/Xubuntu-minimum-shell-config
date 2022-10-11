@@ -82,13 +82,13 @@ Backing up AppImage files:
 You can keep a backup of the installed AppImage files using
 software suits like FreeFileSync (file synchronisation utility)
 https://freefilesync.org/
-or GRSync (another one in this niche).
+or Grsync (another one in this niche).
 Remember that these two suits
 are not incremental file backup server utilities
 with git history support.
 I knew about FreeFileSync much before I needed to
 install it on Linux. And the same goes for
-GrSync's Cygwin port, a copy of an older version
+Grsync's Cygwin port, a copy of an older version
 can be found on Sourceforge.
 https://sourceforge.net/projects/grsync-win/
 I'm glad that these two are
@@ -148,7 +148,7 @@ Instaling directly from the download link:
 zap install  --from https://link-to-the-appimage-file    app_name
 -------------------------------------------------------------------------
 
-Example:
+Examples:
 
 -------------------------------------------------------------------------
 zap install --from https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/105.0.3-1/LibreWolf.x86_64.AppImage LibreWolf
