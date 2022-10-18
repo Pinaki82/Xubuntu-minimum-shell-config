@@ -11,4 +11,3 @@ REM according to your requirement.
 defrag C: /O
 REM Or (for all drives)
 REM defrag /C /O
-cmd
