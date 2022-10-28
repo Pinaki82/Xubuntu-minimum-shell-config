@@ -1,5 +1,6 @@
 Brave:
 ----------------
+Ecosia
 uBlock Origin
 Privacy Badger
 Bitwarden

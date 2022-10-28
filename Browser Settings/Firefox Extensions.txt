@@ -1,5 +1,6 @@
 LibreWolf/Firefox:
 ----------------
+Ecosia
 Facebook Container
 uBlock Origin
 Privacy Badger

@@ -31,3 +31,5 @@ https://www.google.com/
 Google Calendar
 https://calendar.google.com/calendar/
 
+Microsoft Office Home
+https://www.office.com/?auth=1
