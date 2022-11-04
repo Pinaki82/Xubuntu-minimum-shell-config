@@ -34,3 +34,6 @@
 
 sudo timeshift --rsync --create --comments "2020-11-27-02-30-pm"
 
+# Delete snapshots:
+# sudo timeshift --list
+# sudo timeshift --delete --snapshot '2022-10-27_13-30-02'
