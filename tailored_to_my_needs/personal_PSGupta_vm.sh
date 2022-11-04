@@ -350,6 +350,30 @@ sudo apt install simplescreenrecorder -y && \
 # 9 AMAZING COMMAND LINE TOOLS for Linux
 # https://youtu.be/kFh1acsQ8DQ
 
+# Install OH-MY-BASH:
+sudo apt install curl git fish -y && \
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" && \
+
+# Change the theme: .bashrc -> Uncomment:
+
+# OSH_THEME="powerline-plain"
+# OSH_THEME="powerline"
+## OSH_THEME="brunton"
+## OSH_THEME="kitsune"
+# OSH_THEME="mairan"
+# OSH_THEME="rr"
+
+source ~/.bashrc && \
+
+# git clone https://github.com/wting/autojump.git && \
+# cd autojump && \
+# python3 install.py && \
+# cd ~/ && \
+# echo "[[ -s $HOME/.autojump/etc/profile.d/autojump.sh ]] && source $HOME/.autojump/etc/profile.d/autojump.sh" >> ~/.bashrc && \
+# https://www.cyberciti.biz/faq/add-bash-auto-completion-in-ubuntu-linux/
+sudo apt install bash-completion -y && \
+echo "source /etc/profile.d/bash_completion.sh" >> ~/.bashrc && \
+
 # autojump
 # https://github.com/wting/autojump.git
 sudo apt install autojump -y && \
@@ -378,6 +402,21 @@ sudo apt install git -y && \
 # cd oh-my-fish && \
 # bin/install --offline
 # omf install thefuck
+
+# Or, (OMF)
+# https://github.com/oh-my-fish/oh-my-fish
+sudo apt install curl git fish -y && \
+curl -L https://get.oh-my.fish | fish && \
+# fish
+# Theming:
+# omf list
+# omf theme
+# omf install thefuck
+# omf install bobthefish
+# omf install agnoster
+# omf theme bobthefish
+# omf reload
+
 
 # tldr
 # https://github.com/tldr-pages/tldr.git
