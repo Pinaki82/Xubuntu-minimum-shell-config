@@ -174,7 +174,7 @@ sudo apt install ddgr && \
 # ddgr disable swap in ubuntu
 
 # Clipboard Manager
-sudo apt install diodon && \
+# sudo apt install diodon && \ (Use the default XFCE4-Clipman-Panel-Plugin)
 #  Whisker Menu -> Settings -> Keyboard ->
 #   -> Application Shortcut tab ->
 #   -> +Add -> /usr/bin/diodon
