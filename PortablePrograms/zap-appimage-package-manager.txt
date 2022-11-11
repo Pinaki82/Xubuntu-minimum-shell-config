@@ -134,6 +134,10 @@ app_name -> Brave
 zap install --github --from=srevinsaju/Brave-AppImage Brave
 -------------------------------------------------------------------------
 
+-------------------------------------------------------------------------
+zap install --github --from=srevinsaju/Firefox-AppImage Firefox
+-------------------------------------------------------------------------
+
 Optionally, you may want to skip the 'app_name'
 
 Example:
