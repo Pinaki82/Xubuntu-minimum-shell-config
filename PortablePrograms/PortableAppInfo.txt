@@ -36,6 +36,20 @@ https://languagetool.org/download/word2vec/
 jitsi-meet -> Videoconferencing. https://appimage.github.io/jitsi-meet/
 DeaDBeeF Audio Player -> (Portable but not availble in an AppImage package) https://deadbeef.sourceforge.io/download.html
 Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
+Tor Browser (TAR Archive)-> https://www.torproject.org/download/
+The Invisible Internet Project i2pdbrowser (Script driven) -> https://github.com/PurpleI2P/i2pdbrowser
+---
+sudo apt install screen
+cd I2PdBrowserPortable_1.3.3-linux/build/
+chmod +x build
+./build
+cd ../
+cd I2PdBrowserPortable_1.3.3-linux/i2pd/
+chmod +x i2pd
+./i2pd
+cd ../
+./start-i2pd-browser.desktop
+---
 LibreWolf, the community-maintained fork of Librefox: a privacy and security-focused browser -> https://librewolf.net/
 LibreWolf AppImage -> https://librewolf.net/installation/linux/
 ungoogled-chromium AppImages -> https://github.com/Eloston/ungoogled-chromium
