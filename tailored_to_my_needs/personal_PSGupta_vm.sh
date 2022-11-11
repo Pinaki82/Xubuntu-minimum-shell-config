@@ -165,6 +165,7 @@ yes | sudo chmod 0444 ~/Desktop/ && \
 # =================================================================
 
 sudo apt install build-essential -y && \
+sudo apt install tcc -y && \
 sudo apt install patch -y && \
 sudo apt install make -y && \
 sudo apt install diffutils -y && \

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo apt install build-essential && \
+sudo apt install tcc && \
 sudo apt install patch && \
 sudo apt install make && \
 sudo apt install diffutils && \
