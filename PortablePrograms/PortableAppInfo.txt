@@ -49,6 +49,10 @@ chmod +x i2pd
 ./i2pd
 cd ../
 ./start-i2pd-browser.desktop
+
+If you change your '/etc/hosts', the I2PD browser may refuse to connect to the I2P network.
+In that case, run ./i2pd again.
+To re-download Firefox-I2PD, run ./build
 ---
 LibreWolf, the community-maintained fork of Librefox: a privacy and security-focused browser -> https://librewolf.net/
 LibreWolf AppImage -> https://librewolf.net/installation/linux/
