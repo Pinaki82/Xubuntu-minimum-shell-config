@@ -39,6 +39,10 @@ Mozilla Firefox AppImages -> https://github.com/srevinsaju/Firefox-Appimage
 Tor Browser (TAR Archive)-> https://www.torproject.org/download/
 The Invisible Internet Project i2pdbrowser (Script driven) -> https://github.com/PurpleI2P/i2pdbrowser
 ---
+First, make a backup of your existing '/etc/hosts' file.
+sudo cp /etc/hosts /etc/hosts2.backup
+
+Then,
 sudo apt install screen
 cd I2PdBrowserPortable_1.3.3-linux/build/
 chmod +x build
@@ -52,6 +56,9 @@ cd ../
 
 If you change your '/etc/hosts', the I2PD browser may refuse to connect to the I2P network.
 In that case, run ./i2pd again.
+If needed, restore the old '/etc/hosts' from the backup:
+sudo mv /etc/hosts2.backup /etc/hosts
+service nscd restart
 To re-download Firefox-I2PD, run ./build
 ---
 LibreWolf, the community-maintained fork of Librefox: a privacy and security-focused browser -> https://librewolf.net/
