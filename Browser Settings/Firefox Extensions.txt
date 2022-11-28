@@ -7,8 +7,8 @@ Privacy Badger
 Bitwarden
 Grammarly
 Krypton Authenticator
+Cookie Quick Manager
 
 
 (Optional):
-Cookie Quick Manager
 Bookmark Dupes https://addons.mozilla.org/en-US/firefox/addon/bookmark-dupes/
