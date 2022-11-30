@@ -6,3 +6,4 @@ Privacy Badger
 Bitwarden
 Grammarly
 Privacy Pass
+Cookie AutoDelete (CAD Team)
