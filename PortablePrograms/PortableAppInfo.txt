@@ -8,6 +8,22 @@ https://bintray.com/probono/AppImages
 ===================================
 
 FreeFileSync (Portable but not available in AppImage format) -> Synchronize Files and Folders. https://freefilesync.org
+
+Areca Backup (Incremental/Differential Backup Solution. Windows/Linux.
+Tested on MS Windows 10) -> https://www.areca-backup.org/
+On MS Windows, Areca provides an installer. On Linux, Areca
+can be launched using the supplied shell script.
+Areca Backup requires Java Runtime Environment (JRE on Windows and
+OpenJDK JRE on Ubuntu [sudo apt install default-jre]).
+Create an encrypted VeraCrypt volume to keep
+your incremental backup there for more safety.
+See the tutorials   https://www.areca-backup.org/tutorial.php   to learn
+more about Areca Backup.
+FreeFileSync is a "File Synchronisation" solution, whereas Areca Backup is
+an "Incremental/Differential File Backup" Solution (somewhat
+similar to version control systems like GIT).
+Ref: https://www.opensourceforu.com/2021/03/10-best-free-and-open-source-backup-software/    and      https://opensource.com/article/19/3/backup-solutions
+
 App Outlet-1.3.2.AppImage -> An Universal linux app store. https://app-outlet.github.io/
 PeaZip file archiver. Open/extract RAR TAR ZIP files -> Available in DEB, RPM, and TarBall formats -> https://peazip.github.io/
 Archipelago-3.11.0.AppImage -> Archipelago is a terminal emulator built on open web technologies.
