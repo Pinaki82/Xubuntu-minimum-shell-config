@@ -3,6 +3,7 @@ REM # Encrypt Folders using "AES Crypt" (https://www.aescrypt.com/).
 REM #
 REM # https://alternativeto.net/software/folder-lock/?license=opensource
 REM # https://www.aescrypt.com/
+REM # choco install -y aescrypt
 REM #
 REM # Add "C:\Program Files\AESCrypt" to the Environment Variable after installing the program.
 REM #
