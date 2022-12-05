@@ -9,12 +9,10 @@ https://bintray.com/probono/AppImages
 
 FreeFileSync (Portable but not available in AppImage format) -> Synchronize Files and Folders. https://freefilesync.org
 
-Areca Backup (Incremental/Differential Backup Solution. Windows/Linux.
+Areca Backup (Incremental/Differential Backup Solution. Now Windows Only.
 Tested on MS Windows 10) -> https://www.areca-backup.org/
-On MS Windows, Areca provides an installer. On Linux, Areca
-can be launched using the supplied shell script.
-Areca Backup requires Java Runtime Environment (JRE on Windows and
-OpenJDK JRE on Ubuntu [sudo apt install default-jre]).
+On MS Windows, Areca provides an installer.
+Areca Backup requires Java Runtime Environment.
 Create an encrypted VeraCrypt volume to keep
 your incremental backup there for more safety.
 See the tutorials   https://www.areca-backup.org/tutorial.php   to learn
