@@ -13,14 +13,14 @@
 EncryptFolder() {
     tar -rvf $archivename.tar $foldername/ && \
 
-    aescrypt -e $archivename.tar && \
+    aescrypt -e $archivename.tar \
 
 }
 
 DecryptFolder() {
     aescrypt -d $archivename.tar.aes && \
 
-    tar -xvf $archivename.tar && \
+    tar -xvf $archivename.tar \
 
 }
 
