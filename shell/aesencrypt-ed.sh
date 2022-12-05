@@ -34,6 +34,8 @@ echo "Type the folder name: (Press TAB to autocomplete.)"
 echo "Type the archive name: (Press TAB to autocomplete if the archive exists.)"
 echo "Type out the archive name. Do not write the dots or anything after the dots."
 echo "That means you should type arch instead of typing arch.tar.aes"
+echo ""
+echo "Press TAB to autocomplete."
 
 echo "folder name (input): $1"
 foldername=$1

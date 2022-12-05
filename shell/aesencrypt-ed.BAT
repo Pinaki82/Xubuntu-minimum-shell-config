@@ -59,6 +59,7 @@ ECHO 2. Decrypt Folder
 ECHO 3. Cancel the operation
 echo ---------------------------------------------------------------------------------------
 echo NOTE: Folder/archive names must not contain spaces or special characters.
+echo Press TAB to autocomplete.
 echo ---------------------------------------------------------------------------------------
 set choice=
 set /p choice=Type the number corresponding to the option:
