@@ -86,10 +86,9 @@ REM # https://superuser.com/questions/339931/how-do-i-use-7-zip-cli-for-windows-
 @ECHO ON
 tar -cvf %foldername_w_tar_extension% %foldername%
 aescrypt -e %foldername_w_tar_extension%
-del %foldername_w_tar_extension%
+
 @ECHO OFF
-echo Deleting the directory %foldername% ...
-rmdir /s %foldername%
+
 @ECHO ON
 EXIT /B 0
 goto end
@@ -111,8 +110,7 @@ set variable2=%variable%.tar
 REM # echo %variable2%
 @ECHO ON
 tar -xvf %variable2%
-del %variable2%
-del %filename%
+
 PAUSE
 endlocal
 EXIT /B 0

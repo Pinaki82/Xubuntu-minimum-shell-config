@@ -5,30 +5,22 @@
 # https://alternativeto.net/software/folder-lock/?license=opensource
 # https://www.aescrypt.com/
 
-# Needed trash-cli: sudo apt install trash-cli
-# If you do not like sending temporary files to the trash folder,
-# replace trash with rm and rm -rf
+# "AES Crypt" requires Java Runtime Environment.
+# sudo apt install default-jre
+
 # Use VeraCrypt to encrypt large volumes.
 
 EncryptFolder() {
     tar -rvf $archivename.tar $foldername/ && \
-    trash -rf $foldername/ && \
-    # rm -rf $foldername/ && \
 
     aescrypt -e $archivename.tar && \
-    trash $archivename.tar \
-    # rm $archivename.tar \
 
 }
 
 DecryptFolder() {
     aescrypt -d $archivename.tar.aes && \
-    trash $archivename.tar.aes && \
-    # rm $archivename.tar.aes && \
 
     tar -xvf $archivename.tar && \
-    trash $archivename.tar \
-    # rm $archivename.tar \
 
 }
 
