@@ -8,9 +8,14 @@ https://bintray.com/probono/AppImages
 ===================================
 
 FreeFileSync (Portable but not available in AppImage format) -> Synchronize Files and Folders. https://freefilesync.org
+See 'shell/syncthing-file-sync.txt' for synchronising files
+between devices over the local network.
 
 Areca Backup (Incremental/Differential Backup Solution. Now Windows Only.
 Tested on MS Windows 10) -> https://www.areca-backup.org/
+[* For a well-maintained cross-platform solution,
+use Duplicati (https://www.duplicati.com/).
+See 'shell/incremental-backup-duplicati.txt' for details.]
 On MS Windows, Areca provides an installer.
 Areca Backup requires Java Runtime Environment.
 Create an encrypted VeraCrypt volume to keep
