@@ -228,6 +228,8 @@ sudo apt install transmission && \
 # # # # # # # # # # # # # # # # # # # # #
 # sudo apt install goldendictionary && \
 
+sudo apt install stardict && \
+# See shell/stardict.txt for details.
 sudo apt install artha && \
 sudo apt install xchm && \
 sudo apt install okular && \

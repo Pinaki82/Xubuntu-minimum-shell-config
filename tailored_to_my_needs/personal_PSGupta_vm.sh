@@ -491,6 +491,8 @@ sudo apt install surf -y && \
 # # # # # # # # # # # # # # # # # # # # #
 # sudo snap install goldendictionary && \
 
+# sudo apt install stardict -y && \
+# See shell/stardict.txt for details.
 # sudo apt install artha -y && \
 # sudo apt install okular -y && \
 # sudo apt install ghostwriter -y && \
