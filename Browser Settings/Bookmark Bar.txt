@@ -33,3 +33,6 @@ https://calendar.google.com/calendar/
 
 Microsoft Office Home
 https://www.office.com/?auth=1
+
+OpenAI ChatGPT
+https://chat.openai.com/chat
