@@ -954,6 +954,24 @@ sudo apt install imagemagick -y && \
 # extract texts from all image files in a directory
 # for i in *; do tesseract "$i" "output-$i" -l eng; done;
 
+# Tesseract GUI frontend: gImageReader
+sudo apt install tesseract-ocr-eng -y && \
+sudo apt install tesseract-ocr-enm -y && \
+sudo apt install tesseract-ocr-osd -y && \
+
+# install support for additional languages
+# sudo apt install tesseract-ocr-ben -y && \
+# sudo apt install tesseract-ocr-script-beng -y && \
+# sudo apt install tesseract-ocr-hin -y && \
+# sudo apt install tesseract-ocr-script-deva -y && \
+
+# install gImageReader
+# sudo apt search gimagereader
+
+sudo apt install gimagereader -y && \
+
+# See 'shell/ocr-tesseract-frontend-gimagereader.sh' for details
+
 # =================================================================
 # ocr-tesseract-install (END)
 # =================================================================
