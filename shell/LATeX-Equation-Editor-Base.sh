@@ -11,6 +11,7 @@ sudo apt install dvipng && \
 sudo apt install dvisvgm && \
 sudo apt install ghostscript && \
 sudo apt install equalx && \
+sudo apt install klatexformula && \
 # JVM Runtime is required by Laeqed
 sudo apt install default-jre \
 

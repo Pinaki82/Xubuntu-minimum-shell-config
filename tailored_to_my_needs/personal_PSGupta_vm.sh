@@ -920,6 +920,7 @@ sudo apt install deborphan -y && \
 # sudo apt install pandoc -y && \
 
 # sudo apt install equalx -y && \
+# sudo apt install klatexformula -y && \
 # JVM Runtime is required by Laeqed
 sudo apt install default-jre -y && \
 
