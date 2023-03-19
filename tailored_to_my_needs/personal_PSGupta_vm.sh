@@ -738,6 +738,9 @@ sudo apt install mediainfo-gui -y && \
 sudo apt install devede -y && \
 sudo apt install winff -y && \
 sudo apt install winff-doc -y && \
+# yes | sudo add-apt-repository ppa:ozmartian/apps && \
+# yes | sudo apt update && \
+# sudo apt install vidcutter -y && \
 
 # =================================================================
 # video-n-vfx (media file converters - CLI) (END)

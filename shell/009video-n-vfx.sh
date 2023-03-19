@@ -18,7 +18,10 @@ sudo apt install mediainfo && \
 sudo apt install mediainfo-gui && \
 # sudo apt install devede && \
 sudo apt install winff && \
-sudo apt install winff-doc \
+sudo apt install winff-doc && \
+yes | sudo add-apt-repository ppa:ozmartian/apps && \
+yes | sudo apt update && \
+sudo apt install vidcutter \
 # sudo apt install vlc && \
 # sudo snap install handbrake-jz && \
 
