@@ -265,6 +265,8 @@ sudo apt install clamtk-gnome -y && \
 sudo apt install chkrootkit -y && \
 sudo apt install rkhunter -y && \
 sudo apt install firejail -y && \
+# screen: req. by i2pdbrowser
+sudo apt install screen -y && \
 sudo apt install network-manager -y && \
 sudo apt install openvpn -y && \
 sudo apt install network-manager-openvpn -y && \
