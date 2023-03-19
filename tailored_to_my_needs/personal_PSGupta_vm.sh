@@ -262,6 +262,10 @@ sudo apt install regexxer -y && \
 # sudo apt install vizigrep -y && \
 sudo apt install searchmonkey -y && \
 
+# CuteCOM: GUI Serial Monitor
+# https://www.pragmaticlinux.com/2021/11/how-to-monitor-the-serial-port-in-linux/
+# sudo apt install cutecom -y && \
+
 # =================================================================
 # developer utilities (END)
 # =================================================================

@@ -149,5 +149,10 @@ sudo apt install markdown && \
 
 sudo apt install regexxer && \
 # sudo apt install vizigrep && \
-sudo apt install searchmonkey \
+sudo apt install searchmonkey && \
+
+
+# CuteCOM: GUI Serial Monitor
+# https://www.pragmaticlinux.com/2021/11/how-to-monitor-the-serial-port-in-linux/
+sudo apt install cutecom \
 
