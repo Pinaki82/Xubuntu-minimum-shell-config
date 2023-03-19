@@ -1,0 +1,9 @@
+https://wezfurlong.org/wezterm/install/linux.html#installing-on-ubuntu-and-debian-based-systems
+
+Distro 	Stable 	Nightly
+Choose Ubuntu
+Copy the download link.
+
+cd ~/Downloads
+curl -LO "https://github.com/wez/wezterm/releases/download/wezterm-2022yyyy-mmmmmm-nnnnnnnn/wezterm-2022yyyy-mmmmmm-nnnnnnnn.Ubuntu2r.0r.deb"
+sudo dpkg -i wezterm-2022yyyy-mmmmmm-nnnnnnnn.Ubuntu2r.0r.deb
