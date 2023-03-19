@@ -41,6 +41,9 @@ sudo apt install synaptic && \
 sudo apt install ubuntu-restricted-extras && \
 sudo apt install ppa-purge && \
 sudo apt install preload && \
+# seahorse: GUI Keyring Manager
+# https://mexpolk.wordpress.com/2008/02/06/ubuntu-change-default-keyring-password/
+sudo apt install seahorse && \
 
 # #################################################
 
