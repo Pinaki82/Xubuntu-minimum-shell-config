@@ -87,6 +87,7 @@ ungoogled-chromium AppImages -> https://github.com/Eloston/ungoogled-chromium
 [Chrome Web Store cannot be put directly in use on Ungoogled Chromium. Install Chrome extensions manually. Download the latest 'chromium-web-store' from https://github.com/NeverDecaf/chromium-web-store and follow the instructions provided here: https://avoidthehack.com/manually-install-extensions-ungoogled-chromium]
 Brave Browser -> https://www.appimagehub.com/p/1411550/
                  https://github.com/srevinsaju/Brave-AppImage
+Microsoft Edge Chromium AppImage -> https://gitlab.com/linuxappimage/microsoft_edge
 Vieb (Vim Inspired Electron Browser) AppImage -> https://github.com/Jelmerro/Vieb
 Fast and secure web browser.
 TerminusDB -> Open source, model driven, revision controlled RDF graph database for distributed collaboration -> https://www.appimagehub.com/p/1460811
