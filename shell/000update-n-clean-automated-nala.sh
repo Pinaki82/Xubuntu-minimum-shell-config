@@ -15,28 +15,28 @@
 UpdateNUpgrade() { # Update & Upgrade
   echo "Next: sudo nala update"
   sleep 2
-  sudo nala update
+  yes | sudo nala update
   echo "Next: sudo nala list --upgradable"
   sleep 2
-  sudo nala list --upgradable
+  yes | sudo nala list --upgradable
   echo "Next: sudo nala upgrade"
   sleep 2
-  sudo nala upgrade
+  yes | sudo nala upgrade
   echo "Next: sudo nala update"
   sleep 2
-  sudo nala update
+  yes | sudo nala update
   echo "Next: sudo nala install -f"
   sleep 2
-  sudo nala install -f
+  yes | sudo nala install -f
 }
 
 clean_residual(){ # clean residual packages
   echo "Next: sudo nala autoremove"
   sleep 2
-  sudo nala autoremove
+  yes | sudo nala autoremove
   echo "Next: sudo nala autopurge"
   sleep 2
-  sudo nala autopurge
+  yes | sudo nala autopurge
 }
 
 # Body of code

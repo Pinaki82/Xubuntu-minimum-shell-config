@@ -12,28 +12,28 @@
 UpdateNUpgrade() { # Update & Upgrade
   echo "Next: sudo apt update"
   sleep 2
-  sudo apt update
+  yes | sudo apt update
   echo "Next: sudo apt list --upgradable"
   sleep 2
-  sudo apt list --upgradable
+  yes | sudo apt list --upgradable
   echo "Next: sudo apt upgrade"
   sleep 2
-  sudo apt upgrade
+  yes | sudo apt upgrade
   echo "Next: sudo apt update"
   sleep 2
-  sudo apt update
+  yes | sudo apt update
   echo "Next: sudo apt install -f"
   sleep 2
-  sudo apt install -f
+  yes | sudo apt install -f
 }
 
 clean_residual(){ # clean residual packages
   echo "Next: sudo apt autoremove"
   sleep 2
-  sudo apt autoremove
+  yes | sudo apt autoremove
   echo "Next: sudo apt autoclean"
   sleep 2
-  sudo apt autoclean
+  yes | sudo apt autoclean
 }
 
 # Body of code
