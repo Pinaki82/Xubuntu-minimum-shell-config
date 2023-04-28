@@ -2,9 +2,9 @@
 
 # sh 001update.sh
 
-sudo apt update && \
-sudo apt list --upgradable && \
-sudo apt upgrade && \
-sudo apt update && \
-sudo apt install -f \
+yes | sudo apt update && \
+yes | sudo apt list --upgradable && \
+yes | sudo apt upgrade && \
+yes | sudo apt update && \
+yes | sudo apt install -f \
 
