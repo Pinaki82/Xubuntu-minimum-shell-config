@@ -1,0 +1,30 @@
+Bing Chat:
+
+Yes, you can install Microsoft Edge on Ubuntu without Flatpak or Snap. Here are the steps:
+
+1. Download the GPG key:
+```
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+```
+
+2. Add the Microsoft Edge repository:
+```
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main"
+```
+
+3. Update the package cache and install Microsoft Edge:
+```
+sudo apt update
+sudo apt install microsoft-edge-dev
+```
+
+This will install the latest version of Microsoft Edge on your Ubuntu system.
+
+I hope this helps! Let me know if you have any other questions.
+
+Source: Conversation with Bing, 5/7/2023
+(1) Install Microsoft Edge Browser (Stable) in Ubuntu / Debian via Official .... https://ubuntuhandbook.org/index.php/2020/10/microsoft-edge-dev-available-install-ubuntu/.
+(2) How to Install Microsoft Edge on Ubuntu 22.04 - LinuxCapable. https://www.linuxcapable.com/how-to-install-microsoft-edge-on-ubuntu-linux/.
+(3) Install Edge Only on Ubuntu using the Snap Store | Snapcraft. https://snapcraft.io/install/test-edge-only/ubuntu.
+(4) How to Install Microsoft Edge Browser on Ubuntu 20.04 LTS. https://www.omgubuntu.co.uk/2021/01/how-to-install-edge-on-ubuntu-linux.
+(5) How to Install Microsoft Edge Browser on Ubuntu 20.04. https://linuxize.com/post/how-to-install-edge-browser-on-ubuntu-20-04/.
