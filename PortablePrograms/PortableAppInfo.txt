@@ -98,6 +98,16 @@ Qtractor is an audio/MIDI multi-track sequencer application written in C++ with 
 XnConvert -> A fast, powerful and free cross-platform batch image converter -> https://www.xnview.com/en/xnconvert/#downloads
 XnView MP -> Image Viewer, Image resizer, batch image converter and more -> https://www.xnview.com/en/xnviewmp/#downloads
 SoftMaker FreeOffice (Not open source. Available in Deb package only.) -> https://www.freeoffice.com/en/
+Uninstall SoftMaker FreeOffice:
+--------------------------------------------------------------------------
+https://askubuntu.com/questions/1245114/how-to-uninstall-softmakers-freeoffice-2018
+
+sudo apt purge $(dpkg --list | grep softmaker | awk '{print $2}') --dry-run
+dpkg --list | grep softmaker
+dpkg --list | grep softmaker | awk '{print $2}'
+sudo apt purge --auto-remove $(dpkg --list | grep softmaker | awk '{print $2}')
+--------------------------------------------------------------------------
+
 Glimpse Image Editor -> A fork of GNU Image Manipulation Program (GIMP) -> https://glimpse-editor.org/downloads/
 Mark Text (Offline Markdown Editor) -> "Simple and Elegant Markdown Editor" -> https://github.com/marktext/marktext
 Mark Text Site: https://marktext.app/
