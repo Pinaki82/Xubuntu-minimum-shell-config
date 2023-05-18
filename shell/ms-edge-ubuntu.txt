@@ -1,3 +1,12 @@
+Download the Debian/Ubuntu package.
+No need for a lengthy process, as suggested by Bing Chat.
+
+sudo dpkg -i lddhsddada-edge.deb
+
+https://www.microsoft.com/en-us/edge/download?form=MA13FJ
+https://www.microsoftedgeinsider.com/en-us/download
+
+
 Bing Chat:
 
 Yes, you can install Microsoft Edge on Ubuntu without Flatpak or Snap. Here are the steps:
