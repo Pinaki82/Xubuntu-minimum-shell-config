@@ -13,6 +13,9 @@ sudo apt install clang-tools && \
 sudo apt install lld && \
 sudo apt install libomp-dev && \
 sudo apt install curl && \
+sudo apt install python3-pip && \
+python -m pip install --upgrade pip && \
+pip install flawfinder && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
 yes | sudo apt upgrade && \
@@ -28,6 +31,8 @@ sudo apt install jq && \
 # the script, and checks the output is as expected.
 sudo apt install cmdtest && \
 sudo apt install yarn && \
+# https://pnpm.io/installation
+curl -fsSL https://get.pnpm.io/install.sh | sh -  && \
 sudo apt install cdecl && \
 sudo apt install cutils && \
 sudo apt install kitty && \
