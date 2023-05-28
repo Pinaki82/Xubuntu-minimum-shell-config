@@ -178,7 +178,7 @@ sudo apt install lld -y && \
 sudo apt install libomp-dev -y && \
 sudo apt install curl -y && \
 sudo apt install python3-pip -y && \
-python -m pip install --upgrade pip && \
+python3 -m pip install --upgrade pip && \
 pip install flawfinder && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
@@ -531,6 +531,7 @@ yes | sudo apt install -f && \
 sudo apt install appimagelauncher -y && \
 
 # sudo apt install gkrellm -y && \
+# sudo apt install psensor -y && \
 # sudo apt install torbrowser-launcher -y && \
 # sudo apt install epiphany-browser -y && \
 
@@ -743,7 +744,8 @@ yes | sudo fc-cache && \
 # =================================================================
 
 # sudo add-apt-repository ppa:phoerious/keepassxc -y && \
-#sudo apt install keepassxc -y && \
+
+# sudo apt install keepassxc -y && \
 
 # NOTE:
 # Download KeePassXC and MYKI AppImage instead, if you do not need
@@ -784,6 +786,7 @@ sudo apt install gnupg -y && \
 # fancy-dock-n-search
 # =================================================================
 # sudo apt install plank -y && \
+
 # sudo apt install synapse -y && \
 
 # =================================================================
@@ -826,6 +829,11 @@ sudo apt install winff-doc -y && \
 # =================================================================
 # c-c-plus-plus-common-libraries
 # =================================================================
+
+# safec: https://rurban.github.io/safeclib/doc/safec-3.6.0/index.html
+# This library implements the secure C11 Annex K functions on top of most libc implementations, which are missing from them.
+
+# sudo apt install libsafec-dev -y && \
 
 # Boost C++ libraries
 
@@ -876,7 +884,7 @@ sudo apt install libbsd-dev -y && \
 # Tk C programming GUI Library (Development Library)
 # Tcl & Tk are components of the base distribution
 
-# sudo apt install tk-dev -y && \
+sudo apt install tk-dev -y && \
 
 # AI and Machine Learning
 
@@ -995,6 +1003,7 @@ sudo apt install deborphan -y && \
 # sudo apt install pandoc -y && \
 
 # sudo apt install equalx -y && \
+
 # sudo apt install klatexformula -y && \
 # JVM Runtime is required by Laeqed
 sudo apt install default-jre -y && \

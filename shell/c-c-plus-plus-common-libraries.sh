@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# safec: https://rurban.github.io/safeclib/doc/safec-3.6.0/index.html
+# This library implements the secure C11 Annex K functions on top of most libc implementations, which are missing from them.
+
+sudo apt install libsafec-dev && \
+
 # Boost C++ libraries
 
 sudo apt install libboost-all-dev && \

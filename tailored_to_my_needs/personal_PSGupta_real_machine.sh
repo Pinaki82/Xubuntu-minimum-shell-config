@@ -166,7 +166,7 @@ sudo apt install lld -y && \
 sudo apt install libomp-dev -y && \
 sudo apt install curl -y && \
 sudo apt install python3-pip -y && \
-python -m pip install --upgrade pip && \
+python3 -m pip install --upgrade pip && \
 pip install flawfinder && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
@@ -816,6 +816,11 @@ pip3 install bpytop && \
 # =================================================================
 # c-c-plus-plus-common-libraries
 # =================================================================
+
+# safec: https://rurban.github.io/safeclib/doc/safec-3.6.0/index.html
+# This library implements the secure C11 Annex K functions on top of most libc implementations, which are missing from them.
+
+sudo apt install libsafec-dev -y && \
 
 # Boost C++ libraries
 
