@@ -188,7 +188,19 @@ yes | sudo apt install -f && \
 sudo apt install nodejs -y && \
 sudo apt install jq -y && \
 # Description: package manager for Node.js
-#sudo apt install npm && \ (Unmet dependencies)
+# (npm: Unmet dependencies)
+
+sudo apt install npm -y && \
+
+# Update Node.js with NPM (Node Package Manager)
+# https://phoenixnap.com/kb/update-node-js-version
+
+# sudo apt install npm -y && \
+
+npm cache clean -f && \
+sudo npm install -g n -y && \
+sudo n stable -y && \
+
 # Description: blackbox testing of Unix command line programs
 # cmdtest black box tests Unix command line tools. Roughly, it is given a
 # script, its input files, and its expected output files. cmdtest runs
