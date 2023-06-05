@@ -16,6 +16,8 @@ sudo apt install curl && \
 sudo apt install python3-pip && \
 python -m pip install --upgrade pip && \
 pip install flawfinder && \
+# https://github.com/friendlyanon/cmake-init
+pip install cmake-init && \
 yes | sudo apt update && \
 yes | sudo apt list --upgradable && \
 yes | sudo apt upgrade && \
