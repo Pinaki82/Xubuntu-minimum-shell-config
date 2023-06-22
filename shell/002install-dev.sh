@@ -64,6 +64,7 @@ sudo apt install cmake && \
 sudo apt install wget && \
 sudo apt install unzip && \
 sudo apt install git && \
+sudo apt install git-lfs && \
 
 # https://softwarerecs.stackexchange.com/questions/30351/visualizing-git-diff-linux#30352
 # gitk & git-gui added to installation script.

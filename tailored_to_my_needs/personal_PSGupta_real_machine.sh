@@ -217,6 +217,7 @@ sudo apt install cmake -y && \
 sudo apt install wget -y && \
 sudo apt install unzip -y && \
 sudo apt install git -y && \
+sudo apt install git-lfs -y && \
 
 # https://softwarerecs.stackexchange.com/questions/30351/visualizing-git-diff-linux#30352
 # gitk & git-gui added to installation script.
@@ -425,7 +426,7 @@ sudo apt install simplescreenrecorder -y && \
 # https://youtu.be/kFh1acsQ8DQ
 
 # Install OH-MY-BASH:
-sudo apt install curl git fish -y && \
+sudo apt install curl git git-lfs fish -y && \
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" && \
 
 # Change the theme: .bashrc -> Uncomment:

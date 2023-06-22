@@ -98,7 +98,7 @@ sudo apt install simplescreenrecorder && \
 # https://youtu.be/kFh1acsQ8DQ
 
 # Install OH-MY-BASH:
-sudo apt install curl git fish -y && \
+sudo apt install curl git git-lfs fish -y && \
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)" && \
 
 # Change the theme: .bashrc -> Uncomment:
