@@ -1,5 +1,9 @@
 # Xubuntu-minimum-shell-config
 
+> NOTICE: This repository will no longer be actively maintained. Presently, I am mostly on Debian-XFCE. The repository is being archived to preserve its contents. Please do not expect any further updates. If you are interested in this repository, please fork it and continue maintaining it yourself.
+>
+> I apologise for any inconvenience this may cause.
+
 Linux shell scripts to configure a freshly installed [Xubuntu Linux](https://xubuntu.org/) system and install minimum required programs to get a workable installation with essential packages for day-to-day use.
 
 Command:
